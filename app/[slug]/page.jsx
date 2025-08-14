@@ -1,6 +1,7 @@
 import path from 'path';
 import Link from 'next/link';
 import ArticleEnhancements from '../components/ArticleEnhancements';
+import TableOfContents from '../components/TableOfContents';
 import { loadArticleBySlug, resolveContentDir } from '../../lib/contentLoader';
 
 export async function generateStaticParams() {
@@ -23,7 +24,39 @@ function rewriteRelativeUrls(html, baseHref) {
     return `${attr}="${baseHref}${url}"`;
   });
 }
+ 
+function slugify(text) {
+  return String(text)
+    .trim()
+    .toLowerCase()
+    .replace(/['"’]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)+/g, '');
+}
 
+function injectHeadingIds(html) {
+  if (!html) return html;
+  return html.replace(/<h([2-4])([^>]*)>(.*?)<\/h\1>/gi, (m, level, attrs, inner) => {
+    if (/\sid=/.test(attrs)) return m;
+    const text = String(inner).replace(/<[^>]+>/g, '').trim();
+    const id = slugify(text);
+    return `<h${level}${attrs} id="${id}">${inner}</h${level}>`;
+  });
+}
+
+function extractHeadings(html) {
+  const items = [];
+  if (!html) return items;
+  html.replace(/<h([2-4])([^>]*)>(.*?)<\/h\1>/gi, (m, level, attrs, inner) => {
+    const text = String(inner).replace(/<[^>]+>/g, '').trim();
+    const idMatch = attrs.match(/\sid=["']([^"']+)["']/i) || m.match(/\sid=["']([^"']+)["']/i);
+    const id = idMatch ? idMatch[1] : slugify(text);
+    items.push({ id, text, level: Number(level) });
+    return m;
+  });
+  return items;
+}
+ 
 export default async function ArticlePage({ params }) {
   const { slug } = params;
   const article = await loadArticleBySlug(slug);
@@ -45,6 +78,8 @@ export default async function ArticlePage({ params }) {
   const readingTime = `${minutes} min read`;
 
   const rewrittenHtml = rewriteRelativeUrls(article.html, baseHref);
+  const htmlWithIds = injectHeadingIds(rewrittenHtml);
+  const toc = extractHeadings(htmlWithIds);
 
   return (
     <>
@@ -73,8 +108,13 @@ export default async function ArticlePage({ params }) {
         </div>
       </section>
 
-      <section>
-        <div className="prose prose-lg prose-slate dark:prose-invert max-w-3xl mx-auto prose-a:text-brand-700 hover:prose-a:text-brand-600 prose-img:rounded-lg js-article" dangerouslySetInnerHTML={{ __html: rewrittenHtml }} />
+      <section className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+        <aside className="order-last lg:order-first lg:col-span-1">
+          <TableOfContents toc={toc} />
+        </aside>
+        <div className="lg:col-span-2">
+          <div className="prose prose-lg prose-slate dark:prose-invert max-w-3xl mx-auto prose-a:text-brand-700 hover:prose-a:text-brand-600 prose-img:rounded-lg js-article" dangerouslySetInnerHTML={{ __html: htmlWithIds }} />
+        </div>
       </section>
 
       <ArticleEnhancements />

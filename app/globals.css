@@ -52,3 +52,8 @@
     0 0 6px rgba(34, 211, 238, 0.6),
     0 0 10px rgba(255, 77, 141, 0.45);
 }
+
+/* Ensure headings aren't hidden under sticky header */
+.prose :where(h2, h3, h4) {
+  scroll-margin-top: 6rem;
+}
