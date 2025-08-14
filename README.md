@@ -1,21 +1,19 @@
-# Agile Articles ✨
-A modern, zero-fuss publishing site for opinionated essays and guides — not a knowledge base. Built with Express + EJS, powered by Markdown, styled with Tailwind (via CDN), and sprinkled with dark mode and tasteful motion.
+# Agile Articles ✨ (Now on Next.js)
+A modern, magazine-like reading experience for opinionated essays and guides — not a knowledge base. Rebuilt on Next.js (App Router) with Tailwind CSS, Markdown content, dark mode, and tasteful motion.
 
-[![Node.js CI](https://img.shields.io/badge/node-%E2%89%A5%2018.x-3c873a?logo=node.js&logoColor=white)](https://nodejs.org/)
-[![Express](https://img.shields.io/badge/express-4.x-000000?logo=express&logoColor=white)](https://expressjs.com/)
-[![EJS](https://img.shields.io/badge/ejs-3.x-8BC34A)](https://ejs.co/)
-[![License](https://img.shields.io/badge/license-TBD-blue.svg)](#license)
+[![Node.js](https://img.shields.io/badge/node-%E2%89%A5%2018.x-3c873a?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Next.js](https://img.shields.io/badge/next-14.x-000000?logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Tailwind](https://img.shields.io/badge/tailwind-3.x-38bdf8?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 ## Highlights
-- 📰 Curated reading vibe
-  - Featured article up top, “Latest” grid for everything else
-  - Trending tags to explore themes as your catalog grows
+- 📰 Curated reading vibe (Hero, Featured, Latest grid)
+- 🔎 Trending tags (computed from content)
 - 🌗 Dark mode with persistence (respects system preference)
-- ⏱ Reading time and subtle progress bar on article pages
-- 📝 Write in Markdown (GFM enabled: tables, strikethrough, etc.)
-- ♿ Accessible by default: landmarks, labels, focus rings, contrast
-- ⚡️ No build step: Tailwind via CDN (Typography, Forms, Aspect Ratio, Line Clamp plugins)
-- 📁 Bring-your-own content folder with CONTENT_DIR
+- ⏱ Reading time + subtle progress bar on articles
+- 📝 Write in Markdown (GFM enabled)
+- ⚡️ Fast by default: Server Components, code-splitting, caching
+- 🖼 Image-friendly: relative images in Markdown served under /content
+- ♿ Accessibility-first: landmarks, labels, focus styles, contrast
 
 ---
 
@@ -29,18 +27,17 @@ npm run dev
 
 Then open http://localhost:3000
 
-Optional environment variables:
-- PORT: change the server port (default 3000)
+Environment variables:
 - CONTENT_DIR: where your Markdown lives (default ./data/docs)
 
 ```bash
-CONTENT_DIR=./data/docs PORT=4000 npm run dev
+CONTENT_DIR=./data/docs npm run dev
 ```
 
 ---
 
 ## Add your first article
-Create a Markdown file anywhere under your content directory (default: data/docs).
+Place Markdown anywhere under CONTENT_DIR (default: data/docs).
 
 Example: data/docs/agile-mindset.md
 ```md
@@ -56,116 +53,95 @@ summary: A short riff on why mindset matters more than process charts.
 Agility starts with how you think, not the tools you use…
 ```
 
-- Front matter fields:
-  - title (required-ish: if omitted, the first H1 or filename becomes the title)
-  - slug (optional: auto-derived from title if not provided)
-  - date or publishedAt (optional, for sorting)
-  - tags (array or comma-separated string)
-  - summary/description/excerpt (optional, used on cards and meta description)
-- Images: place alongside your .md and reference them relatively. They’re served from /content.
-  - Example: ![Diagram](./imgs/flow.png) → will be served under /content/<relative-path>
+Front matter fields:
+- title (required-ish; falls back to first H1 or filename)
+- slug (optional; auto-derived from title if missing)
+- date or publishedAt (optional, for sorting)
+- tags (array or comma-separated string)
+- summary/description/excerpt (optional, used on cards and meta)
+
+Images: keep them alongside your .md and reference relatively (e.g., ./imgs/flow.png). They’re served from /content preserving structure.
 
 ---
 
-## What you get out of the box
+## What you get
 - Home (/) shows:
-  - Hero section with a clear CTA
-  - Optional “Featured” card (the most recent article)
-  - “Trending tags” computed from your content
-  - “Latest” grid of articles
+  - A welcoming hero
+  - Optional Featured article (most recent)
+  - Trending tags
+  - Latest grid
 - Article (/:slug) shows:
-  - Title, date, reading time, tags
-  - Rich Markdown rendering (GFM)
-  - Copy-link button
-  - Subtle reading progress bar
+  - Title, date, tags, reading time
+  - Rich Markdown (GFM), progress bar, copy-link button
 - Global:
   - Dark mode toggle with localStorage persistence
-  - Good defaults for spacing, contrast, and motion
+  - Optimized, accessible UI with Tailwind
 
 ---
 
 ## Project structure
-- app.js — Express app and wiring
-- routes/
-  - home.js — loads and renders homepage with featured/latest/trending
-  - article.js — loads an article by slug, computes reading time
-- utils/
-  - contentLoader.js — scans Markdown files, parses front matter, renders HTML
-- views/
-  - layout.ejs — shared layout, Tailwind setup, theme toggle
-  - home.ejs — hero, featured, trending tags, latest grid
-  - article.ejs — article header, content, progress bar
-  - error.ejs — friendly error page
-- data/docs/ — default content directory (you can change via CONTENT_DIR)
-- public/ — static assets (served at /)
+- app/ — Next.js App Router
+  - layout.jsx — shell, header/footer, theme
+  - page.jsx — home (hero, featured, trending, latest)
+  - [slug]/page.jsx — article page
+  - content/[...path]/route.js — serves assets under /content from CONTENT_DIR
+  - components/ — UI components (Header, Footer, etc.)
+  - globals.css — Tailwind styles
+- lib/
+  - contentLoader.js — scans Markdown, parses front matter, renders HTML
+- data/docs/ — default content directory (configurable via CONTENT_DIR)
+- public/ — static assets
 
 ---
 
-## Theming and customization
-- Brand color: change it in views/layout.ejs in the inline Tailwind config (brand.600/700).
-- Logo “A” badge: update the markup in the header (views/layout.ejs).
-- Meta description: set per page via description variable; otherwise falls back to a sensible default.
-- Typography: Tailwind Typography plugin is enabled; prose classes are set in views/article.ejs.
+## Theming & customization
+- Tailwind config in tailwind.config.js (brand colors under theme.extend.colors.brand)
+- Header logo “A” badge — customize in app/components/Header.jsx
+- Typography — Tailwind Typography plugin; prose classes used on article pages
 
-Pro tip: For production, you can self-host Tailwind and purge CSS for optimal size. The CDN approach is great for simplicity and fast iteration.
-
----
-
-## Content details
-- GFM is enabled for tables and strikethrough.
-- Heading IDs are generated by marked; internal links like [Jump](#section) work.
-- contentLoader.js normalizes table blocks to avoid broken GitHub-style tables caused by stray blank lines.
+Production tip: Consider ISR (revalidate) + image optimization for very large catalogs.
 
 ---
 
-## Accessibility notes
-- Proper landmarks (header/nav/main/footer)
-- Screen reader labels for controls (e.g., theme toggle)
-- Keyboard-focusable interactive elements
-- Color contrast tuned for light and dark modes
-
----
-
-## Routes
-- GET / — homepage
-- GET /:slug — article page for a given slug
-- Static:
-  - /content → serves assets from CONTENT_DIR (useful for images referenced by markdown)
-  - /public → static assets under ./public
+## Accessibility
+- Clear landmarks (header, main, footer)
+- Labels for interactive controls (theme toggle, buttons)
+- Keyboard focus visible and usable
+- Colors tuned for contrast in light/dark
 
 ---
 
 ## Deployment
-Any Node-friendly platform (Render, Railway, Fly.io, Azure, etc.) works.
+Any Node-friendly platform works (Vercel, Render, Railway, Fly.io, Azure, etc.).
 
-- Set Node version to >= 18
-- Ensure CONTENT_DIR points to a directory that is present at runtime
-  - If your platform has an ephemeral filesystem, commit your content to the repo or mount a persistent volume
-- Start command:
+- Node version: >= 18
+- Ensure CONTENT_DIR exists and is readable at runtime
+- Build and start:
 ```bash
+npm run build
 npm start
 ```
 
 ---
 
-## Roadmap ideas
-- Search index (client or server)
-- RSS feed / sitemap.xml
-- Image optimization pipeline (thumbs, blur-up)
+## Roadmap
+- Search index (server-side)
+- RSS/sitemap
 - Tag landing pages
-- Reactions or lightweight comments
+- Image thumbnails and blur-up
+- MDX for interactive embeds
 
 ---
 
 ## Contributing
-PRs welcome! Please:
-- Keep UI changes accessible and responsive
-- Favor small, focused PRs
-- Follow existing project conventions
+PRs welcome!
+- Keep UI accessible and responsive
+- Small, focused changes are best
+- Follow existing conventions
 
 ---
 
 ## License
-License is currently unspecified. Add a LICENSE file to define your preferred terms.
+Add a LICENSE file to define your preferred terms.
 
-Made with ❤️ for teams who value clarity and momentum.
+Built with ❤️ for teams who value clarity and momentum.
