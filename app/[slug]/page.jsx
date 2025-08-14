@@ -1,9 +1,20 @@
 import path from 'path';
+import Link from 'next/link';
+import ArticleEnhancements from '../components/ArticleEnhancements';
 import { loadArticleBySlug, resolveContentDir } from '../../lib/contentLoader';
 
 export async function generateStaticParams() {
   // Optionally pre-generate can be implemented by loading all slugs; keep empty for on-demand.
   return [];
+}
+
+export async function generateMetadata({ params }) {
+  const article = await loadArticleBySlug(params.slug);
+  if (!article) return { title: 'Not Found' };
+  return {
+    title: article.title + ' • Agile Articles',
+    description: article.description || 'Agile ways of working — a curated set of articles.'
+  };
 }
 
 function rewriteRelativeUrls(html, baseHref) {
@@ -53,10 +64,10 @@ export default async function ArticlePage({ params }) {
             </div>
           ) : null}
           <div className="mt-6 flex flex-wrap gap-3">
-            <a href="/" className="inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800">
+            <Link href="/" className="inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800">
               <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M7.707 14.707a1 1 0 0 1-1.414 0l-4-4a1 1 0 0 1 0-1.414l4-4A1 1 0 0 1 8 6v2h6a1 1 0 1 1 0 2H8v2a1 1 0 0 1-.293.707Z"/></svg>
               Back
-            </a>
+            </Link>
             {/* Copy link handled client-side below */}
           </div>
         </div>
@@ -71,46 +82,3 @@ export default async function ArticlePage({ params }) {
   );
 }
 
-function ArticleEnhancements() {
-  return (
-    <script
-      dangerouslySetInnerHTML={{
-        __html: `
-(function () {
-  // Copy current URL to clipboard
-  const btn = document.createElement('button');
-  btn.id = 'copy-link';
-  btn.className = 'fixed bottom-6 right-6 inline-flex items-center gap-2 rounded-lg bg-brand-600 px-3 py-1.5 text-sm text-white shadow hover:bg-brand-700';
-  btn.innerHTML = '<svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a3 3 0 0 1 0 6h-1a1 1 0 1 1 0-2h1a1 1 0 1 0 0-2h-1a1 1 0 1 1 0-2h1Zm-8 6a3 3 0 0 1 0-6h1a1 1 0 1 1 0 2H8a1 1 0 1 0 0 2h1a1 1 0 1 1 0 2H8Z"/><path d="M9 11h6a1 1 0 1 1 0 2H9a1 1 0 1 1 0-2Z"/></svg><span>Copy link</span>';
-  document.body.appendChild(btn);
-
-  btn?.addEventListener('click', async () => {
-    try {
-      await navigator.clipboard.writeText(window.location.href);
-      btn.querySelector('span').textContent = 'Link copied';
-      setTimeout(() => (btn.querySelector('span').textContent = 'Copy link'), 1500);
-    } catch {}
-  });
-
-  // Reading progress bar
-  const article = document.querySelector('.js-article');
-  if (!article) return;
-  const bar = document.createElement('div');
-  bar.setAttribute('aria-hidden', 'true');
-  bar.className = 'fixed inset-x-0 top-[52px] h-0.5 bg-brand-600/70 origin-left scale-x-0 transition-transform duration-100 ease-out';
-  document.body.appendChild(bar);
-
-  function onScroll() {
-    const total = article.scrollHeight - window.innerHeight;
-    const scrolled = Math.min(Math.max(window.scrollY - (article.offsetTop - 80), 0), total);
-    const pct = total > 0 ? scrolled / total : 0;
-    bar.style.transform = 'scaleX(' + pct + ')';
-  }
-  window.addEventListener('scroll', onScroll, { passive: true });
-  onScroll();
-})();
-        `.trim()
-      }}
-    />
-  );
-}

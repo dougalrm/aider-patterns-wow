@@ -26,12 +26,12 @@ export default async function HomePage() {
         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-3">Agile Articles</h1>
         <p className="max-w-2xl text-slate-700 dark:text-slate-300">Ideas, stories, and practices to help modern teams ship better work. Curated essays and guides — not a knowledge base.</p>
         <div className="mt-6">
-          <a href="#latest" className="inline-flex items-center gap-2 rounded-lg bg-brand-600 px-4 py-2 text-white shadow hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-400">
+          <Link href="#latest" className="inline-flex items-center gap-2 rounded-lg bg-brand-600 px-4 py-2 text-white shadow hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-400">
             Explore articles
             <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M10.293 3.293a1 1 0 0 1 1.414 0l5 5a1 1 0 0 1 0 1.414l-5 5a1 1 0 1 1-1.414-1.414L13.586 11H4a1 1 0 1 1 0-2h9.586l-3.293-3.293a1 1 0 0 1 0-1.414Z" clipRule="evenodd" />
             </svg>
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -77,10 +77,10 @@ export default async function HomePage() {
               {trendingTags.length ? (
                 <div className="mt-3 flex flex-wrap gap-2">
                   {trendingTags.map((t) => (
-                    <a key={t.tag} href="#latest" className="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-3 py-1.5 text-xs text-slate-700 hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-200">
+                    <Link key={t.tag} href="#latest" className="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-3 py-1.5 text-xs text-slate-700 hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-200">
                       <span>#{t.tag}</span>
                       <span className="text-slate-400">· {t.count}</span>
-                    </a>
+                    </Link>
                   ))}
                 </div>
               ) : (
@@ -94,7 +94,7 @@ export default async function HomePage() {
       <section id="latest" aria-labelledby="latest-heading">
         <div className="mb-4 flex items-center justify-between">
           <h2 id="latest-heading" className="text-xl font-bold">Latest</h2>
-          <a href="/" className="text-sm text-slate-500 hover:text-slate-700 dark:text-slate-300 dark:hover:text-white">View all</a>
+          <Link href="/" className="text-sm text-slate-500 hover:text-slate-700 dark:text-slate-300 dark:hover:text-white">View all</Link>
         </div>
 
         {(!latest?.length && !featured) ? (

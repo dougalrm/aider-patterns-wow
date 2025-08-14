@@ -7,8 +7,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "start:express": "node app.js"
+    "start": "next start"
   },
   "dependencies": {
     "ejs": "^3.1.10",
