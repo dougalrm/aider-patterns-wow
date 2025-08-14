@@ -19,6 +19,12 @@ app.set('layout', 'layout');
 // Static assets (if you add any under ./public)
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Serve article assets (images, etc.) from the content directory at /content
+const CONTENT_DIR = process.env.CONTENT_DIR
+  ? path.resolve(process.cwd(), process.env.CONTENT_DIR)
+  : path.resolve(process.cwd(), 'data', 'docs');
+app.use('/content', express.static(CONTENT_DIR));
+
 // Routes
 app.use('/', homeRouter);
 app.use('/', articleRouter);
