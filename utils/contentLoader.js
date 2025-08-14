@@ -2,6 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { glob } from 'glob';
 import yaml from 'js-yaml';
+import { fileURLToPath } from 'url';
 
 /**
  * Convert arbitrary text to a URL-friendly slug.
@@ -15,18 +16,36 @@ function slugify(text) {
     .replace(/(^-|-$)+/g, '');
 }
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+/**
+ * Resolve the base content directory robustly.
+ * Priority:
+ * 1) Provided argument
+ * 2) CONTENT_DIR environment variable (resolved from process.cwd())
+ * 3) Default to <project-root>/data/docs (computed relative to this file)
+ */
+function resolveContentDir(customDir) {
+  if (customDir) return path.resolve(customDir);
+  if (process.env.CONTENT_DIR) return path.resolve(process.cwd(), process.env.CONTENT_DIR);
+  return path.resolve(__dirname, '../data', 'docs');
+}
+
 /**
  * Load all Markdown (.md) articles from ./data/docs recursively.
  * Supports optional YAML front matter at the top of each file (between --- blocks).
+ * Also respects CONTENT_DIR environment variable or a custom baseDir argument.
  * Each article should ideally have at least a "title" (from front matter or first H1); optional fields include:
  * - slug
  * - summary / description / excerpt
  * - date / publishedAt
  * - tags (array or comma-separated string)
  */
-export async function loadAllArticles(baseDir = path.join(process.cwd(), 'data', 'docs')) {
-  // Find all .md files under the base directory
-  const patterns = [path.join(baseDir, '**/*.md')];
+export async function loadAllArticles(baseDir) {
+  // Find all .md files under the resolved base directory
+  const baseDirResolved = resolveContentDir(baseDir);
+  const patterns = [path.join(baseDirResolved, '**/*.md')];
   const files = await glob(patterns, { nodir: true });
 
   const articles = [];
