@@ -1,5 +1,5 @@
 # Agile Articles ✨ (Now on Next.js)
-A modern, magazine-like reading experience for opinionated essays and guides — not a knowledge base. Rebuilt on Next.js (App Router) with Tailwind CSS, Markdown content, dark mode, and tasteful motion.
+A modern, magazine-like reading experience with a neo‑retro aesthetic (glassy cards, neon accents) for opinionated essays and guides — not a knowledge base. Built on Next.js (App Router) + Tailwind CSS with Markdown content, dark mode, smooth scrolling, a sticky on-page TOC, and tasteful motion.
 
 [![Node.js](https://img.shields.io/badge/node-%E2%89%A5%2018.x-3c873a?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Next.js](https://img.shields.io/badge/next-14.x-000000?logo=next.js&logoColor=white)](https://nextjs.org/)
@@ -7,6 +7,9 @@ A modern, magazine-like reading experience for opinionated essays and guides —
 
 ## Highlights
 - 📰 Curated reading vibe (Hero, Featured, Latest grid)
+- 🕹 Neo‑retro theme: glassy surfaces, neon accents, subtle grid background
+- 🧭 On-page Table of Contents (H2–H4) with sticky sidebar on desktop
+- 🔗 Anchored headings + smooth scrolling
 - 🔎 Trending tags (computed from content)
 - 🌗 Dark mode with persistence (respects system preference)
 - ⏱ Reading time + subtle progress bar on articles
@@ -72,6 +75,9 @@ Images: keep them alongside your .md and reference relatively (e.g., ./imgs/flow
   - Latest grid
 - Article (/:slug) shows:
   - Title, date, tags, reading time
+  - 2/3 content + 1/3 sticky TOC layout on desktop
+  - On-page Table of Contents (H2–H4)
+  - Anchored headings with smooth scrolling
   - Rich Markdown (GFM), progress bar, copy-link button
 - Global:
   - Dark mode toggle with localStorage persistence
@@ -81,12 +87,12 @@ Images: keep them alongside your .md and reference relatively (e.g., ./imgs/flow
 
 ## Project structure
 - app/ — Next.js App Router
-  - layout.jsx — shell, header/footer, theme
+  - layout.jsx — shell, header/footer, theme, smooth scroll, neo‑retro background
   - page.jsx — home (hero, featured, trending, latest)
-  - [slug]/page.jsx — article page
+  - [slug]/page.jsx — article page with sticky TOC + anchored headings
   - content/[...path]/route.js — serves assets under /content from CONTENT_DIR
-  - components/ — UI components (Header, Footer, etc.)
-  - globals.css — Tailwind styles
+  - components/ — UI components (Header, Footer, TableOfContents, etc.)
+  - globals.css — Tailwind styles (retro background, grid overlay, text glow)
 - lib/
   - contentLoader.js — scans Markdown, parses front matter, renders HTML
 - data/docs/ — default content directory (configurable via CONTENT_DIR)
@@ -95,9 +101,11 @@ Images: keep them alongside your .md and reference relatively (e.g., ./imgs/flow
 ---
 
 ## Theming & customization
-- Tailwind config in tailwind.config.js (brand colors under theme.extend.colors.brand)
+- Tailwind config in tailwind.config.js (brand colors under theme.extend.colors.brand, neon drop shadows under theme.extend.dropShadow)
 - Header logo “A” badge — customize in app/components/Header.jsx
 - Typography — Tailwind Typography plugin; prose classes used on article pages
+- Neo‑retro background + grid overlay — customize .retro-bg and .text-glow in app/globals.css
+- Table of Contents — app/components/TableOfContents.jsx
 
 Production tip: Consider ISR (revalidate) + image optimization for very large catalogs.
 
