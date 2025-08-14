@@ -5,6 +5,14 @@ import yaml from 'js-yaml';
 import { fileURLToPath } from 'url';
 import { marked } from 'marked';
 
+// Configure Markdown renderer to support GFM (tables, strikethrough), heading IDs, and safe link handling
+marked.setOptions({
+  gfm: true,
+  headerIds: true,
+  mangle: false,
+  breaks: false
+});
+
 /**
  * Convert arbitrary text to a URL-friendly slug.
  */
