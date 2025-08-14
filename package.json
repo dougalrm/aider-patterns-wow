@@ -1,0 +1,17 @@
+{
+  "name": "agile-articles-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Express.js site that lists Agile articles from YAML files under ./data/docs",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "glob": "^10.3.10",
+    "js-yaml": "^4.1.0"
+  }
+}
