@@ -6,17 +6,28 @@
 <section class="mb-6">
   <div class="flex flex-col md:flex-row md:items-center gap-3">
     <div class="relative flex-1">
+      <label for="search" class="sr-only">Search articles</label>
       <input
         id="search"
         type="search"
         placeholder="Search by title or tag..."
-        class="w-full rounded-lg border border-slate-300 bg-white px-4 py-2.5 pr-10 text-slate-900 placeholder-slate-400 shadow-sm outline-none focus:border-brand-600 focus:ring-2 focus:ring-brand-100"
+        class="w-full rounded-lg border border-slate-300 bg-white px-4 py-2.5 pr-10 text-slate-900 placeholder-slate-400 shadow-sm outline-none focus:border-brand-600 focus:ring-2 focus:ring-brand-100 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100 dark:placeholder-slate-400"
       />
       <svg class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 h-5 w-5 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z" />
       </svg>
     </div>
+    <div>
+      <label for="sort" class="sr-only">Sort</label>
+      <select id="sort" class="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-700 shadow-sm focus:border-brand-600 focus:ring-2 focus:ring-brand-100 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100">
+        <option value="new">Newest</option>
+        <option value="old">Oldest</option>
+        <option value="az">A–Z</option>
+      </select>
+    </div>
   </div>
+  <div id="tag-filter" class="mt-3 flex flex-wrap gap-2"></div>
+  <p id="results-count" class="mt-2 text-sm text-slate-600 dark:text-slate-300" aria-live="polite"></p>
 </section>
 
 <section>
@@ -29,9 +40,10 @@
     <ul id="grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <% articles.forEach(a => { %>
         <li
-          class="group rounded-xl border border-slate-200 bg-white p-5 shadow-sm hover:shadow-md transition-shadow"
+          class="group rounded-xl border border-slate-200 bg-white p-5 shadow-sm hover:shadow-md transition-all hover:-translate-y-0.5 dark:border-slate-700 dark:bg-slate-800"
           data-title="<%= (a.title || '').toLowerCase() %>"
           data-tags="<%= (a.tags || []).map(t => String(t).toLowerCase()).join(' ') %>"
+          data-date="<%= a.date ? new Date(a.date).toISOString() : '' %>"
         >
           <div class="flex items-start justify-between gap-4">
             <div>
@@ -67,29 +79,129 @@
         </li>
       <% }) %>
     </ul>
+    <div id="empty" class="hidden rounded-xl border border-dashed border-slate-300 bg-white p-8 text-center text-slate-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 mt-6">
+      <p class="mb-2">No articles match your filters.</p>
+      <p class="text-sm">Try clearing the search or tag filters.</p>
+    </div>
+    <div id="load-more-wrap" class="mt-8 text-center">
+      <button id="load-more" class="inline-flex items-center gap-2 rounded-lg bg-brand-600 px-4 py-2 text-white shadow hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-400 disabled:opacity-50">Load more</button>
+    </div>
   <% } %>
 </section>
 
 <script>
-  // Simple client-side filter by title or tag
-  const input = document.getElementById('search');
-  const grid = document.getElementById('grid');
-
-  function applyFilter() {
+  (function () {
+    const grid = document.getElementById('grid');
     if (!grid) return;
-    const q = (input.value || '').trim().toLowerCase();
-    const items = Array.from(grid.children);
-    let visible = 0;
-    for (const li of items) {
-      const t = li.dataset.title || '';
-      const tags = li.dataset.tags || '';
-      const isMatch = !q || t.includes(q) || tags.includes(q);
-      li.style.display = isMatch ? '' : 'none';
-      if (isMatch) visible++;
-    }
-  }
 
-  if (input) {
-    input.addEventListener('input', applyFilter);
-  }
+    const input = document.getElementById('search');
+    const sort = document.getElementById('sort');
+    const tagFilter = document.getElementById('tag-filter');
+    const resultsCount = document.getElementById('results-count');
+    const loadMoreBtn = document.getElementById('load-more');
+    const empty = document.getElementById('empty');
+
+    const pageSize = 12;
+    let visibleCount = pageSize;
+    const selectedTags = new Set();
+
+    const items = Array.from(grid.children);
+
+    // Build tag chips from existing items
+    const tagSet = new Set();
+    for (const li of items) {
+      const tags = (li.dataset.tags || '').split(/\s+/).filter(Boolean);
+      tags.forEach((t) => tagSet.add(t));
+    }
+    const allTags = Array.from(tagSet).sort((a, b) => a.localeCompare(b));
+    if (allTags.length) {
+      for (const tag of allTags) {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.textContent = tag;
+        btn.setAttribute('data-tag', tag);
+        btn.setAttribute('aria-pressed', 'false');
+        btn.className = 'inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-3 py-1.5 text-xs text-slate-700 hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-200';
+        btn.addEventListener('click', () => {
+          if (selectedTags.has(tag)) {
+            selectedTags.delete(tag);
+            btn.setAttribute('aria-pressed', 'false');
+            btn.classList.remove('ring-2', 'ring-brand-400', 'bg-brand-50');
+          } else {
+            selectedTags.add(tag);
+            btn.setAttribute('aria-pressed', 'true');
+            btn.classList.add('ring-2', 'ring-brand-400', 'bg-brand-50');
+          }
+          resetAndRender();
+        });
+        tagFilter.appendChild(btn);
+      }
+    } else {
+      tagFilter.classList.add('hidden');
+    }
+
+    function getFilteredItems() {
+      const q = (input?.value || '').trim().toLowerCase();
+      return items.filter((li) => {
+        const title = li.dataset.title || '';
+        const tagsStr = li.dataset.tags || '';
+        const tags = tagsStr.split(/\s+/).filter(Boolean);
+        const matchesQuery = !q || title.includes(q) || tagsStr.includes(q);
+        const matchesTags = selectedTags.size === 0 || tags.some((t) => selectedTags.has(t));
+        return matchesQuery && matchesTags;
+      });
+    }
+
+    function sortItems(list) {
+      const val = sort?.value || 'new';
+      if (val === 'az') {
+        list.sort((a, b) => (a.dataset.title || '').localeCompare(b.dataset.title || ''));
+      } else if (val === 'old') {
+        list.sort((a, b) => (a.dataset.date || '').localeCompare(b.dataset.date || ''));
+      } else {
+        // newest
+        list.sort((a, b) => (b.dataset.date || '').localeCompare(a.dataset.date || ''));
+      }
+      return list;
+    }
+
+    function render() {
+      const filtered = sortItems(getFilteredItems());
+      const total = filtered.length;
+      // Hide all
+      for (const li of items) li.style.display = 'none';
+
+      // Show first N
+      const toShow = filtered.slice(0, visibleCount);
+      for (const li of toShow) li.style.display = '';
+
+      // Update UI
+      if (resultsCount) {
+        resultsCount.textContent = total ? `${Math.min(visibleCount, total)} of ${total} articles` : 'No matching articles';
+      }
+      if (empty) {
+        empty.classList.toggle('hidden', total > 0);
+      }
+      if (loadMoreBtn) {
+        loadMoreBtn.disabled = visibleCount >= total;
+        loadMoreBtn.classList.toggle('hidden', total <= pageSize);
+      }
+    }
+
+    function resetAndRender() {
+      visibleCount = pageSize;
+      render();
+    }
+
+    // Events
+    input?.addEventListener('input', resetAndRender);
+    sort?.addEventListener('change', resetAndRender);
+    loadMoreBtn?.addEventListener('click', () => {
+      visibleCount += pageSize;
+      render();
+    });
+
+    // Initial
+    render();
+  })();
 </script>
