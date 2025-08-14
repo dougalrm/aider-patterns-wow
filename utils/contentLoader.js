@@ -14,6 +14,35 @@ marked.setOptions({
 });
 
 /**
+ * Normalize Markdown to fix common authoring patterns that break GFM tables:
+ * - Remove blank lines inside table blocks so header/separator/rows are contiguous.
+ * - Skip normalization inside fenced code blocks.
+ */
+function normalizeMarkdown(md) {
+  const lines = md.split(/\r?\n/);
+  const out = [];
+  let inFence = false;
+  for (let i = 0; i < lines.length; i++) {
+    const curr = lines[i];
+    const trimmed = curr.trim();
+    if (trimmed.startsWith('```')) {
+      inFence = !inFence;
+      out.push(curr);
+      continue;
+    }
+    if (!inFence && trimmed === '' && i > 0 && i < lines.length - 1) {
+      const prev = lines[i - 1].trim();
+      const next = lines[i + 1].trim();
+      if (prev.startsWith('|') && next.startsWith('|')) {
+        continue; // drop blank line inside a table-like block
+      }
+    }
+    out.push(curr);
+  }
+  return out.join('\n');
+}
+
+/**
  * Convert arbitrary text to a URL-friendly slug.
  */
 function slugify(text) {
@@ -76,10 +105,13 @@ export async function loadAllArticles(baseDir) {
         body = raw.slice(fmMatch[0].length);
       }
 
+      // Normalize markdown to fix common table formatting issues
+      const normalizedBody = normalizeMarkdown(body);
+
       // Derive title: front matter -> first H1 -> filename
       let title = meta.title || meta.name || null;
       if (!title) {
-        const h1 = body.match(/^\s*#\s+(.+)\s*$/m);
+        const h1 = normalizedBody.match(/^\s*#\s+(.+)\s*$/m);
         title = h1 ? h1[1].trim() : path.basename(file, path.extname(file));
       }
 
@@ -88,7 +120,7 @@ export async function loadAllArticles(baseDir) {
       const description =
         meta.summary || meta.description || meta.excerpt || (() => {
           // Take first non-empty, non-heading paragraph as excerpt
-          const lines = body.split(/\r?\n/);
+          const lines = normalizedBody.split(/\r?\n/);
           for (const line of lines) {
             const trimmed = line.trim();
             if (!trimmed) continue;
@@ -166,10 +198,13 @@ export async function loadArticleBySlug(slug, baseDir) {
         body = raw.slice(fmMatch[0].length);
       }
 
+      // Normalize markdown to fix common table formatting issues
+      const normalizedBody = normalizeMarkdown(body);
+
       // Determine title and slug
       let title = meta.title || meta.name || null;
       if (!title) {
-        const h1 = body.match(/^\s*#\s+(.+)\s*$/m);
+        const h1 = normalizedBody.match(/^\s*#\s+(.+)\s*$/m);
         title = h1 ? h1[1].trim() : path.basename(file, path.extname(file));
       }
       const computedSlug = meta.slug ? String(meta.slug) : slugify(title);
@@ -187,7 +222,7 @@ export async function loadArticleBySlug(slug, baseDir) {
             .filter(Boolean)
         : [];
 
-      const html = marked.parse(body);
+      const html = marked.parse(normalizedBody);
 
       return {
         title,
