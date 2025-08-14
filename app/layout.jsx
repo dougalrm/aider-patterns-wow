@@ -3,8 +3,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 export const metadata = {
-  title: 'Agile Articles',
-  description: 'Agile ways of working — a curated set of articles.'
+  title: 'Team Patterns',
+  description: 'Ways of working for your org — a curated set of articles.'
 };
 
 export default function RootLayout({ children }) {

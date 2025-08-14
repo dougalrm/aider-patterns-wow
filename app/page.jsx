@@ -23,7 +23,7 @@ export default async function HomePage() {
   return (
     <>
       <section className="mb-10 overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-brand-600/10 via-indigo-500/5 to-sky-500/10 p-8 dark:border-slate-700 rounded-2xl border border-white/20 bg-white/60 p-4 backdrop-blur dark:border-white/10 dark:bg-slate-950/40">
-        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-3">Agile Articles</h1>
+        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-3">Ways of Working Articles</h1>
         <p className="max-w-2xl text-slate-700 dark:text-slate-300">Ideas, stories, and practices to help modern teams ship better work. Curated essays and guides — not a knowledge base.</p>
         <div className="mt-6">
           <Link href="#latest" className="inline-flex items-center gap-2 rounded-lg bg-brand-600 px-4 py-2 text-white shadow hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-400">
