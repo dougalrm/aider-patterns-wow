@@ -16,17 +16,17 @@ function slugify(text) {
 }
 
 /**
- * Load all YAML articles from ./data/docs recursively.
- * Supports files that contain a single object or an array of article objects.
- * Each article should ideally have at least a "title"; optional fields include:
+ * Load all Markdown (.md) articles from ./data/docs recursively.
+ * Supports optional YAML front matter at the top of each file (between --- blocks).
+ * Each article should ideally have at least a "title" (from front matter or first H1); optional fields include:
  * - slug
  * - summary / description / excerpt
  * - date / publishedAt
  * - tags (array or comma-separated string)
  */
 export async function loadAllArticles(baseDir = path.join(process.cwd(), 'data', 'docs')) {
-  // Find all .yml and .yaml files under the base directory
-  const patterns = [path.join(baseDir, '**/*.yml'), path.join(baseDir, '**/*.yaml')];
+  // Find all .md files under the base directory
+  const patterns = [path.join(baseDir, '**/*.md')];
   const files = await glob(patterns, { nodir: true });
 
   const articles = [];
@@ -34,56 +34,81 @@ export async function loadAllArticles(baseDir = path.join(process.cwd(), 'data',
   for (const file of files) {
     try {
       const raw = await fs.readFile(file, 'utf8');
-      const parsed = yaml.load(raw);
 
-      const addItem = (item) => {
-        if (!item || typeof item !== 'object') return;
-
-        const title = item.title || item.name || null;
-        if (!title) return;
-
-        const slug =
-          item.slug
-            ? String(item.slug)
-            : slugify(title || path.basename(file, path.extname(file)));
-
-        const description = item.summary || item.description || item.excerpt || '';
-        const date = item.date || item.publishedAt || null;
-
-        const tags = Array.isArray(item.tags)
-          ? item.tags
-          : item.tags
-          ? String(item.tags)
-              .split(',')
-              .map((t) => t.trim())
-              .filter(Boolean)
-          : [];
-
-        articles.push({
-          title,
-          slug,
-          description,
-          date,
-          tags,
-          sourcePath: file
-        });
-      };
-
-      if (Array.isArray(parsed)) {
-        parsed.forEach(addItem);
-      } else {
-        addItem(parsed);
+      // Extract optional YAML front matter: --- ... ---
+      let meta = {};
+      let body = raw;
+      const fmMatch = raw.match(/^---\s*\n([\s\S]*?)\n---\s*\n?/);
+      if (fmMatch) {
+        try {
+          meta = yaml.load(fmMatch[1]) || {};
+        } catch (e) {
+          console.warn(`Ignoring invalid front matter in: ${file}\nReason: ${e.message}`);
+        }
+        body = raw.slice(fmMatch[0].length);
       }
+
+      // Derive title: front matter -> first H1 -> filename
+      let title = meta.title || meta.name || null;
+      if (!title) {
+        const h1 = body.match(/^\s*#\s+(.+)\s*$/m);
+        title = h1 ? h1[1].trim() : path.basename(file, path.extname(file));
+      }
+
+      const slug = meta.slug ? String(meta.slug) : slugify(title);
+
+      const description =
+        meta.summary || meta.description || meta.excerpt || (() => {
+          // Take first non-empty, non-heading paragraph as excerpt
+          const lines = body.split(/\r?\n/);
+          for (const line of lines) {
+            const trimmed = line.trim();
+            if (!trimmed) continue;
+            if (trimmed.startsWith('#')) continue;
+            // Strip inline markdown links/code emphasis for a cleaner excerpt
+            const plain = trimmed
+              .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+              .replace(/[`*_~>#]/g, '')
+              .replace(/!\[[^\]]*\]\([^)]+\)/g, '');
+            if (plain) return plain.slice(0, 240);
+          }
+          return '';
+        })();
+
+      const date = meta.date || meta.publishedAt || null;
+
+      const tags = Array.isArray(meta.tags)
+        ? meta.tags
+        : meta.tags
+        ? String(meta.tags)
+            .split(',')
+            .map((t) => t.trim())
+            .filter(Boolean)
+        : [];
+
+      articles.push({
+        title,
+        slug,
+        description,
+        date,
+        tags,
+        sourcePath: file
+      });
     } catch (err) {
-      // If a file has invalid YAML, skip it but keep the server running
-      console.warn(`Skipping invalid YAML file: ${file}\nReason: ${err.message}`);
+      // If a file cannot be read, skip it but keep the server running
+      console.warn(`Skipping unreadable Markdown file: ${file}\nReason: ${err.message}`);
     }
   }
 
   // Sort by date (desc), fallback to title
+  const getTime = (d) => {
+    if (!d) return 0;
+    const t = new Date(d).getTime();
+    return Number.isFinite(t) ? t : 0;
+  };
   articles.sort((a, b) => {
-    const da = a.date ? new Date(a.date).getTime() : 0;
-    const db = b.date ? new Date(b.date).getTime() : 0;
+    const da = getTime(a.date);
+    const db = getTime(b.date);
     if (db !== da) return db - da;
     return a.title.localeCompare(b.title);
   });

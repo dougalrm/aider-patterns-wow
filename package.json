@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Express.js site that lists Agile articles from YAML files under ./data/docs",
+  "description": "Express.js site that lists Agile articles from Markdown files under ./data/docs",
   "scripts": {
     "start": "node app.js",
     "dev": "node --watch app.js"

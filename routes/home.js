@@ -5,7 +5,7 @@ const router = express.Router();
 
 /**
  * GET /
- * Home page showing a list of articles discovered in ./data/docs (recursively loads .yml and .yaml)
+ * Home page showing a list of articles discovered in ./data/docs (recursively loads .md)
  */
 router.get('/', async (req, res, next) => {
   try {
