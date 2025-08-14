@@ -3,6 +3,7 @@ import path from 'path';
 import { glob } from 'glob';
 import yaml from 'js-yaml';
 import { fileURLToPath } from 'url';
+import { marked } from 'marked';
 
 /**
  * Convert arbitrary text to a URL-friendly slug.
@@ -133,4 +134,66 @@ export async function loadAllArticles(baseDir) {
   });
 
   return articles;
+}
+
+export async function loadArticleBySlug(slug, baseDir) {
+  const baseDirResolved = resolveContentDir(baseDir);
+  const patterns = [path.join(baseDirResolved, '**/*.md')];
+  const files = await glob(patterns, { nodir: true });
+
+  for (const file of files) {
+    try {
+      const raw = await fs.readFile(file, 'utf8');
+
+      // Extract optional YAML front matter
+      let meta = {};
+      let body = raw;
+      const fmMatch = raw.match(/^---\s*\n([\s\S]*?)\n---\s*\n?/);
+      if (fmMatch) {
+        try {
+          meta = yaml.load(fmMatch[1]) || {};
+        } catch (e) {
+          console.warn(`Ignoring invalid front matter in: ${file}\nReason: ${e.message}`);
+        }
+        body = raw.slice(fmMatch[0].length);
+      }
+
+      // Determine title and slug
+      let title = meta.title || meta.name || null;
+      if (!title) {
+        const h1 = body.match(/^\s*#\s+(.+)\s*$/m);
+        title = h1 ? h1[1].trim() : path.basename(file, path.extname(file));
+      }
+      const computedSlug = meta.slug ? String(meta.slug) : slugify(title);
+      if (computedSlug !== slug) continue;
+
+      const description = meta.summary || meta.description || meta.excerpt || '';
+      const date = meta.date || meta.publishedAt || null;
+
+      const tags = Array.isArray(meta.tags)
+        ? meta.tags
+        : meta.tags
+        ? String(meta.tags)
+            .split(',')
+            .map((t) => t.trim())
+            .filter(Boolean)
+        : [];
+
+      const html = marked.parse(body);
+
+      return {
+        title,
+        slug: computedSlug,
+        description,
+        date,
+        tags,
+        html,
+        sourcePath: file
+      };
+    } catch (err) {
+      console.warn(`Failed to read Markdown file: ${file}\nReason: ${err.message}`);
+    }
+  }
+
+  return null;
 }
