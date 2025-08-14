@@ -22,7 +22,7 @@ export default async function HomePage() {
 
   return (
     <>
-      <section className="mb-10 overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-brand-600/10 via-indigo-500/5 to-sky-500/10 p-8 dark:border-slate-700">
+      <section className="mb-10 overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-brand-600/10 via-indigo-500/5 to-sky-500/10 p-8 dark:border-slate-700 rounded-2xl border border-white/20 bg-white/60 p-4 backdrop-blur dark:border-white/10 dark:bg-slate-950/40">
         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-3">Agile Articles</h1>
         <p className="max-w-2xl text-slate-700 dark:text-slate-300">Ideas, stories, and practices to help modern teams ship better work. Curated essays and guides — not a knowledge base.</p>
         <div className="mt-6">
@@ -38,7 +38,7 @@ export default async function HomePage() {
       {featured && (
         <section className="mb-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
-            <article className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:shadow dark:border-slate-700 dark:bg-slate-900">
+            <article className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:shadow dark:border-slate-700 dark:bg-slate-900 rounded-2xl border border-white/20 bg-white/60 p-4 backdrop-blur dark:border-white/10 dark:bg-slate-950/40">
               <div className="flex items-center gap-3 text-xs text-slate-600 dark:text-slate-300">
                 {featured.date && (
                   <time dateTime={new Date(featured.date).toISOString()}>
@@ -72,7 +72,7 @@ export default async function HomePage() {
               </div>
             </article>
 
-            <aside className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-700 dark:bg-slate-900">
+            <aside className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-700 dark:bg-slate-900 rounded-2xl border border-white/20 bg-white/60 p-4 backdrop-blur dark:border-white/10 dark:bg-slate-950/40">
               <h3 className="text-sm font-semibold text-slate-700 dark:text-slate-200">Trending tags</h3>
               {trendingTags.length ? (
                 <div className="mt-3 flex flex-wrap gap-2">

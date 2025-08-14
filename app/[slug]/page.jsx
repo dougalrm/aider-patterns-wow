@@ -13,8 +13,8 @@ export async function generateMetadata({ params }) {
   const article = await loadArticleBySlug(params.slug);
   if (!article) return { title: 'Not Found' };
   return {
-    title: article.title + ' • Agile Articles',
-    description: article.description || 'Agile ways of working — a curated set of articles.'
+    title: article.title + ' • Team Patterns',
+    description: article.description || 'Ways of working for your org — a curated set of articles.'
   };
 }
 
@@ -84,7 +84,7 @@ export default async function ArticlePage({ params }) {
   return (
     <>
       <section className="mb-8">
-        <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-brand-600/10 via-indigo-500/5 to-sky-500/10 p-6 dark:border-slate-700">
+        <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-brand-600/10 via-indigo-500/5 to-sky-500/10 p-6 dark:border-slate-700 ounded-2xl border border-white/20 bg-white/60 p-4 backdrop-blur dark:border-white/10 dark:bg-slate-950/40">
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight">{article.title}</h1>
           <div className="mt-2 flex flex-wrap items-center gap-3 text-sm text-slate-600 dark:text-slate-300">
             {article.date && <span>{new Date(article.date).toLocaleDateString()}</span>}
@@ -112,7 +112,7 @@ export default async function ArticlePage({ params }) {
         <aside className="order-last lg:order-first lg:col-span-1">
           <TableOfContents toc={toc} />
         </aside>
-        <div className="lg:col-span-2">
+        <div className="lg:col-span-2 rounded-2xl border border-white/20 bg-white/60 p-4 backdrop-blur dark:border-white/10 dark:bg-slate-950/40">
           <div className="prose prose-lg prose-slate dark:prose-invert max-w-3xl mx-auto prose-a:text-brand-700 hover:prose-a:text-brand-600 prose-img:rounded-lg js-article" dangerouslySetInnerHTML={{ __html: htmlWithIds }} />
         </div>
       </section>

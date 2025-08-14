@@ -24,3 +24,58 @@
 node_modules/
 logs/
 *.log
+
+# Node modules
+node_modules/
+.pnp/
+.pnp.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output
+build/
+dist/
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+coverage/
+*.lcov
+
+# Misc
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional next.js build cache
+.next/cache
+
+# Optional storybook build outputs
+.out/
+
+# Optional TypeScript cache
+*.tsbuildinfo
