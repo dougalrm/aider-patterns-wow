@@ -1,8 +1,27 @@
 import { NextResponse } from 'next/server';
 import { resolveContentDir } from '../../../lib/contentLoader';
-import { lookup as mimeLookup } from 'mime-types';
 import fs from 'fs/promises';
 import path from 'path';
+
+function contentType(filePath) {
+  const ext = path.extname(filePath).toLowerCase();
+  switch (ext) {
+    case '.png': return 'image/png';
+    case '.jpg':
+    case '.jpeg': return 'image/jpeg';
+    case '.gif': return 'image/gif';
+    case '.svg': return 'image/svg+xml';
+    case '.webp': return 'image/webp';
+    case '.ico': return 'image/x-icon';
+    case '.txt': return 'text/plain; charset=utf-8';
+    case '.md': return 'text/markdown; charset=utf-8';
+    case '.json': return 'application/json; charset=utf-8';
+    case '.pdf': return 'application/pdf';
+    case '.css': return 'text/css; charset=utf-8';
+    case '.js': return 'application/javascript; charset=utf-8';
+    default: return 'application/octet-stream';
+  }
+}
 
 export async function GET(req, { params }) {
   try {
@@ -17,7 +36,7 @@ export async function GET(req, { params }) {
     }
 
     const data = await fs.readFile(filePath);
-    const mime = mimeLookup(filePath) || 'application/octet-stream';
+    const mime = contentType(filePath);
     return new NextResponse(data, {
       headers: {
         'Content-Type': mime,
