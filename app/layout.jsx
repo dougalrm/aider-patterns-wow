@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="min-h-screen bg-slate-50 text-slate-900 selection:bg-brand-100 selection:text-brand-700 dark:bg-slate-900 dark:text-slate-100">
+      <body className="min-h-screen text-slate-900 antialiased selection:bg-brand-100 selection:text-brand-700 dark:text-slate-100 retro-bg">
         <Header />
         <main className="mx-auto max-w-6xl px-4 py-10">
           {children}
