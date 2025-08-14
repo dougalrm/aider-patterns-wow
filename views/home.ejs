@@ -1,75 +1,103 @@
-<section class="mb-8">
-  <h1 class="text-3xl md:text-4xl font-bold tracking-tight mb-3">Agile ways of working</h1>
-  <p class="text-slate-600">A home for your Markdown-powered articles, automatically discovered from <code class="font-mono bg-slate-100 px-1.5 py-0.5 rounded">./data/docs</code>.</p>
-</section>
-
-<section class="mb-6">
-  <div class="flex flex-col md:flex-row md:items-center gap-3">
-    <div class="relative flex-1">
-      <label for="search" class="sr-only">Search articles</label>
-      <input
-        id="search"
-        type="search"
-        placeholder="Search by title or tag..."
-        class="w-full rounded-lg border border-slate-300 bg-white px-4 py-2.5 pr-10 text-slate-900 placeholder-slate-400 shadow-sm outline-none focus:border-brand-600 focus:ring-2 focus:ring-brand-100 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100 dark:placeholder-slate-400"
-      />
-      <svg class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 h-5 w-5 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z" />
+<section class="mb-10 overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-brand-600/10 via-indigo-500/5 to-sky-500/10 p-8 dark:border-slate-700">
+  <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-3">Agile Articles</h1>
+  <p class="max-w-2xl text-slate-700 dark:text-slate-300">Ideas, stories, and practices to help modern teams ship better work. Curated essays and guides — not a knowledge base.</p>
+  <div class="mt-6">
+    <a href="#latest" class="inline-flex items-center gap-2 rounded-lg bg-brand-600 px-4 py-2 text-white shadow hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-400">
+      Explore articles
+      <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 0 1 1.414 0l5 5a1 1 0 0 1 0 1.414l-5 5a1 1 0 1 1-1.414-1.414L13.586 11H4a1 1 0 1 1 0-2h9.586l-3.293-3.293a1 1 0 0 1 0-1.414Z" clip-rule="evenodd" />
       </svg>
-    </div>
-    <div>
-      <label for="sort" class="sr-only">Sort</label>
-      <select id="sort" class="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-700 shadow-sm focus:border-brand-600 focus:ring-2 focus:ring-brand-100 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100">
-        <option value="new">Newest</option>
-        <option value="old">Oldest</option>
-        <option value="az">A–Z</option>
-      </select>
-    </div>
+    </a>
   </div>
-  <div id="tag-filter" class="mt-3 flex flex-wrap gap-2"></div>
-  <p id="results-count" class="mt-2 text-sm text-slate-600 dark:text-slate-300" aria-live="polite"></p>
 </section>
 
-<section>
-  <% if (!articles || !articles.length) { %>
-    <div class="rounded-xl border border-dashed border-slate-300 bg-white p-8 text-center text-slate-600">
+<% if (typeof featured !== 'undefined' && featured) { %>
+  <section class="mb-12">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+      <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:shadow dark:border-slate-700 dark:bg-slate-900">
+        <div class="flex items-center gap-3 text-xs text-slate-600 dark:text-slate-300">
+          <% if (featured.date) { %>
+            <time datetime="<%= new Date(featured.date).toISOString() %>"><%= new Date(featured.date).toLocaleDateString() %></time>
+          <% } %>
+          <% if (featured.tags && featured.tags.length) { %>
+            <span aria-hidden="true">•</span>
+            <div class="flex flex-wrap gap-1.5">
+              <% featured.tags.slice(0, 3).forEach(tag => { %>
+                <span class="inline-flex items-center rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-700 dark:bg-slate-800 dark:text-slate-200"><%= tag %></span>
+              <% }) %>
+            </div>
+          <% } %>
+        </div>
+        <h2 class="mt-3 text-2xl md:text-3xl font-bold leading-tight">
+          <a class="hover:underline" href="/<%= featured.slug %>"><%= featured.title %></a>
+        </h2>
+        <% if (featured.description) { %>
+          <p class="mt-3 text-slate-700 dark:text-slate-300"><%= featured.description %></p>
+        <% } %>
+        <div class="mt-5">
+          <a href="/<%= featured.slug %>" class="inline-flex items-center gap-2 text-brand-700 hover:text-brand-600">
+            Read the feature
+            <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 0 1 1.414 0l5 5a1 1 0 0 1 0 1.414l-5 5a1 1 0 1 1-1.414-1.414L13.586 11H4a1 1 0 1 1 0-2h9.586l-3.293-3.293a1 1 0 0 1 0-1.414Z" clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <aside class="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-700 dark:bg-slate-900">
+        <h3 class="text-sm font-semibold text-slate-700 dark:text-slate-200">Trending tags</h3>
+        <% if (trendingTags && trendingTags.length) { %>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <% trendingTags.forEach(t => { %>
+              <a href="#latest" class="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-3 py-1.5 text-xs text-slate-700 hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-200">
+                <span>#<%= t.tag %></span>
+                <span class="text-slate-400">· <%= t.count %></span>
+              </a>
+            <% }) %>
+          </div>
+        <% } else { %>
+          <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">Tags will appear as you add more content.</p>
+        <% } %>
+      </aside>
+    </div>
+  </section>
+<% } %>
+
+<section id="latest" aria-labelledby="latest-heading">
+  <div class="mb-4 flex items-center justify-between">
+    <h2 id="latest-heading" class="text-xl font-bold">Latest</h2>
+    <a href="/" class="text-sm text-slate-500 hover:text-slate-700 dark:text-slate-300 dark:hover:text-white">View all</a>
+  </div>
+
+  <% if (!(latest && latest.length) && !(typeof featured !== 'undefined' && featured)) { %>
+    <div class="rounded-xl border border-dashed border-slate-300 bg-white p-8 text-center text-slate-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">
       <p class="mb-2">No articles were found.</p>
-      <p class="text-sm">Add .md files under <span class="font-mono bg-slate-100 px-1.5 py-0.5 rounded">./data/docs</span> and refresh.</p>
+      <p class="text-sm">Add .md files under <span class="font-mono bg-slate-100 px-1.5 py-0.5 rounded dark:bg-slate-800">./data/docs</span> and refresh.</p>
     </div>
   <% } else { %>
-    <ul id="grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      <% articles.forEach(a => { %>
-        <li
-          class="group rounded-xl border border-slate-200 bg-white p-5 shadow-sm hover:shadow-md transition-all hover:-translate-y-0.5 dark:border-slate-700 dark:bg-slate-800"
-          data-title="<%= (a.title || '').toLowerCase() %>"
-          data-tags="<%= (a.tags || []).map(t => String(t).toLowerCase()).join(' ') %>"
-          data-date="<%= a.date ? new Date(a.date).toISOString() : '' %>"
-        >
-          <div class="flex items-start justify-between gap-4">
-            <div>
-              <h2 class="text-lg font-semibold leading-snug group-hover:text-brand-700">
-                <a class="hover:underline" href="/<%= a.slug %>"><%= a.title %></a>
-              </h2>
-              <% if (a.date) { %>
-                <p class="mt-0.5 text-xs text-slate-500"><%= new Date(a.date).toLocaleDateString() %></p>
-              <% } %>
-            </div>
+    <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <% (latest || []).forEach(a => { %>
+        <li class="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow dark:border-slate-700 dark:bg-slate-900">
+          <div class="flex items-center justify-between gap-4 text-xs text-slate-600 dark:text-slate-300">
+            <% if (a.date) { %>
+              <time datetime="<%= new Date(a.date).toISOString() %>"><%= new Date(a.date).toLocaleDateString() %></time>
+            <% } %>
             <% if (a.tags && a.tags.length) { %>
               <div class="flex flex-wrap gap-1.5 justify-end">
                 <% a.tags.slice(0, 3).forEach(tag => { %>
-                  <span class="inline-block rounded-full bg-slate-100 text-slate-700 text-xs px-2 py-1"><%= tag %></span>
+                  <span class="inline-flex items-center rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-700 dark:bg-slate-800 dark:text-slate-200"><%= tag %></span>
                 <% }) %>
-                <% if (a.tags.length > 3) { %>
-                  <span class="inline-block rounded-full bg-slate-100 text-slate-700 text-xs px-2 py-1">+<%= a.tags.length - 3 %></span>
-                <% } %>
               </div>
             <% } %>
           </div>
+          <h3 class="mt-2 text-lg font-semibold leading-snug group-hover:text-brand-700">
+            <a class="hover:underline" href="/<%= a.slug %>"><%= a.title %></a>
+          </h3>
           <% if (a.description) { %>
-            <p class="mt-3 text-sm text-slate-700 line-clamp-3"><%= a.description %></p>
+            <p class="mt-3 text-sm text-slate-700 line-clamp-3 dark:text-slate-300"><%= a.description %></p>
           <% } %>
-          <div class="mt-4">
-            <a href="/<%= a.slug %>" class="inline-flex items-center gap-1 text-sm font-medium text-brand-700 group-hover:gap-1.5 transition-all">
+          <div class="mt-5">
+            <a href="/<%= a.slug %>" class="inline-flex items-center gap-2 text-sm text-brand-700 hover:text-brand-600">
               Read more
               <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 0 1 1.414 0l5 5a1 1 0 0 1 0 1.414l-5 5a1 1 0 1 1-1.414-1.414L13.586 11H4a1 1 0 1 1 0-2h9.586l-3.293-3.293a1 1 0 0 1 0-1.414Z" clip-rule="evenodd" />
@@ -79,129 +107,5 @@
         </li>
       <% }) %>
     </ul>
-    <div id="empty" class="hidden rounded-xl border border-dashed border-slate-300 bg-white p-8 text-center text-slate-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 mt-6">
-      <p class="mb-2">No articles match your filters.</p>
-      <p class="text-sm">Try clearing the search or tag filters.</p>
-    </div>
-    <div id="load-more-wrap" class="mt-8 text-center">
-      <button id="load-more" class="inline-flex items-center gap-2 rounded-lg bg-brand-600 px-4 py-2 text-white shadow hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-400 disabled:opacity-50">Load more</button>
-    </div>
   <% } %>
 </section>
-
-<script>
-  (function () {
-    const grid = document.getElementById('grid');
-    if (!grid) return;
-
-    const input = document.getElementById('search');
-    const sort = document.getElementById('sort');
-    const tagFilter = document.getElementById('tag-filter');
-    const resultsCount = document.getElementById('results-count');
-    const loadMoreBtn = document.getElementById('load-more');
-    const empty = document.getElementById('empty');
-
-    const pageSize = 12;
-    let visibleCount = pageSize;
-    const selectedTags = new Set();
-
-    const items = Array.from(grid.children);
-
-    // Build tag chips from existing items
-    const tagSet = new Set();
-    for (const li of items) {
-      const tags = (li.dataset.tags || '').split(/\s+/).filter(Boolean);
-      tags.forEach((t) => tagSet.add(t));
-    }
-    const allTags = Array.from(tagSet).sort((a, b) => a.localeCompare(b));
-    if (allTags.length) {
-      for (const tag of allTags) {
-        const btn = document.createElement('button');
-        btn.type = 'button';
-        btn.textContent = tag;
-        btn.setAttribute('data-tag', tag);
-        btn.setAttribute('aria-pressed', 'false');
-        btn.className = 'inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-3 py-1.5 text-xs text-slate-700 hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-200';
-        btn.addEventListener('click', () => {
-          if (selectedTags.has(tag)) {
-            selectedTags.delete(tag);
-            btn.setAttribute('aria-pressed', 'false');
-            btn.classList.remove('ring-2', 'ring-brand-400', 'bg-brand-50');
-          } else {
-            selectedTags.add(tag);
-            btn.setAttribute('aria-pressed', 'true');
-            btn.classList.add('ring-2', 'ring-brand-400', 'bg-brand-50');
-          }
-          resetAndRender();
-        });
-        tagFilter.appendChild(btn);
-      }
-    } else {
-      tagFilter.classList.add('hidden');
-    }
-
-    function getFilteredItems() {
-      const q = (input?.value || '').trim().toLowerCase();
-      return items.filter((li) => {
-        const title = li.dataset.title || '';
-        const tagsStr = li.dataset.tags || '';
-        const tags = tagsStr.split(/\s+/).filter(Boolean);
-        const matchesQuery = !q || title.includes(q) || tagsStr.includes(q);
-        const matchesTags = selectedTags.size === 0 || tags.some((t) => selectedTags.has(t));
-        return matchesQuery && matchesTags;
-      });
-    }
-
-    function sortItems(list) {
-      const val = sort?.value || 'new';
-      if (val === 'az') {
-        list.sort((a, b) => (a.dataset.title || '').localeCompare(b.dataset.title || ''));
-      } else if (val === 'old') {
-        list.sort((a, b) => (a.dataset.date || '').localeCompare(b.dataset.date || ''));
-      } else {
-        // newest
-        list.sort((a, b) => (b.dataset.date || '').localeCompare(a.dataset.date || ''));
-      }
-      return list;
-    }
-
-    function render() {
-      const filtered = sortItems(getFilteredItems());
-      const total = filtered.length;
-      // Hide all
-      for (const li of items) li.style.display = 'none';
-
-      // Show first N
-      const toShow = filtered.slice(0, visibleCount);
-      for (const li of toShow) li.style.display = '';
-
-      // Update UI
-      if (resultsCount) {
-        resultsCount.textContent = total ? `${Math.min(visibleCount, total)} of ${total} articles` : 'No matching articles';
-      }
-      if (empty) {
-        empty.classList.toggle('hidden', total > 0);
-      }
-      if (loadMoreBtn) {
-        loadMoreBtn.disabled = visibleCount >= total;
-        loadMoreBtn.classList.toggle('hidden', total <= pageSize);
-      }
-    }
-
-    function resetAndRender() {
-      visibleCount = pageSize;
-      render();
-    }
-
-    // Events
-    input?.addEventListener('input', resetAndRender);
-    sort?.addEventListener('change', resetAndRender);
-    loadMoreBtn?.addEventListener('click', () => {
-      visibleCount += pageSize;
-      render();
-    });
-
-    // Initial
-    render();
-  })();
-</script>

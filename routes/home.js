@@ -10,9 +10,27 @@ const router = express.Router();
 router.get('/', async (req, res, next) => {
   try {
     const articles = await loadAllArticles();
+
+    const featured = articles[0] || null;
+    const latest = featured ? articles.slice(1) : articles;
+
+    const tagCounts = new Map();
+    for (const a of articles) {
+      (a.tags || []).forEach((t) => {
+        const k = String(t).toLowerCase();
+        tagCounts.set(k, (tagCounts.get(k) || 0) + 1);
+      });
+    }
+    const trendingTags = Array.from(tagCounts.entries())
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .slice(0, 12)
+      .map(([tag, count]) => ({ tag, count }));
+
     res.render('home', {
       title: 'Agile Ways of Working',
-      articles
+      featured,
+      latest,
+      trendingTags
     });
   } catch (err) {
     next(err);

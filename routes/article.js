@@ -28,12 +28,19 @@ router.get('/:slug', async (req, res, next) => {
     const relDir = path.relative(CONTENT_DIR, path.dirname(article.sourcePath));
     const baseHref = '/content/' + (relDir ? relDir.replace(/\\/g, '/') + '/' : '');
 
+    // Estimate reading time (~200 wpm) from rendered HTML text
+    const text = String(article.html || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    const words = text ? text.split(' ').length : 0;
+    const minutes = Math.max(1, Math.round(words / 200));
+    const readingTime = `${minutes} min read`;
+
     return res.render('article', {
       title: article.title,
       description: article.description,
       article,
       content: article.html,
-      baseHref
+      baseHref,
+      readingTime
     });
   } catch (err) {
     next(err);
