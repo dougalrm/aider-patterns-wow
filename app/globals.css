@@ -56,15 +56,19 @@
 }
 
 
-/* Subtle paper fiber overlay for fantasy parchment */
+/* Subtle parchment fibers and stains (replaces grid) */
 .retro-bg::before {
   content: '';
   position: fixed;
   inset: 0;
   pointer-events: none;
   background:
-    repeating-linear-gradient(0deg, rgba(16, 24, 39, 0.02), rgba(16, 24, 39, 0.02) 1px, transparent 1px, transparent 18px),
-    repeating-linear-gradient(90deg, rgba(16, 24, 39, 0.02), rgba(16, 24, 39, 0.02) 1px, transparent 1px, transparent 22px);
+    /* soft parchment stains */
+    radial-gradient(420px 180px at 20% 10%, rgba(194, 155, 70, 0.08), transparent 60%),
+    radial-gradient(520px 220px at 80% 5%, rgba(30, 58, 138, 0.06), transparent 60%),
+    /* diagonal fiber crosshatch */
+    repeating-linear-gradient(25deg, rgba(16, 24, 39, 0.025), rgba(16, 24, 39, 0.025) 1px, transparent 1px, transparent 26px),
+    repeating-linear-gradient(115deg, rgba(16, 24, 39, 0.02), rgba(16, 24, 39, 0.02) 1px, transparent 1px, transparent 30px);
   mix-blend-mode: multiply;
 }
 
