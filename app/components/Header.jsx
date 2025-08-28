@@ -25,8 +25,8 @@ export default function Header() {
     >
       <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
-          <span className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-brand-600 via-brand-500 to-cyan-400 text-white font-bold drop-shadow-neon">
-            W
+          <span className="brand-mark" aria-hidden="true">
+            <span className="brand-glyph">✶</span>
           </span>
           <span className="text-xl font-semibold tracking-tight text-glow">Ways of Working</span>
         </Link>

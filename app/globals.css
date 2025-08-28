@@ -167,6 +167,61 @@
     @apply fixed inset-x-0 top-[52px] h-0.5 bg-primary-70 origin-left transition-transform duration-100 ease-out;
   }
 
+  /* Brand mark */
+  .brand-mark {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;   /* 36px (matches previous h-9 w-9) */
+    height: 2.25rem;
+    border-radius: 9999px;
+    border: 1.5px solid rgba(194, 155, 70, 0.6);
+    background:
+      radial-gradient(120% 120% at 30% 20%, rgba(255,255,255,0.85), rgba(255,255,255,0.35) 50%, rgba(255,255,255,0) 60%),
+      linear-gradient(180deg, rgba(194,155,70,0.14), rgba(194,155,70,0.06)),
+      linear-gradient(180deg, #fffdf7, #f9f3e7);
+    box-shadow:
+      0 2px 10px rgba(30, 41, 59, 0.10),
+      0 0 0 1px rgba(255,255,255,0.6) inset,
+      0 6px 16px rgba(194, 155, 70, 0.18);
+  }
+  .brand-mark::before {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border-radius: 9999px;
+    border: 1px solid rgba(194, 155, 70, 0.5);
+    box-shadow:
+      inset 0 1px 2px rgba(0,0,0,0.06),
+      inset 0 0 0 1px rgba(255,255,255,0.6);
+    pointer-events: none;
+  }
+  .brand-mark::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+    background: radial-gradient(60% 60% at 40% 40%, rgba(255,255,255,0.55), rgba(255,255,255,0) 70%);
+    filter: blur(0.2px);
+    pointer-events: none;
+  }
+  .brand-glyph {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1;
+    color: #2b2a28;
+    text-shadow:
+      0 1px 0 rgba(255,255,255,0.45),
+      0 0 6px rgba(194,155,70,0.35);
+    transform: translateY(0.5px);
+    user-select: none;
+  }
+
   /* Guild banner styling for header/footer */
   header {
     @apply backdrop-blur-sm;
