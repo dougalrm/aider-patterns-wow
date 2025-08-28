@@ -5,8 +5,8 @@
 /* Theme variables — single light theme per CONVENTIONS.md */
 :root {
   /* Cosmere-inspired parchment palette */
-  --background: #f4efe3;               /* parchment */
-  --foreground: #2b2a28;               /* deep ink */
+  --background: #f6f2e9;               /* parchment (warmer) */
+  --foreground: #24211d;               /* deep ink */
 
   --card: #fffdf7;
   --card-foreground: #2b2a28;
@@ -15,9 +15,13 @@
 
   --primary: #1e3a8a;                  /* deep sapphire */
   --primary-foreground: #ffffff;
-  --secondary: #b68c3a;                /* antique gold */
+  /* Derived primary tints for utility classes */
+  --primary-90: rgb(30 58 138 / 0.9);
+  --primary-70: rgb(30 58 138 / 0.7);
+  --primary-20: rgb(30 58 138 / 0.2);
+  --secondary: #c29b46;                /* antique gold (richer) */
   --secondary-foreground: #2b2a28;
-  --accent: #8ecae6;                   /* stormlight mist */
+  --accent: #9bd5f0;                   /* stormlight mist (brighter) */
   --accent-foreground: #102a43;
   --destructive: #ef4444;
   --destructive-foreground: #ffffff;
