@@ -2,6 +2,7 @@ import defaultTheme from 'tailwindcss/defaultTheme';
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: 'class',
+  important: 'body',
   content: [
     './app/**/*.{js,jsx,ts,tsx}',
     './components/**/*.{js,jsx,ts,tsx}',
@@ -11,11 +12,11 @@ export default {
     extend: {
       colors: {
         brand: {
-          50: '#fff1f7',
-          100: '#ffd7ea',
-          500: '#ff4d8d',
-          600: '#e11d74',
-          700: '#be185d'
+          50: '#eaf5fb',
+          100: '#d6eef8',
+          500: 'var(--accent)',
+          600: '#254199',
+          700: '#1e3a8a'
         },
         background: 'var(--background)',
         foreground: 'var(--foreground)',
