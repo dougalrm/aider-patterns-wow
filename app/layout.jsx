@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       
       <body className={`${inter.variable} ${literata.variable} min-h-screen scroll-smooth bg-background text-foreground antialiased selection:bg-primary-20 selection:text-foreground retro-bg font-sans`}>
         <Header />
-        <main className="mx-auto max-w-6xl px-4 py-10">
+        <main className="mx-auto max-w-7xl px-6 py-12">
           {children}
         </main>
         <Footer />

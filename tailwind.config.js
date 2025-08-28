@@ -41,8 +41,8 @@ export default {
         ring: 'var(--ring)'
       },
       dropShadow: {
-        neon: '0 0 8px rgba(34,211,238,0.65), 0 0 16px rgba(244,63,94,0.45)',
-        'neon-sm': '0 0 6px rgba(34,211,238,0.5)'
+        neon: '0 0 10px rgba(155,213,240,0.45), 0 0 18px rgba(30,58,138,0.35)',
+        'neon-sm': '0 0 6px rgba(155,213,240,0.35)'
       },
       fontFamily: {
         sans: ['var(--font-sans)', ...defaultTheme.fontFamily.sans],
