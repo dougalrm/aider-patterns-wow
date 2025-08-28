@@ -26,6 +26,8 @@ export default {
         primary: 'var(--primary)',
         'primary-foreground': 'var(--primary-foreground)',
         'primary-90': 'rgb(30 58 138 / 0.9)',
+        'primary-70': 'rgb(30 58 138 / 0.7)',
+        'primary-20': 'rgb(30 58 138 / 0.2)',
         secondary: 'var(--secondary)',
         'secondary-foreground': 'var(--secondary-foreground)',
         accent: 'var(--accent)',

@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       
-      <body className={`${inter.variable} ${literata.variable} min-h-screen scroll-smooth bg-background text-foreground antialiased selection:bg-primary/20 selection:text-foreground retro-bg font-sans`}>
+      <body className={`${inter.variable} ${literata.variable} min-h-screen scroll-smooth bg-background text-foreground antialiased selection:bg-primary-20 selection:text-foreground retro-bg font-sans`}>
         <Header />
         <main className="mx-auto max-w-6xl px-4 py-10">
           {children}
