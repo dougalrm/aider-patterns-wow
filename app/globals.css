@@ -2,30 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Prose link color alignment with brand */
+/* Theme variables — single light theme per CONVENTIONS.md */
+:root {
+  --background: #f7f8fb;
+  --foreground: #0f172a;
+
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --popover: #ffffff;
+  --popover-foreground: #0f172a;
+
+  --primary: #e11d74;
+  --primary-foreground: #ffffff;
+  --secondary: #0ea5b7;
+  --secondary-foreground: #05202a;
+  --accent: #22d3ee;
+  --accent-foreground: #05202a;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+
+  --muted: #f2f4f8;
+  --muted-foreground: #64748b;
+
+  --border: rgba(2, 6, 23, 0.08);
+  --input: rgba(2, 6, 23, 0.12);
+  --ring: #e11d74;
+
+  --radius: 0.75rem;
+}
+
+/* Prose link color — understated accent */
 .prose a {
-  @apply text-brand-700;
+  @apply text-accent;
 }
 .prose a:hover {
-  @apply text-brand-600;
+  @apply text-primary;
 }
 
 /* Neo‑retro background and effects */
 .retro-bg {
   background:
-    radial-gradient(1200px 600px at 50% -200px, rgba(255, 77, 141, 0.10), transparent 60%),
-    radial-gradient(800px 400px at 100% 0%, rgba(34, 211, 238, 0.10), transparent 55%),
+    radial-gradient(1200px 600px at 50% -200px, rgba(255, 77, 141, 0.08), transparent 60%),
+    radial-gradient(800px 400px at 100% 0%, rgba(34, 211, 238, 0.08), transparent 55%),
     linear-gradient(180deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
   background-attachment: fixed, fixed, fixed;
 }
 
-.dark .retro-bg {
-  background:
-    radial-gradient(1200px 600px at 50% -200px, rgba(255, 77, 141, 0.18), transparent 60%),
-    radial-gradient(800px 400px at 100% 0%, rgba(34, 211, 238, 0.18), transparent 55%),
-    linear-gradient(180deg, #0b0c1a, #0b0c1a);
-  background-attachment: fixed, fixed, fixed;
-}
 
 /* Subtle grid overlay */
 .retro-bg::before {
@@ -34,23 +56,17 @@
   inset: 0;
   pointer-events: none;
   background:
-    repeating-linear-gradient(to right, rgba(2, 6, 23, 0.06), rgba(2, 6, 23, 0.06) 1px, transparent 1px, transparent 24px),
-    repeating-linear-gradient(to bottom, rgba(2, 6, 23, 0.06), rgba(2, 6, 23, 0.06) 1px, transparent 1px, transparent 24px);
+    repeating-linear-gradient(to right, rgba(2, 6, 23, 0.04), rgba(2, 6, 23, 0.04) 1px, transparent 1px, transparent 24px),
+    repeating-linear-gradient(to bottom, rgba(2, 6, 23, 0.04), rgba(2, 6, 23, 0.04) 1px, transparent 1px, transparent 24px);
   mix-blend-mode: multiply;
 }
 
-.dark .retro-bg::before {
-  background:
-    repeating-linear-gradient(to right, rgba(34, 211, 238, 0.07), rgba(34, 211, 238, 0.07) 1px, transparent 1px, transparent 24px),
-    repeating-linear-gradient(to bottom, rgba(244, 63, 94, 0.06), rgba(244, 63, 94, 0.06) 1px, transparent 1px, transparent 24px);
-  mix-blend-mode: screen;
-}
 
 /* Neon text glow helper */
 .text-glow {
   text-shadow:
-    0 0 6px rgba(34, 211, 238, 0.6),
-    0 0 10px rgba(255, 77, 141, 0.45);
+    0 0 4px rgba(34, 211, 238, 0.45),
+    0 0 8px rgba(255, 77, 141, 0.30);
 }
 
 /* Ensure headings aren't hidden under sticky header */
