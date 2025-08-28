@@ -13,7 +13,7 @@
   --popover: #fffdf7;
   --popover-foreground: #2b2a28;
 
-  --primary: #1e3a8a;                  /* deep sapphire */
+  --primary: #312e81;                  /* midnight indigo */
   --primary-foreground: #ffffff;
   /* Derived primary tints for utility classes */
   --primary-90: rgb(30 58 138 / 0.9);
@@ -21,8 +21,8 @@
   --primary-20: rgb(30 58 138 / 0.2);
   --secondary: #c29b46;                /* antique gold (richer) */
   --secondary-foreground: #2b2a28;
-  --accent: #9bd5f0;                   /* stormlight mist (brighter) */
-  --accent-foreground: #102a43;
+  --accent: #cbd5e1;                   /* silver mist */
+  --accent-foreground: #1f2937;
   --destructive: #ef4444;
   --destructive-foreground: #ffffff;
 
@@ -31,7 +31,7 @@
 
   --border: rgba(31, 41, 55, 0.12);
   --input: rgba(31, 41, 55, 0.16);
-  --ring: #1e3a8a;
+  --ring: var(--primary);
 
   --radius: 0.5rem;
   --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
@@ -79,8 +79,18 @@
   inset: 0;
   pointer-events: none;
   background:
+    /* faint astral mist */
     radial-gradient(55% 40% at 50% 6%, rgba(142, 202, 230, 0.18), transparent 35%),
-    radial-gradient(60% 50% at 50% 10%, transparent 0%, transparent 60%, rgba(16, 24, 39, 0.06) 100%);
+    /* subtle vignette */
+    radial-gradient(60% 50% at 50% 10%, transparent 0%, transparent 60%, rgba(16, 24, 39, 0.06) 100%),
+    /* sparse starfield speckles */
+    radial-gradient(1px 1px at 20% 15%, rgba(255,255,255,0.35), transparent 40%),
+    radial-gradient(1px 1px at 70% 8%, rgba(255,255,255,0.3), transparent 40%),
+    radial-gradient(1px 1px at 40% 22%, rgba(255,255,255,0.28), transparent 40%),
+    radial-gradient(1px 1px at 85% 18%, rgba(255,255,255,0.32), transparent 40%),
+    radial-gradient(1px 1px at 15% 32%, rgba(255,255,255,0.26), transparent 40%),
+    radial-gradient(1px 1px at 65% 28%, rgba(255,255,255,0.28), transparent 40%),
+    radial-gradient(1px 1px at 32% 6%, rgba(255,255,255,0.28), transparent 40%);
 }
 
 
@@ -111,7 +121,15 @@
 /* Design system primitives */
 @layer components {
   .card {
-    @apply rounded-lg bg-card text-card-foreground shadow-sm border border-border;
+    @apply rounded-lg bg-card text-card-foreground border;
+    border-color: rgba(194, 155, 70, 0.35);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.4),
+      0 8px 24px rgba(30, 41, 59, 0.14),
+      0 2px 6px rgba(30, 41, 59, 0.08);
+    background-image:
+      linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0) 20%),
+      linear-gradient(180deg, rgba(194,155,70,0.06), rgba(194,155,70,0.04));
   }
   .badge {
     @apply inline-flex items-center rounded-md bg-muted px-2.5 py-1 text-xs font-medium text-muted-foreground;
@@ -120,10 +138,24 @@
     @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-2 text-sm font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-opacity-50 focus-visible:ring-offset-2 focus-visible:ring-offset-background;
   }
   .btn-primary {
-    @apply btn bg-primary text-primary-foreground hover:bg-primary-90;
+    @apply btn text-primary-foreground;
+    background-image: linear-gradient(135deg, #2a2466 0%, #4c1d95 45%, #312e81 100%);
+    box-shadow: 0 6px 18px rgba(49, 46, 129, 0.35), 0 0 0 1px rgba(203, 178, 95, 0.25) inset;
+  }
+  .btn-primary:hover {
+    background-image: linear-gradient(135deg, #3a2f85 0%, #5b21b6 50%, #254199 100%);
+    box-shadow: 0 8px 24px rgba(49, 46, 129, 0.45), 0 0 0 1px rgba(203, 178, 95, 0.35) inset, 0 0 18px rgba(226, 191, 88, 0.25);
   }
   .btn-outline {
-    @apply btn border border-input text-foreground hover:bg-muted;
+    @apply btn text-foreground;
+    border: 1px solid rgba(194, 155, 70, 0.45);
+    background:
+      linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0));
+  }
+  .btn-outline:hover {
+    box-shadow: 0 0 0 2px rgba(194, 155, 70, 0.35), 0 8px 20px rgba(31, 41, 55, 0.12);
+    background:
+      linear-gradient(180deg, rgba(255,255,255,0.65), rgba(255,255,255,0.05));
   }
   .input {
     @apply w-full rounded-md border border-input bg-white px-3 py-2 text-sm placeholder:text-muted-foreground focus:ring-2 focus:ring-ring focus:ring-opacity-50 focus:outline-none;
@@ -133,5 +165,34 @@
   }
   .progress-bar {
     @apply fixed inset-x-0 top-[52px] h-0.5 bg-primary-70 origin-left transition-transform duration-100 ease-out;
+  }
+
+  /* Guild banner styling for header/footer */
+  header {
+    @apply backdrop-blur-sm;
+    background:
+      linear-gradient(180deg, rgba(255, 253, 247, 0.85), rgba(255, 253, 247, 0.75));
+    border-bottom: 2px solid rgba(194, 155, 70, 0.5);
+    box-shadow: 0 2px 0 rgba(194, 155, 70, 0.25), 0 10px 30px rgba(30,41,59,0.06);
+  }
+  footer {
+    background:
+      linear-gradient(0deg, rgba(255, 253, 247, 0.9), rgba(255, 253, 247, 0.7));
+    border-top: 2px solid rgba(194, 155, 70, 0.5);
+    box-shadow: 0 -2px 0 rgba(194, 155, 70, 0.25), 0 -10px 30px rgba(30,41,59,0.06) inset;
+  }
+
+  /* Ornate divider glyph */
+  .ornate-divider {
+    position: relative;
+    text-align: center;
+    color: rgba(194, 155, 70, 0.8);
+    letter-spacing: 0.15em;
+  }
+  .ornate-divider::before,
+  .ornate-divider::after {
+    content: '✧';
+    margin: 0 0.75rem;
+    color: rgba(194, 155, 70, 0.8);
   }
 }

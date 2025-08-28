@@ -2,10 +2,10 @@ import './globals.css';
 import { Toaster } from 'sonner';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import { Inter, Literata } from 'next/font/google';
+import { Lora, Cinzel_Decorative } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'], weight: ['400','500','600'], variable: '--font-sans', display: 'swap' });
-const literata = Literata({ subsets: ['latin'], weight: ['500','700'], variable: '--font-serif', display: 'swap' });
+const lora = Lora({ subsets: ['latin'], weight: ['400','500','600','700'], variable: '--font-sans', display: 'swap' });
+const cinzel = Cinzel_Decorative({ subsets: ['latin'], weight: ['400','700'], variable: '--font-serif', display: 'swap' });
 
 export const metadata = {
   title: 'Team Patterns',
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       
-      <body className={`${inter.variable} ${literata.variable} min-h-screen scroll-smooth bg-background text-foreground antialiased selection:bg-primary-20 selection:text-foreground retro-bg font-sans`}>
+      <body className={`${lora.variable} ${cinzel.variable} min-h-screen scroll-smooth bg-background text-foreground antialiased selection:bg-primary-20 selection:text-foreground retro-bg font-sans`}>
         <Header />
         <main className="mx-auto max-w-7xl px-6 py-12">
           {children}
