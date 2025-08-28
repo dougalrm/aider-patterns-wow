@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { toast } from "sonner";
+import { Link as LinkIcon, Check } from "lucide-react";
 
 export default function ArticleEnhancements() {
   const [copied, setCopied] = useState(false);
@@ -24,6 +26,7 @@ export default function ArticleEnhancements() {
     try {
       await navigator.clipboard.writeText(window.location.href);
       setCopied(true);
+      toast.success('Link copied');
       setTimeout(() => setCopied(false), 1500);
     } catch {}
   }
@@ -32,18 +35,15 @@ export default function ArticleEnhancements() {
     <>
       <div
         aria-hidden="true"
-        className="fixed inset-x-0 top-[52px] h-0.5 bg-primary/70 origin-left transition-transform duration-100 ease-out"
+        className="progress-bar"
         style={{ transform: `scaleX(${progress})` }}
       />
       <button
         type="button"
         onClick={copyLink}
-        className="fixed bottom-6 right-6 inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-3 text-sm text-primary-foreground shadow hover:bg-primary/90 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50 focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+        className="btn btn-primary fixed bottom-6 right-6 shadow"
       >
-        <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M16 8a3 3 0 0 1 0 6h-1a1 1 0 1 1 0-2h1a1 1 0 1 0 0-2h-1a1 1 0 1 1 0-2h1Zm-8 6a3 3 0 0 1 0-6h1a1 1 0 1 1 0 2H8a1 1 0 1 0 0 2h1a1 1 0 1 1 0 2H8Z" />
-          <path d="M9 11h6a1 1 0 1 1 0 2H9a1 1 0 1 1 0-2Z" />
-        </svg>
+        {copied ? <Check className="h-4 w-4" /> : <LinkIcon className="h-4 w-4" />}
         <span>{copied ? "Link copied" : "Copy link"}</span>
       </button>
     </>

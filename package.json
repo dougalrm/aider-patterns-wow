@@ -15,7 +15,9 @@
     "marked": "^12.0.2",
     "next": "^14.2.5",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.452.0",
+    "sonner": "^1.5.0"
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",

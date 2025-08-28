@@ -1,3 +1,4 @@
+import defaultTheme from 'tailwindcss/defaultTheme';
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: 'class',
@@ -39,6 +40,17 @@ export default {
       dropShadow: {
         neon: '0 0 8px rgba(34,211,238,0.65), 0 0 16px rgba(244,63,94,0.45)',
         'neon-sm': '0 0 6px rgba(34,211,238,0.5)'
+      },
+      fontFamily: {
+        sans: ['var(--font-sans)', ...defaultTheme.fontFamily.sans],
+        serif: ['var(--font-serif)', ...defaultTheme.fontFamily.serif]
+      },
+      borderRadius: {
+        md: 'var(--radius)',
+        lg: 'calc(var(--radius) * 1.5)',
+        xl: 'calc(var(--radius) * 2)',
+        '2xl': 'calc(var(--radius) * 3)',
+        full: '9999px'
       }
     }
   },
