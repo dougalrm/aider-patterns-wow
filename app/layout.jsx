@@ -1,5 +1,4 @@
 import './globals.css';
-import 'sonner/css';
 import { Toaster } from 'sonner';
 import Header from './components/Header';
 import Footer from './components/Footer';
