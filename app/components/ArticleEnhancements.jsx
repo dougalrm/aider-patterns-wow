@@ -38,7 +38,7 @@ export default function ArticleEnhancements() {
       <button
         type="button"
         onClick={copyLink}
-        className="fixed bottom-6 right-6 inline-flex items-center gap-2 rounded-lg bg-brand-600 px-3 py-1.5 text-sm text-white shadow hover:bg-brand-700"
+        className="fixed bottom-6 right-6 inline-flex items-center gap-2 rounded-lg bg-brand-600 px-4 py-3 text-sm text-white shadow hover:bg-brand-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600/50 focus-visible:ring-offset-2 focus-visible:ring-offset-white"
       >
         <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
           <path d="M16 8a3 3 0 0 1 0 6h-1a1 1 0 1 1 0-2h1a1 1 0 1 0 0-2h-1a1 1 0 1 1 0-2h1Zm-8 6a3 3 0 0 1 0-6h1a1 1 0 1 1 0 2H8a1 1 0 1 0 0 2h1a1 1 0 1 1 0 2H8Z" />
