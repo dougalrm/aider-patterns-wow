@@ -4,78 +4,81 @@
 
 /* Theme variables — single light theme per CONVENTIONS.md */
 :root {
-  --background: #f7f8fb;
-  --foreground: #0f172a;
+  /* Cosmere-inspired parchment palette */
+  --background: #f4efe3;               /* parchment */
+  --foreground: #2b2a28;               /* deep ink */
 
-  --card: #ffffff;
-  --card-foreground: #0f172a;
-  --popover: #ffffff;
-  --popover-foreground: #0f172a;
+  --card: #fffdf7;
+  --card-foreground: #2b2a28;
+  --popover: #fffdf7;
+  --popover-foreground: #2b2a28;
 
-  --primary: #e11d74;
+  --primary: #1e3a8a;                  /* deep sapphire */
   --primary-foreground: #ffffff;
-  --secondary: #0ea5b7;
-  --secondary-foreground: #05202a;
-  --accent: #22d3ee;
-  --accent-foreground: #05202a;
+  --secondary: #b68c3a;                /* antique gold */
+  --secondary-foreground: #2b2a28;
+  --accent: #8ecae6;                   /* stormlight mist */
+  --accent-foreground: #102a43;
   --destructive: #ef4444;
   --destructive-foreground: #ffffff;
 
-  --muted: #f2f4f8;
-  --muted-foreground: #64748b;
+  --muted: #efe9dd;
+  --muted-foreground: #5f6360;
 
-  --border: rgba(2, 6, 23, 0.08);
-  --input: rgba(2, 6, 23, 0.12);
-  --ring: #e11d74;
+  --border: rgba(31, 41, 55, 0.12);
+  --input: rgba(31, 41, 55, 0.16);
+  --ring: #1e3a8a;
 
   --radius: 0.75rem;
 }
 
-/* Prose link color — understated accent */
+/* Prose link color — fantasy primary */
 .prose a {
-  @apply text-accent;
-}
-.prose a:hover {
   @apply text-primary;
 }
+.prose a:hover {
+  @apply text-secondary;
+}
 
-/* Neo‑retro background and effects */
+/* Cosmere-inspired parchment sky */
 .retro-bg {
   background:
-    radial-gradient(1000px 500px at 50% -300px, rgba(225, 29, 116, 0.06), transparent 65%),
-    radial-gradient(700px 350px at 110% -50px, rgba(34, 211, 238, 0.05), transparent 60%),
+    radial-gradient(900px 420px at 30% -120px, rgba(182, 140, 58, 0.08), transparent 60%),
+    radial-gradient(700px 360px at 100% 0%, rgba(30, 58, 138, 0.06), transparent 55%),
     linear-gradient(180deg, var(--background), var(--background));
   background-attachment: fixed, fixed, fixed;
 }
 
 
-/* Subtle grain/scanline overlay for retro vibe */
+/* Subtle paper fiber overlay for fantasy parchment */
 .retro-bg::before {
   content: '';
   position: fixed;
   inset: 0;
   pointer-events: none;
   background:
-    repeating-linear-gradient(135deg, rgba(2, 6, 23, 0.025), rgba(2, 6, 23, 0.025) 1px, transparent 1px, transparent 22px);
+    repeating-linear-gradient(0deg, rgba(16, 24, 39, 0.02), rgba(16, 24, 39, 0.02) 1px, transparent 1px, transparent 18px),
+    repeating-linear-gradient(90deg, rgba(16, 24, 39, 0.02), rgba(16, 24, 39, 0.02) 1px, transparent 1px, transparent 22px);
   mix-blend-mode: multiply;
 }
 
-/* Soft vignette to focus content */
+/* Soft stormlight glow + vignette */
 .retro-bg::after {
   content: '';
   position: fixed;
   inset: 0;
   pointer-events: none;
   background:
-    radial-gradient(60% 50% at 50% 10%, transparent 0%, transparent 60%, rgba(2, 6, 23, 0.06) 100%);
+    radial-gradient(55% 40% at 50% 6%, rgba(142, 202, 230, 0.18), transparent 35%),
+    radial-gradient(60% 50% at 50% 10%, transparent 0%, transparent 60%, rgba(16, 24, 39, 0.06) 100%);
 }
 
 
-/* Neon text glow helper */
+/* Subtle stormlight text glow */
 .text-glow {
   text-shadow:
-    0 0 4px rgba(34, 211, 238, 0.45),
-    0 0 8px rgba(255, 77, 141, 0.30);
+    0 0 3px rgba(142, 202, 230, 0.45),
+    0 0 6px rgba(30, 58, 138, 0.35);
 }
 
 /* Ensure headings aren't hidden under sticky header */
