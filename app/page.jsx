@@ -94,7 +94,7 @@ export default async function HomePage() {
                       className="badge"
                     >
                       <span>#{t.tag}</span>
-                      <span className="text-slate-400">· {t.count}</span>
+                      <span className="text-slate-600 dark:text-slate-400">· {t.count}</span>
                     </Link>
                   ))}
                 </div>
@@ -125,7 +125,7 @@ export default async function HomePage() {
                   Explore practices related to {tag}.
                 </p>
                 <div className="mt-4">
-                  <Link href={`/articles?tag=${encodeURIComponent(tag)}`} className="inline-flex items-center gap-2 text-sm text-indigo-300 hover:text-fuchsia-300">
+                  <Link href={`/articles?tag=${encodeURIComponent(tag)}`} className="inline-flex items-center gap-2 text-sm text-indigo-700 hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-fuchsia-300">
                     View collection
                     <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M10.293 3.293a1 1 0 0 1 1.414 0l5 5a1 1 0 0 1 0 1.414l-5 5a1 1 0 1 1-1.414-1.414L13.586 11H4a1 1 0 1 1 0-2h9.586l-3.293-3.293a1 1 0 0 1 0-1.414Z" clipRule="evenodd" />
@@ -136,7 +136,7 @@ export default async function HomePage() {
             ))}
           </ul>
           <div className="mt-4 text-right">
-            <Link href="/collections" className="text-sm text-indigo-300 hover:text-white">See all collections</Link>
+            <Link href="/collections" className="text-sm text-indigo-700 hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-white">See all collections</Link>
           </div>
         </section>
       )}
@@ -145,7 +145,7 @@ export default async function HomePage() {
         <section aria-labelledby="highlights-heading">
           <div className="mb-4 flex items-center justify-between">
             <h2 id="highlights-heading" className="text-xl font-bold">Latest highlights</h2>
-            <Link href="/articles" className="text-sm text-indigo-300 hover:text-white">View all</Link>
+            <Link href="/articles" className="text-sm text-indigo-700 hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-white">View all</Link>
           </div>
           <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {latest.slice(0, 3).map((a) => (

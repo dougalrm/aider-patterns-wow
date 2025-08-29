@@ -52,7 +52,7 @@ export default async function ArticlesPage({ searchParams }) {
                 className="badge"
               >
                 <span>#{t}</span>
-                <span className="text-slate-400">· {count}</span>
+                <span className="text-slate-600 dark:text-slate-400">· {count}</span>
               </Link>
             ))}
           </div>

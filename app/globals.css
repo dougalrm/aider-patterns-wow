@@ -184,7 +184,17 @@
   .constellation-divider::before { margin-right: 0.75rem; }
   .constellation-divider::after { margin-left: 0.75rem; }
   .badge {
-    @apply inline-flex items-center rounded-md bg-muted px-2.5 py-1 text-xs font-medium text-muted-foreground;
+    @apply inline-flex items-center rounded-md px-2.5 py-1 text-xs font-medium;
+    border: 1px solid var(--border);
+    background: rgba(99, 102, 241, 0.16);
+    color: #1e293b;
+  }
+  @media (prefers-color-scheme: dark) {
+    .badge {
+      background: rgba(30, 41, 59, 0.45);
+      color: var(--foreground);
+      border-color: rgba(167, 139, 250, 0.45);
+    }
   }
   /* Accessible tag chips */
   .chip {
