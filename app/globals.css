@@ -186,6 +186,22 @@
   .badge {
     @apply inline-flex items-center rounded-md bg-muted px-2.5 py-1 text-xs font-medium text-muted-foreground;
   }
+  /* Accessible tag chips */
+  .chip {
+    @apply inline-flex items-center gap-2 rounded-full px-2.5 py-1 text-xs transition;
+    border: 1px solid rgba(167, 139, 250, 0.45);
+    background: rgba(30, 41, 59, 0.45);
+    color: #e7e9ff;
+  }
+  .chip:hover {
+    background: rgba(49, 46, 129, 0.55);
+    border-color: rgba(167, 139, 250, 0.65);
+  }
+  .chip-active {
+    background: rgba(79, 70, 229, 0.45);
+    border-color: rgba(167, 139, 250, 0.75);
+    color: #ffffff;
+  }
   .btn {
     @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-2 text-sm font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-opacity-50 focus-visible:ring-offset-2 focus-visible:ring-offset-background;
   }
@@ -199,15 +215,29 @@
     box-shadow: 0 8px 24px rgba(49, 46, 129, 0.45), 0 0 0 1px rgba(203, 178, 95, 0.35) inset, 0 0 18px rgba(226, 191, 88, 0.25);
   }
   .btn-outline {
-    @apply btn text-foreground;
+    @apply btn;
+    color: #0f172a;
     border: 1px solid rgba(194, 155, 70, 0.45);
     background:
-      linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0));
+      linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.6));
+  }
+  @media (prefers-color-scheme: dark) {
+    .btn-outline {
+      color: #e7e9ff;
+      background:
+        linear-gradient(180deg, rgba(30, 41, 59, 0.3), rgba(30, 41, 59, 0.15));
+    }
   }
   .btn-outline:hover {
     box-shadow: 0 0 0 2px rgba(194, 155, 70, 0.35), 0 8px 20px rgba(31, 41, 55, 0.12);
     background:
-      linear-gradient(180deg, rgba(255,255,255,0.65), rgba(255,255,255,0.05));
+      linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,0.7));
+  }
+  @media (prefers-color-scheme: dark) {
+    .btn-outline:hover {
+      background:
+        linear-gradient(180deg, rgba(49, 46, 129, 0.45), rgba(49, 46, 129, 0.25));
+    }
   }
   .input {
     @apply w-full rounded-md border border-input bg-white px-3 py-2 text-sm placeholder:text-muted-foreground focus:ring-2 focus:ring-ring focus:ring-opacity-50 focus:outline-none;

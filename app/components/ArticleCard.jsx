@@ -10,7 +10,7 @@ export default function ArticleCard({ article }) {
         {article.tags?.length ? (
           <div className="flex flex-wrap gap-1.5 justify-end">
             {article.tags.slice(0, 3).map((tag) => (
-              <span key={tag} className="inline-flex items-center rounded-full border border-indigo-400/40 bg-indigo-950/30 px-2 py-0.5 text-xs text-indigo-200">{tag}</span>
+              <span key={tag} className="chip select-none cursor-default">{tag}</span>
             ))}
           </div>
         ) : null}

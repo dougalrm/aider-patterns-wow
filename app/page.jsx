@@ -91,7 +91,7 @@ export default async function HomePage() {
                     <Link
                       key={t.tag}
                       href={`/articles?tag=${encodeURIComponent(t.tag)}`}
-                      className="inline-flex items-center gap-2 rounded-full border border-indigo-400/40 bg-indigo-950/30 px-3 py-1.5 text-xs text-indigo-200 hover:bg-indigo-900/40"
+                      className="chip"
                     >
                       <span>#{t.tag}</span>
                       <span className="text-slate-400">· {t.count}</span>

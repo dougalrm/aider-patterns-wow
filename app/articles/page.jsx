@@ -49,9 +49,7 @@ export default async function ArticlesPage({ searchParams }) {
               <Link
                 key={t}
                 href={`/articles?tag=${encodeURIComponent(t)}`}
-                className={`inline-flex items-center gap-2 rounded-full border border-indigo-400/40 px-3 py-1.5 text-xs transition ${
-                  tag === t ? 'bg-indigo-600/20 text-indigo-100' : 'bg-indigo-950/30 text-indigo-200 hover:bg-indigo-900/40'
-                }`}
+                className={`chip ${tag === t ? 'chip-active' : ''}`}
               >
                 <span>#{t}</span>
                 <span className="text-slate-400">· {count}</span>
