@@ -1,17 +1,9 @@
 ---
 tags: ["metrics-and-reporting", "delivery-and-flow", "work-visibility"]
 title: Why we care about metrics
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: Understanding the importance of metrics in technology teams is crucial for enhancing performance, which in turn, drives business success. By adopting the right capabilities identified by DORA, organizations can boost productivity, improve delivery speed, and enhance customer satisfaction, benefiting from actionable insights that align with business objectives.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 

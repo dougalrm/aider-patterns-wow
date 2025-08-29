@@ -1,17 +1,9 @@
 ---
 tags: ["delivery-and-flow", "metrics-and-reporting", "definitions-of-done-ready"]
 title: Common workflow states to improve reporting
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: This document outlines the mandatory workflow states for Global Technology teams at Schroders to ensure consistency in metrics, reporting, and auditing. By standardizing workflow states, it aims to identify bottlenecks, streamline processes, and facilitate leadership support, thereby enhancing collaborative efforts towards project goals while complying with the Software Development Life Cycle (SDLC) policy.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 ![A close-up of a piece of paper Description automatically generated](Common%20workflow%20states%20to%20improve%20reporting_media/media/image1.jpeg)

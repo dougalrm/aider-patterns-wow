@@ -1,17 +1,8 @@
 ---
 tags: ["principles"]
 title: Clear Business Outcomes
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: This page explores the principle of "Clear Business Outcomes," emphasizing alignment with strategic objectives through clearly defined, measurable results. It advocates for focusing on outcomes over outputs, supported by collaboration between business and technology, and emphasizes using both qualitative and quantitative metrics to track progress and drive strategic aims effectively within agile frameworks.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
 ---
 
 

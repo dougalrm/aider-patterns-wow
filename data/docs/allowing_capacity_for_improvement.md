@@ -1,17 +1,8 @@
 ---
 tags: ["agile-practices", "planning-and-roadmapping", "retrospectives-and-improvement"]
 title: Allowing capacity for improvement
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: Balancing business outcomes with improvement is essential for agile success. This involves ensuring sprint backlogs aren't overloaded and capacity isn't solely filled with new features, allowing time for team improvement, tackling technical debt, and fostering innovation. Prioritizing a sustainable pace prevents burnout and encourages high-performing, adaptable teams.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
 ---
 
 

@@ -1,17 +1,9 @@
 ---
 tags: ["principles"]
 title: Leading by Example
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: This page delves into the "Leading by Example" principle, highlighting the shift from traditional leadership to agile leadership. It emphasizes creating psychological safety, fostering innovation, and providing constructive feedback. Leaders are encouraged to embody agile mindsets and practices, transforming themselves, teams, and the organization to achieve better outcomes and collaboration.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 

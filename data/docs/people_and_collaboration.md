@@ -1,17 +1,9 @@
 ---
 tags: ["principles"]
 title: People and Collaboration
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: Explore the "People & Collaboration" principle, central to agile methodologies, emphasizing empowered teams, role clarity, career progression, and knowledge sharing. This approach fosters effective collaboration and communication, aiming for a culture shift from "Report and Critique" to a genuinely collaborative environment, ultimately striving for enhanced business outcomes and adaptability.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 

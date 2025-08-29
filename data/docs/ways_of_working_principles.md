@@ -1,17 +1,9 @@
 ---
 tags: ["principles"]
 title: Ways of Working Principles
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: The Common Delivery Framework (CDF) outlines five agile-inspired Ways of Working Principles aimed at enhancing collaboration, leadership, clear business outcomes, team empowerment, and continuous improvement. These principles serve as foundational guidelines to drive efficiency, value delivery, and quality across teams, fostering a unified, agile organizational culture for technology and beyond.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 

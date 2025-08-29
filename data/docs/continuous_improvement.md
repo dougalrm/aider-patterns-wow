@@ -1,17 +1,9 @@
 ---
 tags: ["principles"]
 title: Continuous Improvement
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: Explore the principle of Continuous Improvement within agile methodologies, highlighting the importance of regular retrospectives, leadership involvement, and feedback for enhanced performance. Discover patterns, practices, and the impact of incremental improvements, inspired by the concept of Kaizen, to foster collaboration, reduce waste, and drive sustained development across teams and organizations.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 

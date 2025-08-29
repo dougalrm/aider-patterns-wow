@@ -1,17 +1,9 @@
 ---
 tags: ["principles"]
 title: Stable Empowered Teams
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: Explore the concept of Stable, Empowered Teams within agile frameworks, emphasizing collaboration, decision-making autonomy, and collective growth. Learn how maintaining cohesive long-term teams enhances performance, fosters a positive work environment, and aligns individual contributions with organizational goals through principles of autonomy, mastery, and purpose-driven leadership.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 

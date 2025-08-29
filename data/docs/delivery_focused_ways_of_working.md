@@ -1,17 +1,9 @@
 ---
 tags: ["delivery-and-flow", "metrics-and-reporting", "wip-and-throughput"]
 title: Delivery focused Ways of Working
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 #description: 
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 

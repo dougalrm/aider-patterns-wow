@@ -1,17 +1,8 @@
 ---
 tags: ["definitions-of-done-ready", "planning-and-roadmapping", "delivery-and-flow"]
 title: Clear Definition of Ready
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: The "Clear Definition of Ready (CDF Pattern)" page outlines the importance of a well-defined "Definition of Ready" for agile teams to ensure that work is clear, feasible, and testable before entering an iteration. It highlights criteria such as clarity, feasibility, and testability, alongside the INVEST framework to enhance collaboration and maintain quality standards in product development.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
 ---
 
 
