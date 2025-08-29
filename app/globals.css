@@ -46,6 +46,11 @@
   @apply text-secondary;
 }
 
+/* Ensure prose body text is bright on cosmic background */
+.prose {
+  color: var(--foreground);
+}
+
 /* Epic-cosmic starlit sky */
 .retro-bg {
   background:
@@ -269,7 +274,7 @@
 
   /* Navigation primitives */
   .nav-link {
-    @apply relative text-sm font-medium text-slate-700 transition;
+    @apply relative text-sm font-medium text-slate-200 transition;
   }
   .nav-link:hover {
     color: #c7c9ff;
