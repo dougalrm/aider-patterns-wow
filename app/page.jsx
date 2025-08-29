@@ -106,8 +106,22 @@ export default async function HomePage() {
         </section>
       )}
 
+      {latest.length > 0 && (
+        <section aria-labelledby="highlights-heading">
+          <div className="mb-12 flex items-center justify-between">
+            <h2 id="highlights-heading" className="text-xl font-bold">Latest Articles</h2>
+            <Link href="/articles" className="text-sm text-indigo-700 hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-white">View all</Link>
+          </div>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {latest.slice(0, 3).map((a) => (
+              <ArticleCard key={a.slug} article={a} />
+            ))}
+          </ul>
+        </section>
+      )}
+
       {collections.length > 0 && (
-        <section className="mb-12" aria-labelledby="collections-heading">
+        <section className="mb-4" aria-labelledby="collections-heading">
           <div className="constellation-divider mb-4">Collections</div>
           <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {collections.map(({ tag, count }) => (
@@ -141,19 +155,7 @@ export default async function HomePage() {
         </section>
       )}
 
-      {latest.length > 0 && (
-        <section aria-labelledby="highlights-heading">
-          <div className="mb-4 flex items-center justify-between">
-            <h2 id="highlights-heading" className="text-xl font-bold">Latest Articles</h2>
-            <Link href="/articles" className="text-sm text-indigo-700 hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-white">View all</Link>
-          </div>
-          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {latest.slice(0, 3).map((a) => (
-              <ArticleCard key={a.slug} article={a} />
-            ))}
-          </ul>
-        </section>
-      )}
+
     </>
   );
 }
