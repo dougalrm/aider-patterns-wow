@@ -81,6 +81,74 @@
   text-decoration-color: rgba(15, 23, 42, 0.6);
 }
 
+/* Article surface typography refinements */
+.js-article :where(p, li, ol, ul, blockquote, figcaption) { color: #0f172a; }
+.js-article :where(strong, b) { color: #0b1020; }
+.js-article :where(em, i) { color: #111827; }
+.js-article :where(hr) { border-color: rgba(15, 23, 42, 0.12); }
+
+/* Blockquote */
+.js-article :where(blockquote) {
+  background: #f8fafc;
+  color: #0f172a;
+  border-left: 3px solid rgba(15, 23, 42, 0.2);
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+}
+
+/* Code and Preformatted */
+.js-article :where(code) {
+  background: #f1f5f9;
+  color: #0b1020;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  border-radius: 0.375rem;
+  padding: 0.15em 0.35em;
+}
+.js-article :where(pre) {
+  background: #0f172a;
+  color: #e7e9ff;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  overflow: auto;
+}
+.js-article :where(pre code) {
+  background: transparent;
+  color: inherit;
+  border: 0;
+  padding: 0;
+}
+
+/* Tables */
+.js-article :where(table) { width: 100%; border-collapse: collapse; }
+.js-article :where(th, td) { border: 1px solid rgba(15, 23, 42, 0.12); padding: 0.5rem 0.75rem; }
+.js-article :where(th) { background: #f8fafc; color: #0b1020; }
+
+/* Lists and captions */
+.js-article :where(ul>li)::marker,
+.js-article :where(ol>li)::marker { color: rgba(15, 23, 42, 0.6); }
+.js-article :where(figcaption) { color: #334155; }
+
+/* Ensure any utility forcing foreground color adapts on light surface */
+.js-article .text-foreground { color: #0f172a !important; }
+
+/* Badges within article body */
+.js-article .badge {
+  background: rgba(99, 102, 241, 0.14);
+  border-color: rgba(99, 102, 241, 0.35);
+  color: #0b1020;
+}
+
+@media (prefers-color-scheme: dark) {
+  .js-article :where(pre) { background: #0b1220; color: #e6e8ff; }
+  .js-article :where(blockquote) {
+    background: rgba(2, 6, 23, 0.55);
+    color: #e6e8ff;
+    border-left-color: rgba(167, 139, 250, 0.35);
+  }
+  .js-article :where(th) { background: rgba(2, 6, 23, 0.65); color: #e6e8ff; }
+  .js-article :where(th, td) { border-color: rgba(167, 139, 250, 0.25); }
+}
+
 /* Epic-cosmic starlit sky */
 .retro-bg {
   background:
