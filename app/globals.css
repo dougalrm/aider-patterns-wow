@@ -155,8 +155,8 @@
     /* cosmic gradient base */
     linear-gradient(to bottom, #0b1220, #581c87, #000000),
     /* faint nebula wisps */
-    radial-gradient(80% 50% at 50% -10%, rgba(124,58,237,0.15), transparent 60%),
-    radial-gradient(60% 40% at 90% 0%, rgba(59,130,246,0.12), transparent 60%);
+    radial-gradient(80% 50% at 50% -10%, rgba(124,58,237,0.08), transparent 60%),
+    radial-gradient(60% 40% at 90% 0%, rgba(59,130,246,0.06), transparent 60%);
   background-attachment: fixed, fixed, fixed;
 }
 
@@ -170,11 +170,11 @@
   z-index: -1;
   background:
     /* soft parchment stains */
-    radial-gradient(420px 180px at 20% 10%, rgba(194, 155, 70, 0.08), transparent 60%),
-    radial-gradient(520px 220px at 80% 5%, rgba(30, 58, 138, 0.06), transparent 60%),
+    radial-gradient(420px 180px at 20% 10%, rgba(194, 155, 70, 0.04), transparent 60%),
+    radial-gradient(520px 220px at 80% 5%, rgba(30, 58, 138, 0.03), transparent 60%),
     /* diagonal fiber crosshatch */
-    repeating-linear-gradient(25deg, rgba(16, 24, 39, 0.025), rgba(16, 24, 39, 0.025) 1px, transparent 1px, transparent 26px),
-    repeating-linear-gradient(115deg, rgba(16, 24, 39, 0.02), rgba(16, 24, 39, 0.02) 1px, transparent 1px, transparent 30px);
+    repeating-linear-gradient(25deg, rgba(16, 24, 39, 0.015), rgba(16, 24, 39, 0.015) 1px, transparent 1px, transparent 26px),
+    repeating-linear-gradient(115deg, rgba(16, 24, 39, 0.012), rgba(16, 24, 39, 0.012) 1px, transparent 1px, transparent 30px);
   mix-blend-mode: multiply;
 }
 
@@ -187,19 +187,19 @@
   z-index: -1;
   background:
     /* cosmic nebula gradient (vignette) */
-    linear-gradient(to bottom, rgba(15, 23, 42, 0.55), rgba(88, 28, 135, 0.4), rgba(0, 0, 0, 0.55)),
+    linear-gradient(to bottom, rgba(15, 23, 42, 0.35), rgba(88, 28, 135, 0.28), rgba(0, 0, 0, 0.4)),
     /* faint astral mist */
-    radial-gradient(55% 40% at 50% 6%, rgba(142, 202, 230, 0.18), transparent 35%),
+    radial-gradient(55% 40% at 50% 6%, rgba(142, 202, 230, 0.10), transparent 35%),
     /* subtle vignette ring */
-    radial-gradient(60% 50% at 50% 10%, transparent 0%, transparent 60%, rgba(16, 24, 39, 0.08) 100%),
+    radial-gradient(60% 50% at 50% 10%, transparent 0%, transparent 60%, rgba(16, 24, 39, 0.05) 100%),
     /* sparse starfield speckles */
-    radial-gradient(1px 1px at 20% 15%, rgba(255,255,255,0.35), transparent 40%),
-    radial-gradient(1px 1px at 70% 8%, rgba(255,255,255,0.3), transparent 40%),
-    radial-gradient(1px 1px at 40% 22%, rgba(255,255,255,0.28), transparent 40%),
-    radial-gradient(1px 1px at 85% 18%, rgba(255,255,255,0.32), transparent 40%),
-    radial-gradient(1px 1px at 15% 32%, rgba(255,255,255,0.26), transparent 40%),
-    radial-gradient(1px 1px at 65% 28%, rgba(255,255,255,0.28), transparent 40%),
-    radial-gradient(1px 1px at 32% 6%, rgba(255,255,255,0.28), transparent 40%);
+    radial-gradient(1px 1px at 20% 15%, rgba(255,255,255,0.18), transparent 40%),
+    radial-gradient(1px 1px at 70% 8%, rgba(255,255,255,0.16), transparent 40%),
+    radial-gradient(1px 1px at 40% 22%, rgba(255,255,255,0.15), transparent 40%),
+    radial-gradient(1px 1px at 85% 18%, rgba(255,255,255,0.17), transparent 40%),
+    radial-gradient(1px 1px at 15% 32%, rgba(255,255,255,0.14), transparent 40%),
+    radial-gradient(1px 1px at 65% 28%, rgba(255,255,255,0.15), transparent 40%),
+    radial-gradient(1px 1px at 32% 6%, rgba(255,255,255,0.15), transparent 40%);
 }
 
 
@@ -582,7 +582,7 @@
   background-repeat: repeat;
   background-size: 200px 200px;
   animation: animateStars 60s linear infinite;
-  opacity: 0.25;
+  opacity: 0.06;
 }
 
 .stars::after {
