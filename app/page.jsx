@@ -74,7 +74,7 @@ export default async function HomePage() {
                 <p className="mt-3 text-slate-700 dark:text-slate-200">{featured.description}</p>
               )}
               <div className="mt-5">
-                <Link href={`/${featured.slug}`} className="inline-flex items-center gap-2 text-indigo-300 hover:text-fuchsia-300">
+                <Link href={`/${featured.slug}`} className="inline-flex items-center gap-2 text-sm text-indigo-700 hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-fuchsia-300">
                   Read the feature
                   <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M10.293 3.293a1 1 0 0 1 1.414 0l5 5a1 1 0  0 1 0 1.414l-5 5a1 1 0 1 1-1.414-1.414L13.586 11H4a1 1 0 1 1 0-2h9.586l-3.293-3.293a1 1 0  0 1 0-1.414Z" clipRule="evenodd" />
