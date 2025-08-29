@@ -79,10 +79,12 @@
   inset: 0;
   pointer-events: none;
   background:
+    /* cosmic nebula gradient (vignette) */
+    linear-gradient(to bottom, rgba(15, 23, 42, 0.55), rgba(88, 28, 135, 0.4), rgba(0, 0, 0, 0.55)),
     /* faint astral mist */
     radial-gradient(55% 40% at 50% 6%, rgba(142, 202, 230, 0.18), transparent 35%),
-    /* subtle vignette */
-    radial-gradient(60% 50% at 50% 10%, transparent 0%, transparent 60%, rgba(16, 24, 39, 0.06) 100%),
+    /* subtle vignette ring */
+    radial-gradient(60% 50% at 50% 10%, transparent 0%, transparent 60%, rgba(16, 24, 39, 0.08) 100%),
     /* sparse starfield speckles */
     radial-gradient(1px 1px at 20% 15%, rgba(255,255,255,0.35), transparent 40%),
     radial-gradient(1px 1px at 70% 8%, rgba(255,255,255,0.3), transparent 40%),
@@ -121,15 +123,38 @@
 /* Design system primitives */
 @layer components {
   .card {
-    @apply rounded-lg bg-card text-card-foreground border;
-    border-color: rgba(194, 155, 70, 0.35);
+    position: relative;
+    @apply rounded-2xl text-card-foreground border-2 shadow-xl;
+    background: #fdf6e3;
+    border-color: rgb(133 77 14); /* yellow-800 */
     box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, 0.4),
-      0 8px 24px rgba(30, 41, 59, 0.14),
-      0 2px 6px rgba(30, 41, 59, 0.08);
+      0 14px 30px rgba(49, 46, 129, 0.18),
+      0 8px 22px rgba(49, 46, 129, 0.12),
+      0 0 0 1px rgba(203, 178, 95, 0.25) inset;
     background-image:
-      linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0) 20%),
-      linear-gradient(180deg, rgba(194,155,70,0.06), rgba(194,155,70,0.04));
+      linear-gradient(180deg, rgba(255,255,255,0.65), rgba(255,255,255,0.08) 25%, rgba(255,255,255,0) 35%),
+      radial-gradient(120% 80% at 10% 0%, rgba(203,178,95,0.08), transparent 50%),
+      radial-gradient(120% 80% at 90% 0%, rgba(56,189,248,0.06), transparent 50%);
+  }
+  .card::before,
+  .card::after {
+    position: absolute;
+    font-family: var(--font-serif);
+    font-size: 0.9rem;
+    color: rgba(194, 155, 70, 0.85);
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5), 0 0 10px rgba(30, 58, 138, 0.25);
+    opacity: 0.9;
+    pointer-events: none;
+  }
+  .card::before {
+    content: '✦';
+    top: 10px;
+    left: 12px;
+  }
+  .card::after {
+    content: '✧';
+    right: 12px;
+    bottom: 10px;
   }
   .badge {
     @apply inline-flex items-center rounded-md bg-muted px-2.5 py-1 text-xs font-medium text-muted-foreground;
@@ -256,7 +281,7 @@
     @apply relative text-sm font-medium text-slate-700 transition;
   }
   .nav-link:hover {
-    @apply text-secondary;
+    @apply text-yellow-500 drop-shadow-md;
   }
   .nav-link::after {
     content: '';
@@ -273,7 +298,14 @@
   .nav-link:hover::after { transform: scaleX(1); }
 
   .nav-cta {
-    @apply btn btn-outline;
+    @apply btn text-white rounded-xl px-4 py-2 shadow-md transition;
+    background-image: linear-gradient(to right, #4c1d95, #3730a3); /* from-purple-800 to-indigo-700 */
+    box-shadow: 0 6px 16px rgba(124, 58, 237, 0.35), 0 0 0 1px rgba(234, 179, 8, 0.35) inset;
+    transform: translateZ(0);
+  }
+  .nav-cta:hover {
+    box-shadow: 0 8px 24px rgba(234, 179, 8, 0.7), 0 10px 24px rgba(79, 70, 229, 0.5);
+    transform: scale(1.05);
   }
 
   .mobile-nav {
@@ -282,5 +314,55 @@
 
   .footer-link {
     @apply text-slate-600 hover:text-secondary transition;
+  }
+
+  /* Rune button utility (general-purpose) */
+  .btn-rune {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 text-sm font-medium text-white transition will-change-transform;
+    background-image: linear-gradient(to right, #4c1d95, #3730a3);
+    box-shadow: 0 6px 16px rgba(124, 58, 237, 0.35), 0 0 0 1px rgba(234, 179, 8, 0.35) inset;
+  }
+  .btn-rune:hover {
+    box-shadow: 0 8px 24px rgba(234, 179, 8, 0.7), 0 10px 24px rgba(79, 70, 229, 0.5);
+    transform: scale(1.05);
+  }
+
+  /* Fantasy section divider */
+  .fantasy-divider {
+    @apply flex justify-center my-8 text-yellow-700 text-2xl;
+  }
+
+  /* Subtle glow on hover for text/icons */
+  .glow-hover:hover {
+    text-shadow:
+      0 0 6px rgba(234, 179, 8, 0.55),
+      0 0 12px rgba(79, 70, 229, 0.45);
+  }
+
+  /* Scroll-in reveal animation helper */
+  .reveal-up {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeInUp 600ms ease-out 200ms forwards;
+  }
+}
+
+/* Animations */
+@keyframes runePulse {
+  0% {
+    filter: drop-shadow(0 0 0 rgba(234, 179, 8, 0));
+  }
+  100% {
+    filter: drop-shadow(0 0 12px rgba(234, 179, 8, 0.6));
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
