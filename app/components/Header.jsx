@@ -46,7 +46,7 @@ export default function Header() {
           aria-label="Toggle menu"
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
-          className="md:hidden inline-flex items-center justify-center rounded-md border border-white/30 bg-white/70 px-3 py-2 text-sm shadow-sm backdrop-blur transition hover:bg-white/90"
+          className="md:hidden inline-flex items-center justify-center rounded-md border border-slate-600/40 bg-slate-900/50 px-3 py-2 text-sm text-slate-200 shadow-sm backdrop-blur transition hover:bg-slate-900/70"
         >
           <span className="sr-only">Open menu</span>
           <span className={`block h-0.5 w-5 bg-foreground transition ${open ? 'rotate-45 translate-y-1' : ''}`} />
