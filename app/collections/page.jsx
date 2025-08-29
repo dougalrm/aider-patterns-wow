@@ -39,9 +39,9 @@ export default async function CollectionsPage() {
       ) : (
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {collections.map(({ tag, count }) => (
-            <li key={tag} className="kb-card p-6">
+            <li key={tag} className="kb-card collection-card p-6">
               <div className="flex items-center justify-between text-xs text-slate-600 dark:text-indigo-200/80">
-                <span className="badge hidden">#{tag}</span>
+                <span className="meta-pill">Collection</span>
                 <span className="text-slate-500 dark:text-slate-300">{count} {count === 1 ? 'article' : 'articles'}</span>
               </div>
               <h2 className="mt-2 text-lg font-semibold">

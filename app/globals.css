@@ -259,6 +259,34 @@
     }
   }
 
+  /* Collection card accent */
+  .collection-card {
+    position: relative;
+    border-color: rgba(79, 70, 229, 0.25);
+  }
+  .collection-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, rgba(79,70,229,0.9), rgba(147,51,234,0.9));
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+  }
+
+  /* Meta pill to differentiate content types */
+  .meta-pill {
+    @apply inline-flex items-center rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide;
+    background: #e5e7eb; /* slate-200 */
+    color: #334155; /* slate-700 */
+  }
+  @media (prefers-color-scheme: dark) {
+    .meta-pill { background: rgba(30, 41, 59, 0.65); color: #e6e8ff; }
+    .collection-card { border-color: rgba(148, 163, 184, 0.25); }
+    .collection-card::before { opacity: 0.7; }
+  }
+
   /* Constellation divider: subtle dots + connecting lines */
   .constellation-divider {
     position: relative;

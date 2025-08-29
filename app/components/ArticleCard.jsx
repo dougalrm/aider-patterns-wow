@@ -4,9 +4,12 @@ export default function ArticleCard({ article }) {
   return (
     <li className="group relative kb-card p-6 transition hover:-translate-y-0.5">
       <div className="flex items-center justify-between gap-4 text-xs text-slate-600 dark:text-indigo-200/80">
-        {article.date ? (
-          <time dateTime={new Date(article.date).toISOString()}>{new Date(article.date).toLocaleDateString()}</time>
-        ) : <span />}
+        <div className="flex items-center gap-2">
+          <span className="meta-pill">Article</span>
+          {article.date ? (
+            <time dateTime={new Date(article.date).toISOString()}>{new Date(article.date).toLocaleDateString()}</time>
+          ) : null}
+        </div>
         {article.tags?.length ? (
           <div className="hidden">
             {article.tags.slice(0, 3).map((tag) => (
