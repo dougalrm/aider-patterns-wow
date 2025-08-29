@@ -150,11 +150,13 @@
   .kb-card {
     @apply rounded-xl border border-indigo-500/50 backdrop-blur-md;
     background: rgba(255, 255, 255, 0.9);
+    color: #0f172a;
     box-shadow: 0 8px 24px rgba(2, 6, 23, 0.08);
   }
   @media (prefers-color-scheme: dark) {
     .kb-card {
       background: rgba(2, 6, 23, 0.8);
+      color: #e6e8ff;
       box-shadow:
         0 10px 30px rgba(0, 0, 0, 0.3),
         0 0 0 1px rgba(99, 102, 241, 0.2) inset;

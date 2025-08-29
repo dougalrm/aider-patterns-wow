@@ -24,7 +24,7 @@ export default async function HomePage() {
     <>
       <section className="mb-10 overflow-hidden kb-card p-8">
         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-3">Ways of Working Articles</h1>
-        <p className="max-w-2xl text-slate-200">Ideas, stories, and practices to help modern teams ship better work. Curated essays and guides — not a knowledge base.</p>
+        <p className="max-w-2xl text-slate-700 dark:text-slate-200">Ideas, stories, and practices to help modern teams ship better work. Curated essays and guides — not a knowledge base.</p>
         <div className="mt-6">
           <Link href="#latest" className="inline-flex items-center gap-2 bg-gradient-to-r from-fuchsia-700 via-indigo-600 to-purple-800 text-white font-bold tracking-wide rounded-xl px-5 py-2 shadow-[0_0_12px_rgba(167,139,250,0.7)] hover:shadow-[0_0_24px_rgba(250,250,150,0.9)] transition">
             Explore articles
@@ -39,7 +39,7 @@ export default async function HomePage() {
         <section className="mb-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
             <article className="kb-card p-6 transition">
-              <div className="flex items-center gap-3 text-xs text-indigo-200/80">
+              <div className="flex items-center gap-3 text-xs text-slate-600 dark:text-indigo-200/80">
                 {featured.date && (
                   <time dateTime={new Date(featured.date).toISOString()}>
                     {new Date(featured.date).toLocaleDateString()}
@@ -60,7 +60,7 @@ export default async function HomePage() {
                 <Link className="hover:underline" href={`/${featured.slug}`}>{featured.title}</Link>
               </h2>
               {featured.description && (
-                <p className="mt-3 text-slate-200">{featured.description}</p>
+                <p className="mt-3 text-slate-700 dark:text-slate-200">{featured.description}</p>
               )}
               <div className="mt-5">
                 <Link href={`/${featured.slug}`} className="inline-flex items-center gap-2 text-indigo-300 hover:text-fuchsia-300">
@@ -73,7 +73,7 @@ export default async function HomePage() {
             </article>
 
             <aside className="kb-card p-6">
-              <h3 className="text-sm font-semibold text-slate-200">Trending tags</h3>
+              <h3 className="text-sm font-semibold text-slate-800 dark:text-slate-200">Trending tags</h3>
               {trendingTags.length ? (
                 <div className="mt-3 flex flex-wrap gap-2">
                   {trendingTags.map((t) => (
