@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { loadAllArticles } from '../../lib/contentLoader';
+import { Layers } from 'lucide-react';
 
 export const metadata = {
   title: 'Collections • Team Patterns',
@@ -41,7 +42,10 @@ export default async function CollectionsPage() {
           {collections.map(({ tag, count }) => (
             <li key={tag} className="kb-card collection-card p-6">
               <div className="flex items-center justify-between text-xs text-slate-600 dark:text-indigo-200/80">
-                <span className="meta-pill">Collection</span>
+                <div className="flex items-center gap-2">
+                  <Layers className="h-4 w-4 text-indigo-700 dark:text-indigo-300" />
+                  <span className="meta-pill">Collection</span>
+                </div>
                 <span className="text-slate-500 dark:text-slate-300">{count} {count === 1 ? 'article' : 'articles'}</span>
               </div>
               <h2 className="mt-2 text-lg font-semibold">

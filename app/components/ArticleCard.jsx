@@ -1,10 +1,12 @@
 import Link from 'next/link';
+import { FileText } from 'lucide-react';
 
 export default function ArticleCard({ article }) {
   return (
-    <li className="group relative kb-card p-6 transition hover:-translate-y-0.5">
+    <li className="group relative kb-card article-card p-6 transition hover:-translate-y-0.5">
       <div className="flex items-center justify-between gap-4 text-xs text-slate-600 dark:text-indigo-200/80">
         <div className="flex items-center gap-2">
+          <FileText className="h-4 w-4 text-indigo-700 dark:text-indigo-300" />
           <span className="meta-pill">Article</span>
           {article.date ? (
             <time dateTime={new Date(article.date).toISOString()}>{new Date(article.date).toLocaleDateString()}</time>
