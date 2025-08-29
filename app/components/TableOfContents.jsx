@@ -1,7 +1,7 @@
 export default function TableOfContents({ toc = [] }) {
   if (!toc.length) return null;
   return (
-    <div className="sticky top-24 rounded-2xl border border-white/20 bg-white/60 p-4 backdrop-blur dark:border-white/10 dark:bg-slate-950/40">
+    <div className="sticky top-24 rounded-lg border border-white/20 bg-white/60 p-4 backdrop-blur dark:border-white/10 dark:bg-slate-950/40">
       <p className="mb-3 text-xs uppercase tracking-widest text-slate-500">On this page</p>
       <nav>
         <ul className="space-y-1">

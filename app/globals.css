@@ -33,7 +33,7 @@
   --input: rgba(167, 139, 250, 0.35);
   --ring: var(--primary);
 
-  --radius: 0.75rem;
+  --radius: 0.5rem;
   --font-sans: "Lora", "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   --font-serif: "Cinzel Decorative", "Cormorant Garamond", Georgia, Cambria, "Times New Roman", Times, serif;
 }
@@ -231,7 +231,7 @@
 /* Design system primitives */
 @layer components {
   .card {
-    @apply rounded-xl text-card-foreground border shadow-lg;
+    @apply rounded-lg text-card-foreground border shadow-lg;
     background: rgba(9, 13, 31, 0.5); /* indigo-950/40 */
     border-color: rgba(99, 102, 241, 0.5); /* indigo-400/50 */
     backdrop-filter: blur(12px);
@@ -246,7 +246,7 @@
 
   /* Knowledge-base card: polished, professional */
   .kb-card {
-    @apply rounded-xl border border-indigo-500/50 backdrop-blur-md;
+    @apply rounded-lg border border-indigo-500/50 backdrop-blur-md;
     background: rgba(255, 255, 255, 0.9);
     color: #0f172a;
     box-shadow: 0 8px 24px rgba(2, 6, 23, 0.08);
@@ -470,7 +470,7 @@
   .nav-link:hover::after { transform: scaleX(1); }
 
   .nav-cta {
-    @apply btn text-white font-bold tracking-wide rounded-xl px-5 py-2 transition;
+    @apply btn text-white font-bold tracking-wide rounded-lg px-5 py-2 transition;
     background-image: linear-gradient(to right, #a21caf, #4f46e5, #6b21a8); /* from-fuchsia-700 via-indigo-600 to-purple-800 */
     box-shadow: 0 0 12px rgba(167, 139, 250, 0.7), 0 0 0 1px rgba(167, 139, 250, 0.35) inset;
     transform: translateZ(0);
@@ -495,7 +495,7 @@
 
   /* Rune button utility (general-purpose) */
   .btn-rune {
-    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 text-sm font-medium text-white transition will-change-transform;
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-medium text-white transition will-change-transform;
     background-image: linear-gradient(to right, #4c1d95, #3730a3);
     box-shadow: 0 6px 16px rgba(124, 58, 237, 0.35), 0 0 0 1px rgba(234, 179, 8, 0.35) inset;
   }
