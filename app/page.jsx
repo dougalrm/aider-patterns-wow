@@ -59,7 +59,6 @@ export default async function HomePage() {
                 )}
                 {featured.tags?.length ? (
                   <>
-                    <span aria-hidden="true">•</span>
                     <div className="flex flex-wrap gap-1.5">
                       {featured.tags.slice(0, 3).map((tag) => (
                         <span key={tag} className="inline-flex items-center rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-700 dark:bg-slate-800 dark:text-slate-200">{tag}</span>
