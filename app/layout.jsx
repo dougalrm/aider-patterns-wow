@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       
       <body className={`${lora.variable} ${cinzel.variable} min-h-screen scroll-smooth bg-gradient-to-b from-indigo-950 via-purple-900 to-black text-foreground antialiased selection:bg-primary-20 selection:text-foreground retro-bg font-sans`}>
+        <div className="stars"></div>
         <Header />
         <main className="mx-auto max-w-7xl px-6 py-12">
           {children}
