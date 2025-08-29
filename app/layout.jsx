@@ -2,10 +2,10 @@ import './globals.css';
 import { Toaster } from 'sonner';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import { Lora, Cinzel_Decorative } from 'next/font/google';
+import { Lora, Cinzel } from 'next/font/google';
 
 const lora = Lora({ subsets: ['latin'], weight: ['400','500','600','700'], variable: '--font-sans', display: 'swap' });
-const cinzel = Cinzel_Decorative({ subsets: ['latin'], weight: ['400','700'], variable: '--font-serif', display: 'swap' });
+const cinzel = Cinzel({ subsets: ['latin'], weight: ['400','700'], variable: '--font-serif', display: 'swap' });
 
 export const metadata = {
   title: 'Team Patterns',

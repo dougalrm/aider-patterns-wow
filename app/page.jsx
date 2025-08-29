@@ -22,7 +22,7 @@ export default async function HomePage() {
 
   return (
     <>
-      <section className="mb-10 overflow-hidden rounded-xl border border-indigo-400/50 bg-indigo-950/40 backdrop-blur-md shadow-lg shadow-purple-900/50 p-8">
+      <section className="mb-10 overflow-hidden kb-card p-8">
         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-3">Ways of Working Articles</h1>
         <p className="max-w-2xl text-slate-200">Ideas, stories, and practices to help modern teams ship better work. Curated essays and guides — not a knowledge base.</p>
         <div className="mt-6">
@@ -38,7 +38,7 @@ export default async function HomePage() {
       {featured && (
         <section className="mb-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
-            <article className="rounded-xl border border-indigo-400/50 bg-indigo-950/40 p-6 shadow-lg shadow-purple-900/50 backdrop-blur-md transition hover:shadow-purple-400/30">
+            <article className="kb-card p-6 transition">
               <div className="flex items-center gap-3 text-xs text-indigo-200/80">
                 {featured.date && (
                   <time dateTime={new Date(featured.date).toISOString()}>
@@ -72,7 +72,7 @@ export default async function HomePage() {
               </div>
             </article>
 
-            <aside className="rounded-xl border border-indigo-400/50 bg-indigo-950/40 p-6 shadow-lg shadow-purple-900/50 backdrop-blur-md">
+            <aside className="kb-card p-6">
               <h3 className="text-sm font-semibold text-slate-200">Trending tags</h3>
               {trendingTags.length ? (
                 <div className="mt-3 flex flex-wrap gap-2">

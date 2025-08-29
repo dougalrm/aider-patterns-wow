@@ -145,6 +145,42 @@
   .card::after {
     content: none;
   }
+
+  /* Knowledge-base card: polished, professional */
+  .kb-card {
+    @apply rounded-xl border border-indigo-500/50 backdrop-blur-md;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 24px rgba(2, 6, 23, 0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    .kb-card {
+      background: rgba(2, 6, 23, 0.8);
+      box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.3),
+        0 0 0 1px rgba(99, 102, 241, 0.2) inset;
+    }
+  }
+
+  /* Constellation divider: subtle dots + connecting lines */
+  .constellation-divider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(199, 201, 255, 0.9);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+  }
+  .constellation-divider::before,
+  .constellation-divider::after {
+    content: "";
+    flex: 1 1 auto;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(167,139,250,0), rgba(167,139,250,0.35), rgba(167,139,250,0));
+  }
+  .constellation-divider::before { margin-right: 0.75rem; }
+  .constellation-divider::after { margin-left: 0.75rem; }
   .badge {
     @apply inline-flex items-center rounded-md bg-muted px-2.5 py-1 text-xs font-medium text-muted-foreground;
   }
@@ -277,8 +313,7 @@
     @apply relative text-sm font-medium text-slate-200 transition;
   }
   .nav-link:hover {
-    color: #c7c9ff;
-    text-shadow: 0 0 6px rgba(167,139,250,0.8);
+    color: #e7e9ff;
   }
   .nav-link::after {
     content: '';
@@ -286,11 +321,11 @@
     left: 10%;
     right: 10%;
     bottom: -6px;
-    height: 2px;
-    background: linear-gradient(90deg, rgba(194,155,70,0), rgba(194,155,70,0.65), rgba(194,155,70,0));
+    height: 1px;
+    background: linear-gradient(90deg, rgba(167,139,250,0), rgba(167,139,250,0.35), rgba(167,139,250,0));
     transform: scaleX(0);
     transform-origin: center;
-    transition: transform 150ms ease-out;
+    transition: transform 180ms ease-out;
   }
   .nav-link:hover::after { transform: scaleX(1); }
 
@@ -407,12 +442,12 @@
   background-repeat: repeat;
   background-size: 200px 200px;
   animation: animateStars 60s linear infinite;
-  opacity: 0.6;
+  opacity: 0.25;
 }
 
 .stars::after {
   animation-duration: 120s;
-  opacity: 0.4;
+  opacity: 0.12;
 }
 
 @keyframes animateStars {

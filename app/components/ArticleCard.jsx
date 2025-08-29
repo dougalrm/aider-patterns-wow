@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function ArticleCard({ article }) {
   return (
-    <li className="group relative rounded-xl border border-indigo-400/50 bg-indigo-950/40 p-6 shadow-lg shadow-purple-900/50 backdrop-blur-md transition hover:-translate-y-0.5">
+    <li className="group relative kb-card p-6 transition hover:-translate-y-0.5">
       <div className="flex items-center justify-between gap-4 text-xs text-indigo-200/80">
         {article.date ? (
           <time dateTime={new Date(article.date).toISOString()}>{new Date(article.date).toLocaleDateString()}</time>
