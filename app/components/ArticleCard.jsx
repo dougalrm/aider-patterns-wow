@@ -8,7 +8,7 @@ export default function ArticleCard({ article }) {
           <time dateTime={new Date(article.date).toISOString()}>{new Date(article.date).toLocaleDateString()}</time>
         ) : <span />}
         {article.tags?.length ? (
-          <div className="flex flex-wrap gap-1.5 justify-end">
+          <div className="hidden">
             {article.tags.slice(0, 3).map((tag) => (
               <span key={tag} className="badge">#{tag}</span>
             ))}

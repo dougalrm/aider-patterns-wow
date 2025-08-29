@@ -113,7 +113,7 @@ export default async function HomePage() {
             {collections.map(({ tag, count }) => (
               <li key={tag} className="kb-card p-6">
                 <div className="flex items-center justify-between text-xs text-slate-600 dark:text-indigo-200/80">
-                  <span className="badge">#{tag}</span>
+                  <span className="badge hidden">#{tag}</span>
                   <span className="text-slate-500 dark:text-slate-300">{count} {count === 1 ? 'article' : 'articles'}</span>
                 </div>
                 <h2 id="collections-heading" className="mt-2 text-lg font-semibold">
