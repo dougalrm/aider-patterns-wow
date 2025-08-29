@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <footer className="mt-16">
       <div className="mx-auto max-w-7xl px-6 py-12">
-        <div className="constellation-divider mb-8">Guild of Workings</div>
+        <div className="constellation-divider mb-8">Team Patterns</div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
           <div>
