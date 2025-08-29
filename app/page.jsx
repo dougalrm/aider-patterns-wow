@@ -122,7 +122,7 @@ export default async function HomePage() {
 
       {/* Collections section (placed at end) */}
       {collections.length > 0 && (
-        <section className="mb-4" aria-labelledby="collections-heading">
+        <section className="mt-16 mb-4" aria-labelledby="collections-heading">
           <div className="constellation-divider mb-4">Collections</div>
           <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {collections.map(({ tag, count }) => (
