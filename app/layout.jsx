@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <body className={`${lora.variable} ${cinzel.variable} min-h-screen scroll-smooth text-foreground antialiased selection:bg-primary-20 selection:text-foreground retro-bg font-sans`}>
         <div className="stars"></div>
         <Header />
-        <main className="mx-auto max-w-7xl px-6 py-12">
+        <main className="mx-auto max-w-5xl px-6 py-12">
           {children}
         </main>
         <Footer />
