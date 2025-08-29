@@ -1,4 +1,5 @@
 ---
+tags: ["impediments-and-blockers", "retrospectives-and-improvement", "efficiency-and-waste"]
 title: Recognising and tackling team-level impediments
 #id:
 #sidebar_label:

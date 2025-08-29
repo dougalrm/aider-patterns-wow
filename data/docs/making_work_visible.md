@@ -1,4 +1,5 @@
 ---
+tags: ["work-visibility", "wip-and-throughput", "metrics-and-reporting"]
 title: Making work visible
 #id:
 #sidebar_label:

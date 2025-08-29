@@ -1,4 +1,5 @@
 ---
+tags: ["delivery-and-flow", "metrics-and-reporting", "wip-and-throughput"]
 title: Delivery focused Ways of Working
 #id:
 #sidebar_label:

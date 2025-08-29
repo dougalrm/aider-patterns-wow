@@ -1,4 +1,5 @@
 ---
+tags: ["planning-and-roadmapping", "agile-practices", "delivery-and-flow"]
 title: Shorter planning horizons to increase agility
 #id:
 #sidebar_label:

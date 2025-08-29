@@ -1,4 +1,5 @@
 ---
+tags: ["metrics-and-reporting", "delivery-and-flow", "work-visibility"]
 title: Why we care about metrics
 #id:
 #sidebar_label:

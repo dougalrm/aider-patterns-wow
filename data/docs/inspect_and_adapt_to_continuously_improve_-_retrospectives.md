@@ -1,4 +1,5 @@
 ---
+tags: ["retrospectives-and-improvement", "agile-practices", "impediments-and-blockers"]
 title: Inspect and adapt to continuously improve - Retrospectives
 #id:
 #sidebar_label:

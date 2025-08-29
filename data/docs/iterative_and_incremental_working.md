@@ -1,4 +1,5 @@
 ---
+tags: ["agile-practices", "delivery-and-flow", "wip-and-throughput"]
 title: Iterative and incremental working
 #id:
 #sidebar_label:

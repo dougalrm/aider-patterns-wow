@@ -1,4 +1,5 @@
 ---
+tags: ["delivery-and-flow", "metrics-and-reporting", "definitions-of-done-ready"]
 title: Common workflow states to improve reporting
 #id:
 #sidebar_label:

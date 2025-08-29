@@ -1,4 +1,5 @@
 ---
+tags: ["impediments-and-blockers", "delivery-and-flow", "efficiency-and-waste"]
 title: Recognising systemic impediments
 #id:
 #sidebar_label:

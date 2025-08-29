@@ -1,4 +1,5 @@
 ---
+tags: ["wip-and-throughput", "delivery-and-flow", "efficiency-and-waste"]
 title: Limit Work In Progress
 #id:
 #sidebar_label:

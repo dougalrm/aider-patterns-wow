@@ -1,4 +1,5 @@
 ---
+tags: ["efficiency-and-waste", "wip-and-throughput", "metrics-and-reporting"]
 title: Resource Efficiency vs Flow Efficiency
 #id:
 #sidebar_label:

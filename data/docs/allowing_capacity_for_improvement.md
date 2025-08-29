@@ -1,4 +1,5 @@
 ---
+tags: ["agile-practices", "planning-and-roadmapping", "retrospectives-and-improvement"]
 title: Allowing capacity for improvement
 #id:
 #sidebar_label:

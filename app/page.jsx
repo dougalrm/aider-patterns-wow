@@ -144,7 +144,7 @@ export default async function HomePage() {
       {latest.length > 0 && (
         <section aria-labelledby="highlights-heading">
           <div className="mb-4 flex items-center justify-between">
-            <h2 id="highlights-heading" className="text-xl font-bold">Latest highlights</h2>
+            <h2 id="highlights-heading" className="text-xl font-bold">Latest Articles</h2>
             <Link href="/articles" className="text-sm text-indigo-700 hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-white">View all</Link>
           </div>
           <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

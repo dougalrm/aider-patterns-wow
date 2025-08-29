@@ -1,4 +1,5 @@
 ---
+tags: ["metrics-and-reporting", "delivery-and-flow", "definitions-of-done-ready"]
 title: Team metrics and getting accurate data from ADO
 #id:
 #sidebar_label:

@@ -1,4 +1,5 @@
 ---
+tags: ["definitions-of-done-ready", "planning-and-roadmapping", "delivery-and-flow"]
 title: Clear Definition of Ready
 #id:
 #sidebar_label:
