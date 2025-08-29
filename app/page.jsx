@@ -120,6 +120,7 @@ export default async function HomePage() {
         </section>
       )}
 
+      {/* Collections section (placed at end) */}
       {collections.length > 0 && (
         <section className="mb-4" aria-labelledby="collections-heading">
           <div className="constellation-divider mb-4">Collections</div>
