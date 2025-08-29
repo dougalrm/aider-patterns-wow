@@ -49,7 +49,7 @@ export default async function ArticlesPage({ searchParams }) {
               <Link
                 key={t}
                 href={`/articles?tag=${encodeURIComponent(t)}`}
-                className={`chip ${tag === t ? 'chip-active' : ''}`}
+                className="badge"
               >
                 <span>#{t}</span>
                 <span className="text-slate-400">· {count}</span>
