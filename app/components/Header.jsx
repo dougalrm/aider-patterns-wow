@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import ThemeToggle from './ThemeToggle';
 import { useEffect, useState } from 'react';
+import { Mail } from 'lucide-react';
 
 export default function Header() {
   const [mounted, setMounted] = useState(false);
@@ -38,7 +39,10 @@ export default function Header() {
           <Link className="nav-link" href="/about">About</Link>
           <Link className="nav-link" href="/glossary">Glossary</Link>
           {mounted && <ThemeToggle />}
-          <Link className="nav-cta" href="/contact">Contact</Link>
+          <Link className="nav-cta" href="/contact">
+            <Mail aria-hidden="true" className="h-5 w-5" />
+            <span>Contact</span>
+          </Link>
         </nav>
 
         <button
@@ -63,7 +67,10 @@ export default function Header() {
             <Link className="nav-link" href="/collections" onClick={() => setOpen(false)}>Collections</Link>
             <Link className="nav-link" href="/about" onClick={() => setOpen(false)}>About</Link>
             <Link className="nav-link" href="/glossary" onClick={() => setOpen(false)}>Glossary</Link>
-            <Link className="nav-cta w-full justify-center" href="/contact" onClick={() => setOpen(false)}>Contact</Link>
+            <Link className="nav-cta w-full justify-center" href="/contact" onClick={() => setOpen(false)}>
+              <Mail aria-hidden="true" className="h-5 w-5" />
+              <span>Contact</span>
+            </Link>
           </div>
         </div>
       )}

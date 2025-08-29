@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { loadAllArticles } from '../../lib/contentLoader';
 import ArticleCard from '../components/ArticleCard';
+import { FileText, XCircle } from 'lucide-react';
 
 export const metadata = {
   title: 'Articles • Team Patterns',
@@ -33,13 +34,19 @@ export default async function ArticlesPage({ searchParams }) {
       <section className="kb-card p-8 mb-8">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div>
-            <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight">Articles</h1>
+            <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight">
+              <FileText aria-hidden="true" className="mr-2 inline-block h-6 w-6 align-[-2px]" />
+              Articles
+            </h1>
             <p className="mt-2 text-slate-700 dark:text-slate-200">
               {tag ? `Filtering by “${tag}” — ` : ''}Curated guidance for better ways of working.
             </p>
           </div>
           {tag && (
-            <Link href="/articles" className="btn btn-outline">Clear filter</Link>
+            <Link href="/articles" className="btn btn-outline">
+              <XCircle aria-hidden="true" className="h-5 w-5" />
+              <span>Clear filter</span>
+            </Link>
           )}
         </div>
 

@@ -1,7 +1,7 @@
 import { loadAllArticles } from '../lib/contentLoader';
 import Link from 'next/link';
 import ArticleCard from './components/ArticleCard';
-import { Layers } from 'lucide-react';
+import { Layers, BookOpen, ArrowRight, TrendingUp } from 'lucide-react';
 
 export default async function HomePage() {
   const articles = await loadAllArticles();
@@ -38,13 +38,22 @@ export default async function HomePage() {
   return (
     <>
       <section className="mb-10 overflow-hidden kb-card p-8">
-        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-3">Team Patterns</h1>
+        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-3">
+          <BookOpen aria-hidden="true" className="mr-2 inline-block h-6 w-6 align-[-2px]" />
+          Team Patterns
+        </h1>
         <p className="max-w-2xl text-slate-700 dark:text-slate-200">
           Curated guidance for agile product teams — concise patterns that help you ship better with clarity and flow.
         </p>
         <div className="mt-6 flex gap-3">
-          <Link href="/articles" className="btn btn-primary">Browse articles</Link>
-          <Link href="/collections" className="btn btn-outline">Explore collections</Link>
+          <Link href="/articles" className="btn btn-primary">
+            <BookOpen aria-hidden="true" className="h-5 w-5" />
+            <span>Browse articles</span>
+          </Link>
+          <Link href="/collections" className="btn btn-outline">
+            <Layers aria-hidden="true" className="h-5 w-5" />
+            <span>Explore collections</span>
+          </Link>
         </div>
       </section>
 
@@ -85,7 +94,10 @@ export default async function HomePage() {
             </article>
 
             <aside className="kb-card p-6">
-              <h3 className="text-sm font-semibold text-slate-800 dark:text-slate-200">Trending tags</h3>
+              <h3 className="text-sm font-semibold text-slate-800 dark:text-slate-200">
+                <TrendingUp aria-hidden="true" className="mr-2 inline-block h-5 w-5 align-[-2px]" />
+                Trending tags
+              </h3>
               {trendingTags.length ? (
                 <div className="mt-3 flex flex-wrap gap-2">
                   {trendingTags.map((t) => (
@@ -124,7 +136,10 @@ export default async function HomePage() {
       {/* Collections section (placed at end) */}
       {collections.length > 0 && (
         <section className="mt-16 mb-4" aria-labelledby="collections-heading">
-          <div className="constellation-divider mb-4">Collections</div>
+          <div className="constellation-divider mb-4">
+            <Layers aria-hidden="true" className="mr-2 inline-block h-5 w-5 align-[-2px]" />
+            Collections
+          </div>
           <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {collections.map(({ tag, count }) => (
               <li key={tag} className="kb-card collection-card p-6">
@@ -146,9 +161,7 @@ export default async function HomePage() {
                 <div className="mt-4">
                   <Link href={`/articles?tag=${encodeURIComponent(tag)}`} className="inline-flex items-center gap-2 text-sm text-indigo-700 hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-fuchsia-300">
                     View collection
-                    <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
-                      <path fillRule="evenodd" d="M10.293 3.293a1 1 0 0 1 1.414 0l5 5a1 1 0 0 1 0 1.414l-5 5a1 1 0 1 1-1.414-1.414L13.586 11H4a1 1 0 1 1 0-2h9.586l-3.293-3.293a1 1 0 0 1 0-1.414Z" clipRule="evenodd" />
-                    </svg>
+                    <ArrowRight aria-hidden="true" className="h-5 w-5" />
                   </Link>
                 </div>
               </li>

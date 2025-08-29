@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FileText } from 'lucide-react';
+import { FileText, ArrowRight } from 'lucide-react';
 
 export default function ArticleCard({ article }) {
   return (
@@ -29,9 +29,7 @@ export default function ArticleCard({ article }) {
       <div className="mt-5">
         <Link href={`/${article.slug}`} className="inline-flex items-center gap-2 text-sm text-indigo-700 hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-fuchsia-300 transition-colors">
           Read more
-          <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
-            <path fillRule="evenodd" d="M10.293 3.293a1 1 0 0 1 1.414 0l5 5a1 1 0 0 1 0 1.414l-5 5a1 1 0 1 1-1.414-1.414L13.586 11H4a1 1 0 1 1 0-2h9.586l-3.293-3.293a1 1 0 0 1 0-1.414Z" clipRule="evenodd" />
-          </svg>
+          <ArrowRight aria-hidden="true" className="h-5 w-5" />
         </Link>
       </div>
     </li>

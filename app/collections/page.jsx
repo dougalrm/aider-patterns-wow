@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { loadAllArticles } from '../../lib/contentLoader';
-import { Layers } from 'lucide-react';
+import { Layers, ArrowRight } from 'lucide-react';
 
 export const metadata = {
   title: 'Collections • Team Patterns',
@@ -27,7 +27,10 @@ export default async function CollectionsPage() {
   return (
     <>
       <section className="kb-card p-8 mb-8">
-        <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight">Collections</h1>
+        <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight">
+          <Layers aria-hidden="true" className="mr-2 inline-block h-6 w-6 align-[-2px]" />
+          Collections
+        </h1>
         <p className="mt-2 text-slate-700 dark:text-slate-200">
           Thematic groups based on tags; jump into focused sets of patterns.
         </p>
@@ -59,9 +62,7 @@ export default async function CollectionsPage() {
               <div className="mt-4">
                 <Link href={`/articles?tag=${encodeURIComponent(tag)}`} className="inline-flex items-center gap-2 text-sm text-indigo-700 hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-fuchsia-300">
                   View collection
-                  <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M10.293 3.293a1 1 0 0 1 1.414 0l5 5a1 1 0 0 1 0 1.414l-5 5a1 1 0 1 1-1.414-1.414L13.586 11H4a1 1 0 1 1 0-2h9.586l-3.293-3.293a1 1 0  0 1 0-1.414Z" clipRule="evenodd" />
-                  </svg>
+                  <ArrowRight aria-hidden="true" className="h-5 w-5" />
                 </Link>
               </div>
             </li>

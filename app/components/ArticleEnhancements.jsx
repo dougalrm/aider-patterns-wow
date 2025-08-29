@@ -43,7 +43,7 @@ export default function ArticleEnhancements() {
         onClick={copyLink}
         className="btn btn-primary fixed bottom-6 right-6 shadow"
       >
-        {copied ? <Check className="h-4 w-4" /> : <LinkIcon className="h-4 w-4" />}
+        {copied ? <Check aria-hidden="true" className="h-5 w-5" /> : <LinkIcon aria-hidden="true" className="h-5 w-5" />}
         <span>{copied ? "Link copied" : "Copy link"}</span>
       </button>
     </>

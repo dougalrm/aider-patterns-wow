@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ArticleEnhancements from '../components/ArticleEnhancements';
 import TableOfContents from '../components/TableOfContents';
 import { loadArticleBySlug, resolveContentDir } from '../../lib/contentLoader';
+import { FileText, ArrowLeft } from 'lucide-react';
 
 export async function generateStaticParams() {
   // Optionally pre-generate can be implemented by loading all slugs; keep empty for on-demand.
@@ -85,7 +86,10 @@ export default async function ArticlePage({ params }) {
     <>
       <section className="mb-8">
         <div className="relative overflow-hidden rounded-xl border border-indigo-400/50 bg-indigo-950/40 backdrop-blur-md p-6 shadow-lg shadow-purple-900/50">
-          <h1 className="text-3xl md:text-4xl font-bold tracking-wide">{article.title}</h1>
+          <h1 className="text-3xl md:text-4xl font-bold tracking-wide">
+            <FileText aria-hidden="true" className="mr-2 inline-block h-6 w-6 align-[-2px]" />
+            {article.title}
+          </h1>
           <div className="mt-2 flex flex-wrap items-center gap-3 text-sm text-indigo-200/85">
             {article.date && <span>{new Date(article.date).toLocaleDateString()}</span>}
             <span aria-hidden="true">•</span>
@@ -100,7 +104,7 @@ export default async function ArticlePage({ params }) {
           ) : null}
           <div className="mt-6 flex flex-wrap gap-3">
             <Link href="/" className="inline-flex items-center gap-2 rounded-lg border border-indigo-400/40 bg-indigo-950/30 px-3 py-1.5 text-sm text-indigo-200 hover:bg-indigo-900/40">
-              <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M7.707 14.707a1 1 0 0 1-1.414 0l-4-4a1 1 0 0 1 0-1.414l4-4A1 1 0 0 1 8 6v2h6a1 1 0 1 1 0 2H8v2a1 1 0 0 1-.293.707Z"/></svg>
+              <ArrowLeft aria-hidden="true" className="h-5 w-5" />
               Back
             </Link>
             {/* Copy link handled client-side below */}
