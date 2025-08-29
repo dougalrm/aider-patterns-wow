@@ -5,7 +5,7 @@
 /* Theme variables — single light theme per CONVENTIONS.md */
 :root {
   /* Epic-cosmic palette */
-  --background: #070a12;               /* deep cosmic */
+  --background: #0f172a;               /* deep cosmic */
   --foreground: #e7e9ff;               /* starlight ink */
 
   --card: rgba(10, 14, 32, 0.6);
@@ -153,7 +153,7 @@
 .retro-bg {
   background:
     /* cosmic gradient base */
-    linear-gradient(to bottom, #0b1220, #581c87, #000000),
+    linear-gradient(to bottom, #10172a, #5b21b6, #0f172a),
     /* faint nebula wisps */
     radial-gradient(80% 50% at 50% -10%, rgba(124,58,237,0.08), transparent 60%),
     radial-gradient(60% 40% at 90% 0%, rgba(59,130,246,0.06), transparent 60%);
