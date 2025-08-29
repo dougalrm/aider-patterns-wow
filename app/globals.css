@@ -51,6 +51,36 @@
   color: var(--foreground);
 }
 
+/* Light reading surface for article pages */
+.js-article {
+  background: rgba(255, 255, 255, 0.96);
+  color: #0f172a;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: var(--radius);
+}
+
+/* Ensure text colors adapt on the lighter surface */
+.js-article .prose,
+.prose.js-article {
+  color: #0f172a;
+}
+
+.js-article :where(h1,h2,h3,h4,h5,h6),
+.prose.js-article :where(h1,h2,h3,h4,h5,h6) {
+  color: #0b1020;
+}
+
+/* Link colors on article surface */
+.js-article .prose a,
+.prose.js-article a {
+  color: #1e40af; /* indigo-800 */
+}
+.js-article .prose a:hover,
+.prose.js-article a:hover {
+  color: #0f172a;
+  text-decoration-color: rgba(15, 23, 42, 0.6);
+}
+
 /* Epic-cosmic starlit sky */
 .retro-bg {
   background:
