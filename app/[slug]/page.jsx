@@ -84,9 +84,9 @@ export default async function ArticlePage({ params }) {
   return (
     <>
       <section className="mb-8">
-        <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-brand-600/10 via-indigo-500/5 to-sky-500/10 p-6 dark:border-slate-700 ounded-2xl border border-white/20 bg-white/60 p-4 backdrop-blur dark:border-white/10 dark:bg-slate-950/40">
-          <h1 className="text-3xl md:text-4xl font-bold tracking-tight">{article.title}</h1>
-          <div className="mt-2 flex flex-wrap items-center gap-3 text-sm text-slate-600 dark:text-slate-300">
+        <div className="relative overflow-hidden rounded-xl border border-indigo-400/50 bg-indigo-950/40 backdrop-blur-md p-6 shadow-lg shadow-purple-900/50">
+          <h1 className="text-3xl md:text-4xl font-bold tracking-wide">{article.title}</h1>
+          <div className="mt-2 flex flex-wrap items-center gap-3 text-sm text-indigo-200/85">
             {article.date && <span>{new Date(article.date).toLocaleDateString()}</span>}
             <span aria-hidden="true">•</span>
             <span>{readingTime}</span>
@@ -94,12 +94,12 @@ export default async function ArticlePage({ params }) {
           {article.tags?.length ? (
             <div className="mt-4 flex flex-wrap gap-2">
               {article.tags.map((tag) => (
-                <span key={tag} className="inline-flex items-center rounded-full bg-slate-100 px-2.5 py-1 text-xs text-slate-700 dark:bg-slate-800 dark:text-slate-200">{tag}</span>
+                <span key={tag} className="inline-flex items-center rounded-full border border-indigo-400/40 bg-indigo-950/30 px-2.5 py-1 text-xs text-indigo-200">{tag}</span>
               ))}
             </div>
           ) : null}
           <div className="mt-6 flex flex-wrap gap-3">
-            <Link href="/" className="inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800">
+            <Link href="/" className="inline-flex items-center gap-2 rounded-lg border border-indigo-400/40 bg-indigo-950/30 px-3 py-1.5 text-sm text-indigo-200 hover:bg-indigo-900/40">
               <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M7.707 14.707a1 1 0 0 1-1.414 0l-4-4a1 1 0 0 1 0-1.414l4-4A1 1 0 0 1 8 6v2h6a1 1 0 1 1 0 2H8v2a1 1 0 0 1-.293.707Z"/></svg>
               Back
             </Link>
@@ -112,8 +112,8 @@ export default async function ArticlePage({ params }) {
         <aside className="order-last lg:order-first lg:col-span-1">
           <TableOfContents toc={toc} />
         </aside>
-        <div className="lg:col-span-2 rounded-2xl border border-white/20 bg-white/60 p-4 backdrop-blur dark:border-white/10 dark:bg-slate-950/40">
-          <div className="prose prose-lg prose-slate dark:prose-invert max-w-3xl mx-auto prose-a:text-brand-700 hover:prose-a:text-brand-600 prose-img:rounded-lg js-article" dangerouslySetInnerHTML={{ __html: htmlWithIds }} />
+        <div className="lg:col-span-2 rounded-xl border border-indigo-400/50 bg-indigo-950/40 p-4 backdrop-blur-md shadow-lg shadow-purple-900/50">
+          <div className="prose prose-lg prose-invert max-w-3xl mx-auto prose-a:text-indigo-300 hover:prose-a:text-fuchsia-300 prose-img:rounded-lg js-article" dangerouslySetInnerHTML={{ __html: htmlWithIds }} />
         </div>
       </section>
 

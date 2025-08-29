@@ -22,11 +22,11 @@ export default async function HomePage() {
 
   return (
     <>
-      <section className="mb-10 overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-brand-600/10 via-indigo-500/5 to-sky-500/10 p-8 dark:border-slate-700 rounded-2xl border border-white/20 bg-white/60 p-4 backdrop-blur dark:border-white/10 dark:bg-slate-950/40">
+      <section className="mb-10 overflow-hidden rounded-xl border border-indigo-400/50 bg-indigo-950/40 backdrop-blur-md shadow-lg shadow-purple-900/50 p-8">
         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-3">Ways of Working Articles</h1>
         <p className="max-w-2xl text-slate-700 dark:text-slate-300">Ideas, stories, and practices to help modern teams ship better work. Curated essays and guides — not a knowledge base.</p>
         <div className="mt-6">
-          <Link href="#latest" className="inline-flex items-center gap-2 rounded-lg bg-brand-600 px-4 py-2 text-white shadow hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-400">
+          <Link href="#latest" className="inline-flex items-center gap-2 bg-gradient-to-r from-fuchsia-700 via-indigo-600 to-purple-800 text-white font-bold tracking-wide rounded-xl px-5 py-2 shadow-[0_0_12px_rgba(167,139,250,0.7)] hover:shadow-[0_0_24px_rgba(250,250,150,0.9)] transition">
             Explore articles
             <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M10.293 3.293a1 1 0 0 1 1.414 0l5 5a1 1 0 0 1 0 1.414l-5 5a1 1 0 1 1-1.414-1.414L13.586 11H4a1 1 0 1 1 0-2h9.586l-3.293-3.293a1 1 0 0 1 0-1.414Z" clipRule="evenodd" />
@@ -38,7 +38,7 @@ export default async function HomePage() {
       {featured && (
         <section className="mb-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
-            <article className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:shadow dark:border-slate-700 dark:bg-slate-900 rounded-2xl border border-white/20 bg-white/60 p-4 backdrop-blur dark:border-white/10 dark:bg-slate-950/40">
+            <article className="rounded-xl border border-indigo-400/50 bg-indigo-950/40 p-6 shadow-lg shadow-purple-900/50 backdrop-blur-md transition hover:shadow-purple-400/30">
               <div className="flex items-center gap-3 text-xs text-slate-600 dark:text-slate-300">
                 {featured.date && (
                   <time dateTime={new Date(featured.date).toISOString()}>
@@ -63,7 +63,7 @@ export default async function HomePage() {
                 <p className="mt-3 text-slate-700 dark:text-slate-300">{featured.description}</p>
               )}
               <div className="mt-5">
-                <Link href={`/${featured.slug}`} className="inline-flex items-center gap-2 text-brand-700 hover:text-brand-600">
+                <Link href={`/${featured.slug}`} className="inline-flex items-center gap-2 text-indigo-300 hover:text-fuchsia-300">
                   Read the feature
                   <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M10.293 3.293a1 1 0 0 1 1.414 0l5 5a1 1 0 0 1 0 1.414l-5 5a1 1 0 1 1-1.414-1.414L13.586 11H4a1 1 0 1 1 0-2h9.586l-3.293-3.293a1 1 0 0 1 0-1.414Z" clipRule="evenodd" />
@@ -72,12 +72,12 @@ export default async function HomePage() {
               </div>
             </article>
 
-            <aside className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-700 dark:bg-slate-900 rounded-2xl border border-white/20 bg-white/60 p-4 backdrop-blur dark:border-white/10 dark:bg-slate-950/40">
+            <aside className="rounded-xl border border-indigo-400/50 bg-indigo-950/40 p-6 shadow-lg shadow-purple-900/50 backdrop-blur-md">
               <h3 className="text-sm font-semibold text-slate-700 dark:text-slate-200">Trending tags</h3>
               {trendingTags.length ? (
                 <div className="mt-3 flex flex-wrap gap-2">
                   {trendingTags.map((t) => (
-                    <Link key={t.tag} href="#latest" className="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-3 py-1.5 text-xs text-slate-700 hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-200">
+                    <Link key={t.tag} href="#latest" className="inline-flex items-center gap-2 rounded-full border border-indigo-400/40 bg-indigo-950/30 px-3 py-1.5 text-xs text-indigo-200 hover:bg-indigo-900/40">
                       <span>#{t.tag}</span>
                       <span className="text-slate-400">· {t.count}</span>
                     </Link>
@@ -98,7 +98,7 @@ export default async function HomePage() {
         </div>
 
         {(!latest?.length && !featured) ? (
-          <div className="rounded-xl border border-dashed border-slate-300 bg-white p-8 text-center text-slate-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">
+          <div className="rounded-xl border border-indigo-400/40 bg-indigo-950/40 backdrop-blur-md p-8 text-center text-indigo-200/80">
             <p className="mb-2">No articles were found.</p>
             <p className="text-sm">Add .md files under <span className="font-mono bg-slate-100 px-1.5 py-0.5 rounded dark:bg-slate-800">./data/docs</span> and refresh.</p>
           </div>
