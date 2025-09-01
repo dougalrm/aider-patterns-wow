@@ -3,7 +3,29 @@
 import Link from 'next/link';
 import ThemeToggle from './ThemeToggle';
 import { useEffect, useState } from 'react';
-import { Mail } from 'lucide-react';
+import { Mail, Aperture, Layers, Orbit, Sparkles, Hexagon, BookOpen } from 'lucide-react';
+
+function BrandGlyph() {
+  // Change the selected value to try different brand icons:
+  // 'orbit' | 'aperture' | 'layers' | 'sparkles' | 'hexagon' | 'book'
+  const selected = 'orbit';
+  const className = 'h-6 w-6';
+  switch (selected) {
+    case 'aperture':
+      return <Aperture aria-hidden="true" className={className} />;
+    case 'layers':
+      return <Layers aria-hidden="true" className={className} />;
+    case 'sparkles':
+      return <Sparkles aria-hidden="true" className={className} />;
+    case 'hexagon':
+      return <Hexagon aria-hidden="true" className={className} />;
+    case 'book':
+      return <BookOpen aria-hidden="true" className={className} />;
+    case 'orbit':
+    default:
+      return <Orbit aria-hidden="true" className={className} />;
+  }
+}
 
 export default function Header() {
   const [mounted, setMounted] = useState(false);
@@ -27,7 +49,9 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
           <span className="brand-mark" aria-hidden="true">
-            <span className="brand-glyph">✶</span>
+            <span className="brand-glyph">
+              <BrandGlyph />
+            </span>
           </span>
           <span className="text-xl font-semibold tracking-tight text-glow">Ways of Working</span>
         </Link>
