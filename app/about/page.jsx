@@ -36,7 +36,7 @@ export default function AboutPage() {
           <Info aria-hidden="true" className="mr-2 inline-block h-6 w-6 align-[-2px]" />
           About Team Patterns
         </h1>
-        <p className="max-w-3xl text-slate-700 dark:text-slate-200">
+        <p className="max-w-3xl text-slate-700">
           Team Patterns is a curated knowledge base for modern product development and agile delivery.
           Our mission is to distill proven practices into clear, actionable guidance that helps teams ship better work
           with less friction.
@@ -49,7 +49,7 @@ export default function AboutPage() {
             <Users aria-hidden="true" className="mr-2 inline-block h-5 w-5 align-[-2px]" />
             Who it’s for
           </h2>
-          <ul className="list-none pl-0 space-y-1 text-slate-700 dark:text-slate-200">
+          <ul className="list-none pl-0 space-y-1 text-slate-700">
             <li className="flex items-start gap-2"><UserCheck aria-hidden="true" className="mt-0.5 h-5 w-5" /><span>Product managers and designers aligning strategy with outcomes</span></li>
             <li className="flex items-start gap-2"><Wrench aria-hidden="true" className="mt-0.5 h-5 w-5" /><span>Engineering managers and tech leads optimizing delivery flow</span></li>
             <li className="flex items-start gap-2"><Repeat aria-hidden="true" className="mt-0.5 h-5 w-5" /><span>Scrum masters and agile coaches enabling continuous improvement</span></li>
@@ -62,7 +62,7 @@ export default function AboutPage() {
             <ListChecks aria-hidden="true" className="mr-2 inline-block h-5 w-5 align-[-2px]" />
             What you’ll find
           </h2>
-          <ul className="list-none pl-0 space-y-1 text-slate-700 dark:text-slate-200">
+          <ul className="list-none pl-0 space-y-1 text-slate-700">
             <li className="flex items-start gap-2"><FileText aria-hidden="true" className="mt-0.5 h-5 w-5" /><span>Concise articles that explain the “why”, “when”, and “how”</span></li>
             <li className="flex items-start gap-2"><Layers aria-hidden="true" className="mt-0.5 h-5 w-5" /><span>Collections that group related practices for common scenarios</span></li>
             <li className="flex items-start gap-2"><BookText aria-hidden="true" className="mt-0.5 h-5 w-5" /><span>A glossary to standardize language across teams</span></li>
@@ -82,7 +82,7 @@ export default function AboutPage() {
             <Filter aria-hidden="true" className="mr-2 inline-block h-5 w-5 align-[-2px]" />
             How we curate
           </h2>
-          <p className="text-slate-700 dark:text-slate-200">
+          <p className="text-slate-700">
             Content is selected for clarity, evidence, and usefulness. We prioritize patterns that demonstrably improve
             flow efficiency, transparency, and outcomes, and we revise continuously as practices evolve.
           </p>
@@ -93,7 +93,7 @@ export default function AboutPage() {
             <Rocket aria-hidden="true" className="mr-2 inline-block h-5 w-5 align-[-2px]" />
             How to use this site
           </h2>
-          <ul className="list-none pl-0 space-y-1 text-slate-700 dark:text-slate-200">
+          <ul className="list-none pl-0 space-y-1 text-slate-700">
             <li className="flex items-start gap-2"><BookOpen aria-hidden="true" className="mt-0.5 h-5 w-5" /><span>Browse <Link href="/articles" className="text-primary hover:text-secondary">Articles</Link> for deep dives</span></li>
             <li className="flex items-start gap-2"><Layers aria-hidden="true" className="mt-0.5 h-5 w-5" /><span>Explore <Link href="/collections" className="text-primary hover:text-secondary">Collections</Link> to solve specific problems</span></li>
             <li className="flex items-start gap-2"><BookText aria-hidden="true" className="mt-0.5 h-5 w-5" /><span>Align terminology with the <Link href="/glossary" className="text-primary hover:text-secondary">Glossary</Link></span></li>
@@ -107,10 +107,10 @@ export default function AboutPage() {
           <Github aria-hidden="true" className="mr-2 inline-block h-5 w-5 align-[-2px]" />
           Contributing
         </h2>
-        <p className="text-slate-700 dark:text-slate-200">
+        <p className="text-slate-700">
           This project welcomes lightweight GitHub contributions — open a small issue, submit a focused pull request, or suggest topics that would help practitioners.
         </p>
-        <ul className="mt-3 list-none pl-0 space-y-1 text-slate-700 dark:text-slate-200">
+        <ul className="mt-3 list-none pl-0 space-y-1 text-slate-700">
           <li className="flex items-start gap-2"><Bug aria-hidden="true" className="mt-0.5 h-5 w-5" /><span>Report problems or broken links with clear context and examples</span></li>
           <li className="flex items-start gap-2"><GitPullRequest aria-hidden="true" className="mt-0.5 h-5 w-5" /><span>Propose edits that improve clarity, accuracy, or structure</span></li>
           <li className="flex items-start gap-2"><MessageSquarePlus aria-hidden="true" className="mt-0.5 h-5 w-5" /><span>Suggest new topics or patterns you’d find valuable</span></li>
@@ -125,7 +125,7 @@ export default function AboutPage() {
             <span>Browse articles</span>
           </Link>
         </div>
-        <p className="mt-3 text-sm text-slate-600 dark:text-slate-300">
+        <p className="mt-3 text-sm text-slate-600">
           Prefer email? <Link href="/contact" className="underline underline-offset-2">Contact us</Link>.
         </p>
       </section>

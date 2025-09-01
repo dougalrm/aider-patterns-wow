@@ -1,19 +1,16 @@
 'use client';
 
 import Link from 'next/link';
-import ThemeToggle from './ThemeToggle';
 import { useEffect, useState } from 'react';
 import { FlaskConical } from 'lucide-react';
 
 
 
 export default function Header() {
-  const [mounted, setMounted] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
     function onScroll() {
       setScrolled(window.scrollY > 2);
     }
@@ -29,7 +26,7 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
           <span aria-hidden="true">
-            <FlaskConical aria-hidden="true" className="h-6 w-6 text-indigo-700 dark:text-indigo-300" />
+            <FlaskConical aria-hidden="true" className="h-6 w-6 text-indigo-300" />
           </span>
           <span className="text-xl font-semibold tracking-tight text-glow">Ways of Working</span>
         </Link>
@@ -39,7 +36,6 @@ export default function Header() {
           <Link className="nav-link" href="/articles">Articles</Link>
           <Link className="nav-link" href="/collections">Collections</Link>
           <Link className="nav-link" href="/about">About</Link>
-          {mounted && <ThemeToggle />}
         </nav>
 
         <button

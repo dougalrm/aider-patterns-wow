@@ -42,7 +42,7 @@ export default async function HomePage() {
           <BookOpen aria-hidden="true" className="mr-2 inline-block h-6 w-6 align-[-2px]" />
           Team Patterns
         </h1>
-        <p className="max-w-2xl text-slate-700 dark:text-slate-200">
+        <p className="max-w-2xl text-slate-700">
           Curated guidance for agile product teams — concise patterns that help you ship better with clarity and flow.
         </p>
         <div className="mt-6 flex gap-3">
@@ -61,7 +61,7 @@ export default async function HomePage() {
         <section className="mb-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
             <article className="kb-card p-6 transition">
-              <div className="flex items-center gap-3 text-xs text-slate-600 dark:text-indigo-200/80">
+              <div className="flex items-center gap-3 text-xs text-slate-600">
                 {featured.date && (
                   <time dateTime={new Date(featured.date).toISOString()}>
                     {new Date(featured.date).toLocaleDateString()}
@@ -81,10 +81,10 @@ export default async function HomePage() {
                 <Link className="hover:underline" href={`/${featured.slug}`}>{featured.title}</Link>
               </h2>
               {featured.description && (
-                <p className="mt-3 text-slate-700 dark:text-slate-200">{featured.description}</p>
+                <p className="mt-3 text-slate-700">{featured.description}</p>
               )}
               <div className="mt-5">
-                <Link href={`/${featured.slug}`} className="inline-flex items-center gap-2 text-sm text-indigo-700 hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-fuchsia-300">
+                <Link href={`/${featured.slug}`} className="inline-flex items-center gap-2 text-sm text-indigo-700 hover:text-indigo-900">
                   Read the feature
                   <ArrowRight aria-hidden="true" className="h-5 w-5" />
                 </Link>
@@ -92,7 +92,7 @@ export default async function HomePage() {
             </article>
 
             <aside className="kb-card p-6">
-              <h3 className="text-sm font-semibold text-slate-800 dark:text-slate-200">
+              <h3 className="text-sm font-semibold text-slate-800">
                 <TrendingUp aria-hidden="true" className="mr-2 inline-block h-5 w-5 align-[-2px]" />
                 Trending tags
               </h3>
@@ -105,7 +105,7 @@ export default async function HomePage() {
                       className="badge"
                     >
                       <span>#{t.tag}</span>
-                      <span className="text-slate-600 dark:text-slate-400">· {t.count}</span>
+                      <span className="text-slate-600">· {t.count}</span>
                     </Link>
                   ))}
                 </div>
@@ -121,7 +121,7 @@ export default async function HomePage() {
         <section aria-labelledby="highlights-heading">
           <div className="mb-12 flex items-center justify-between">
             <h2 id="highlights-heading" className="text-xl font-bold">Latest Articles</h2>
-            <Link href="/articles" className="text-sm text-indigo-700 hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-white">View all</Link>
+            <Link href="/articles" className="text-sm text-indigo-700 hover:text-indigo-900">View all</Link>
           </div>
           <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {latest.slice(0, 3).map((a) => (
@@ -141,23 +141,23 @@ export default async function HomePage() {
           <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {collections.map(({ tag, count }) => (
               <li key={tag} className="kb-card collection-card p-6">
-                <div className="flex items-center justify-between text-xs text-slate-600 dark:text-indigo-200/80">
+                <div className="flex items-center justify-between text-xs text-slate-600">
                   <div className="flex items-center gap-2">
-                    <Layers className="h-4 w-4 text-indigo-700 dark:text-indigo-300" />
+                    <Layers className="h-4 w-4 text-indigo-700" />
                     <span className="meta-pill">Collection</span>
                   </div>
-                  <span className="text-slate-500 dark:text-slate-300">{count} {count === 1 ? 'article' : 'articles'}</span>
+                  <span className="text-slate-500">{count} {count === 1 ? 'article' : 'articles'}</span>
                 </div>
                 <h2 id="collections-heading" className="mt-2 text-lg font-semibold">
                   <Link href={`/articles?tag=${encodeURIComponent(tag)}`} className="hover:underline">
                     {tag.replace(/[-_]/g, ' ').replace(/\b\w/g, (m) => m.toUpperCase())}
                   </Link>
                 </h2>
-                <p className="mt-2 text-sm text-slate-700 dark:text-slate-200">
+                <p className="mt-2 text-sm text-slate-700">
                   Explore practices related to {tag}.
                 </p>
                 <div className="mt-4">
-                  <Link href={`/articles?tag=${encodeURIComponent(tag)}`} className="inline-flex items-center gap-2 text-sm text-indigo-700 hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-fuchsia-300">
+                  <Link href={`/articles?tag=${encodeURIComponent(tag)}`} className="inline-flex items-center gap-2 text-sm text-indigo-700 hover:text-indigo-900">
                     View collection
                     <ArrowRight aria-hidden="true" className="h-5 w-5" />
                   </Link>
@@ -166,7 +166,7 @@ export default async function HomePage() {
             ))}
           </ul>
           <div className="mt-4 text-right">
-            <Link href="/collections" className="text-sm text-indigo-700 hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-white">See all collections</Link>
+            <Link href="/collections" className="text-sm text-indigo-700 hover:text-indigo-900">See all collections</Link>
           </div>
         </section>
       )}

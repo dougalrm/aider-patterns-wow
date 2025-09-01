@@ -96,7 +96,7 @@ export default async function ArticlePage({ params }) {
             <span>{readingTime}</span>
           </div>
           {article.description ? (
-            <p className="mt-3 max-w-3xl text-indigo-100/95 dark:text-indigo-100/90 leading-relaxed">
+            <p className="mt-3 max-w-3xl text-indigo-100/95 leading-relaxed">
               {article.description}
             </p>
           ) : null}

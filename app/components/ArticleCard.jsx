@@ -4,9 +4,9 @@ import { FileText, ArrowRight } from 'lucide-react';
 export default function ArticleCard({ article }) {
   return (
     <li className="group relative kb-card article-card p-6 transition hover:-translate-y-0.5">
-      <div className="flex items-center justify-between gap-4 text-xs text-slate-600 dark:text-indigo-200/80">
+      <div className="flex items-center justify-between gap-4 text-xs text-slate-600">
         <div className="flex items-center gap-2">
-          <FileText className="h-4 w-4 text-indigo-700 dark:text-indigo-300" />
+          <FileText className="h-4 w-4 text-indigo-700" />
           <span className="meta-pill">Article</span>
           {article.date ? (
             <time dateTime={new Date(article.date).toISOString()}>{new Date(article.date).toLocaleDateString()}</time>
@@ -20,14 +20,14 @@ export default function ArticleCard({ article }) {
           </div>
         ) : null}
       </div>
-      <h3 className="mt-2 text-lg font-semibold leading-snug text-slate-900 dark:text-indigo-100">
+      <h3 className="mt-2 text-lg font-semibold leading-snug text-slate-900">
         <Link className="hover:text-indigo-300 transition-colors" href={`/${article.slug}`}>{article.title}</Link>
       </h3>
       {article.description ? (
-        <p className="mt-3 text-sm text-slate-700 dark:text-indigo-200/85 line-clamp-3">{article.description}</p>
+        <p className="mt-3 text-sm text-slate-700 line-clamp-3">{article.description}</p>
       ) : null}
       <div className="mt-5">
-        <Link href={`/${article.slug}`} className="inline-flex items-center gap-2 text-sm text-indigo-700 hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-fuchsia-300 transition-colors">
+        <Link href={`/${article.slug}`} className="inline-flex items-center gap-2 text-sm text-indigo-700 hover:text-indigo-900 transition-colors">
           Read more
           <ArrowRight aria-hidden="true" className="h-5 w-5" />
         </Link>
