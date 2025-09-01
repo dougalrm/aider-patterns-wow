@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import ThemeToggle from './ThemeToggle';
 import { useEffect, useState } from 'react';
-import { Mail, FlaskConical } from 'lucide-react';
+import { FlaskConical } from 'lucide-react';
 
 
 
@@ -40,10 +40,6 @@ export default function Header() {
           <Link className="nav-link" href="/collections">Collections</Link>
           <Link className="nav-link" href="/about">About</Link>
           {mounted && <ThemeToggle />}
-          <Link className="nav-cta" href="/contact">
-            <Mail aria-hidden="true" className="h-5 w-5" />
-            <span>Contact</span>
-          </Link>
         </nav>
 
         <button
@@ -68,10 +64,6 @@ export default function Header() {
             <Link className="nav-link" href="/collections" onClick={() => setOpen(false)}>Collections</Link>
             <Link className="nav-link" href="/about" onClick={() => setOpen(false)}>About</Link>
             <Link className="nav-link" href="/glossary" onClick={() => setOpen(false)}>Glossary</Link>
-            <Link className="nav-cta w-full justify-center" href="/contact" onClick={() => setOpen(false)}>
-              <Mail aria-hidden="true" className="h-5 w-5" />
-              <span>Contact</span>
-            </Link>
           </div>
         </div>
       )}
