@@ -3,12 +3,12 @@
 import Link from 'next/link';
 import ThemeToggle from './ThemeToggle';
 import { useEffect, useState } from 'react';
-import { Mail, Aperture, Layers, Orbit, Sparkles, Hexagon, BookOpen } from 'lucide-react';
+import { Mail, Aperture, Layers, Orbit, Sparkles, FlaskConical, BookOpen } from 'lucide-react';
 
 function BrandGlyph() {
   // Change the selected value to try different brand icons:
   // 'orbit' | 'aperture' | 'layers' | 'sparkles' | 'hexagon' | 'book'
-  const selected = 'orbit';
+  const selected = 'flask';
   const className = 'h-6 w-6';
   switch (selected) {
     case 'aperture':
@@ -17,8 +17,8 @@ function BrandGlyph() {
       return <Layers aria-hidden="true" className={className} />;
     case 'sparkles':
       return <Sparkles aria-hidden="true" className={className} />;
-    case 'hexagon':
-      return <Hexagon aria-hidden="true" className={className} />;
+    case 'flask':
+      return <FlaskConical aria-hidden="true" className={className} />;
     case 'book':
       return <BookOpen aria-hidden="true" className={className} />;
     case 'orbit':
@@ -26,6 +26,8 @@ function BrandGlyph() {
       return <Orbit aria-hidden="true" className={className} />;
   }
 }
+
+
 
 export default function Header() {
   const [mounted, setMounted] = useState(false);
