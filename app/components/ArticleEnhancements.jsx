@@ -39,7 +39,7 @@ export default function ArticleEnhancements() {
         aria-valuemin={0}
         aria-valuemax={100}
         aria-valuenow={Math.round(progress * 100)}
-        className="progress-bar pointer-events-none fixed left-0 top-0 z-50 h-1 w-full bg-brand-600/90 origin-left transition-transform"
+        className="progress-bar pointer-events-none fixed left-0 top-0 z-50 h-[3px] w-full origin-left transition-transform transform-gpu bg-gradient-to-r from-brand-500 via-brand-600 to-brand-700"
         style={{ transform: `scaleX(${progress})` }}
       />
       <button
