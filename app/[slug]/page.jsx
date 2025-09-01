@@ -121,7 +121,7 @@ export default async function ArticlePage({ params }) {
             <div className="prose prose-lg prose-invert max-w-none prose-a:text-indigo-300 hover:prose-a:text-fuchsia-300 prose-img:rounded-lg js-article" dangerouslySetInnerHTML={{ __html: htmlWithIds }} />
           </div>
         </div>
-        <aside className="hidden 2xl:block absolute top-0 right-[-clamp(200px,18vw,240px)] w-[clamp(200px,18vw,240px)]">
+        <aside className="hidden 2xl:block absolute top-0 right-full -mr-4 w-[clamp(200px,18vw,240px)]">
           <div className="sticky top-24">
             <TableOfContents toc={toc} variant="floating" />
           </div>
