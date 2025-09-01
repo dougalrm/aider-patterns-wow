@@ -113,7 +113,7 @@ export default async function ArticlePage({ params }) {
       </section>
 
       <section className="relative">
-        <div className="lg:pr-[clamp(220px,24vw,280px)]">
+        <div>
           <div className="mb-6 lg:hidden">
             <TableOfContents toc={toc} variant="inline" />
           </div>
@@ -121,7 +121,7 @@ export default async function ArticlePage({ params }) {
             <div className="prose prose-lg prose-invert max-w-none prose-a:text-indigo-300 hover:prose-a:text-fuchsia-300 prose-img:rounded-lg js-article" dangerouslySetInnerHTML={{ __html: htmlWithIds }} />
           </div>
         </div>
-        <aside className="hidden lg:block absolute inset-y-0 right-0 w-[clamp(220px,24vw,280px)]">
+        <aside className="hidden lg:block absolute inset-y-0 right-[-clamp(220px,24vw,280px)] w-[clamp(220px,24vw,280px)]">
           <div className="sticky top-24">
             <TableOfContents toc={toc} variant="floating" />
           </div>

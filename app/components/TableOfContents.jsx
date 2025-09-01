@@ -36,7 +36,7 @@ export default function TableOfContents({ toc = [], variant = 'panel' }) {
 
   const containerClass =
     variant === 'floating'
-      ? 'sticky top-24 max-h:[calc(100vh-8rem)] max-h-[calc(100vh-8rem)] overflow-auto rounded-lg border border-white/10 bg-white/70 p-4 shadow-sm backdrop-blur-md dark:border-white/10 dark:bg-slate-950/50'
+      ? 'sticky top-24 max-h-[calc(100vh-8rem)] overflow-auto rounded-lg border border-white/10 bg-white/70 p-4 shadow-sm backdrop-blur-md dark:border-white/10 dark:bg-slate-950/50'
       : 'sticky top-24 max-h-[calc(100vh-8rem)] overflow-auto rounded-lg border border-white/20 bg-white/60 p-4 backdrop-blur dark:border-white/10 dark:bg-slate-950/40';
 
   return (
