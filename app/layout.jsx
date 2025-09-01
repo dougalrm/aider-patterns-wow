@@ -3,6 +3,7 @@ import { Toaster } from 'sonner';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Script from 'next/script';
+import { Suspense } from 'react';
 import GATracker from './components/GATracker';
 import { Lora, Cinzel } from 'next/font/google';
 
@@ -26,7 +27,9 @@ export default function RootLayout({ children }) {
           gtag('js', new Date());
           gtag('config', 'G-YKN7GD4E4L', { send_page_view: false });
         `}</Script>
-        <GATracker />
+        <Suspense fallback={null}>
+          <GATracker />
+        </Suspense>
         <div className="stars"></div>
         <Header />
         <main className="mx-auto max-w-5xl px-6 py-12">
