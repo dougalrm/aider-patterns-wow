@@ -39,7 +39,6 @@ export default function Header() {
           <Link className="nav-link" href="/articles">Articles</Link>
           <Link className="nav-link" href="/collections">Collections</Link>
           <Link className="nav-link" href="/about">About</Link>
-          <Link className="nav-link" href="/glossary">Glossary</Link>
           {mounted && <ThemeToggle />}
           <Link className="nav-cta" href="/contact">
             <Mail aria-hidden="true" className="h-5 w-5" />

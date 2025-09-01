@@ -41,7 +41,7 @@ export default function Footer() {
             </h4>
             <ul className="space-y-1.5">
               <li><Link className="footer-link" href="/contact">Contact</Link></li>
-              <li><a className="footer-link" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a></li>
+              <li><a className="footer-link" href="https://github.com/dougalrm" target="_blank" rel="noreferrer">GitHub</a></li>
             </ul>
           </div>
         </div>
