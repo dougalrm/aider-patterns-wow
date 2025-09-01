@@ -3,29 +3,7 @@
 import Link from 'next/link';
 import ThemeToggle from './ThemeToggle';
 import { useEffect, useState } from 'react';
-import { Mail, Aperture, Layers, Orbit, Sparkles, FlaskConical, BookOpen } from 'lucide-react';
-
-function BrandGlyph() {
-  // Change the selected value to try different brand icons:
-  // 'orbit' | 'aperture' | 'layers' | 'sparkles' | 'hexagon' | 'book'
-  const selected = 'flask';
-  const className = 'h-6 w-6';
-  switch (selected) {
-    case 'aperture':
-      return <Aperture aria-hidden="true" className={className} />;
-    case 'layers':
-      return <Layers aria-hidden="true" className={className} />;
-    case 'sparkles':
-      return <Sparkles aria-hidden="true" className={className} />;
-    case 'flask':
-      return <FlaskConical aria-hidden="true" className={className} />;
-    case 'book':
-      return <BookOpen aria-hidden="true" className={className} />;
-    case 'orbit':
-    default:
-      return <Orbit aria-hidden="true" className={className} />;
-  }
-}
+import { Mail, FlaskConical } from 'lucide-react';
 
 
 
@@ -50,10 +28,8 @@ export default function Header() {
     >
       <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
-          <span className="brand-mark" aria-hidden="true">
-            <span className="brand-glyph">
-              <BrandGlyph />
-            </span>
+          <span aria-hidden="true">
+            <FlaskConical aria-hidden="true" className="h-6 w-6 text-indigo-700 dark:text-indigo-300" />
           </span>
           <span className="text-xl font-semibold tracking-tight text-glow">Ways of Working</span>
         </Link>
