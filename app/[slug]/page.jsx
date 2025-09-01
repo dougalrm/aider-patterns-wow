@@ -112,12 +112,19 @@ export default async function ArticlePage({ params }) {
         </div>
       </section>
 
-      <section className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-        <aside className="order-last lg:order-first lg:col-span-1">
-          <TableOfContents toc={toc} />
-        </aside>
-        <div className="lg:col-span-2 rounded-xl border border-indigo-400/50 bg-indigo-950/40 p-4 backdrop-blur-md shadow-lg shadow-purple-900/50">
-          <div className="prose prose-lg prose-invert max-w-3xl mx-auto prose-a:text-indigo-300 hover:prose-a:text-fuchsia-300 prose-img:rounded-lg js-article" dangerouslySetInnerHTML={{ __html: htmlWithIds }} />
+      <section className="relative">
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,56rem)_minmax(260px,300px)_minmax(0,1fr)]">
+          <div className="lg:col-start-2">
+            <div className="mb-6 lg:hidden">
+              <TableOfContents toc={toc} variant="inline" />
+            </div>
+            <div className="rounded-xl border border-indigo-400/50 bg-indigo-950/40 p-4 backdrop-blur-md shadow-lg shadow-purple-900/50">
+              <div className="prose prose-lg prose-invert max-w-3xl mx-auto prose-a:text-indigo-300 hover:prose-a:text-fuchsia-300 prose-img:rounded-lg js-article" dangerouslySetInnerHTML={{ __html: htmlWithIds }} />
+            </div>
+          </div>
+          <aside className="hidden lg:block lg:col-start-3">
+            <TableOfContents toc={toc} />
+          </aside>
         </div>
       </section>
 
