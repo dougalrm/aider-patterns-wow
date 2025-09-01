@@ -5,7 +5,10 @@ import {
   ListChecks,
   Filter,
   Rocket,
-  MessageSquare,
+  Github,
+  GitPullRequest,
+  MessageSquarePlus,
+  Bug,
   UserCheck,
   Wrench,
   Repeat,
@@ -99,25 +102,32 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="kb-card p-6">
+      <section className="kb-card p-6 md:p-8">
         <h2 className="text-xl font-bold mb-2">
-          <MessageSquare aria-hidden="true" className="mr-2 inline-block h-5 w-5 align-[-2px]" />
-          Contribute and feedback
+          <Github aria-hidden="true" className="mr-2 inline-block h-5 w-5 align-[-2px]" />
+          Contributing
         </h2>
         <p className="text-slate-700 dark:text-slate-200">
-          We welcome suggestions, improvements, and new perspectives that make the library more useful for practitioners.
-          If you’ve found a gap or have a pattern to propose, please reach out.
+          This project welcomes lightweight GitHub contributions — open a small issue, submit a focused pull request, or suggest topics that would help practitioners.
         </p>
+        <ul className="mt-3 list-none pl-0 space-y-1 text-slate-700 dark:text-slate-200">
+          <li className="flex items-start gap-2"><Bug aria-hidden="true" className="mt-0.5 h-5 w-5" /><span>Report problems or broken links with clear context and examples</span></li>
+          <li className="flex items-start gap-2"><GitPullRequest aria-hidden="true" className="mt-0.5 h-5 w-5" /><span>Propose edits that improve clarity, accuracy, or structure</span></li>
+          <li className="flex items-start gap-2"><MessageSquarePlus aria-hidden="true" className="mt-0.5 h-5 w-5" /><span>Suggest new topics or patterns you’d find valuable</span></li>
+        </ul>
         <div className="mt-4 flex flex-wrap gap-3">
-          <Link href="/contact" className="btn btn-primary">
-            <Mail aria-hidden="true" className="h-5 w-5" />
-            <span>Contact us</span>
-          </Link>
+          <a href="https://github.com/dougalrm" target="_blank" rel="noreferrer" className="btn btn-primary">
+            <Github aria-hidden="true" className="h-5 w-5" />
+            <span>View on GitHub</span>
+          </a>
           <Link href="/articles" className="btn btn-outline">
             <BookOpen aria-hidden="true" className="h-5 w-5" />
             <span>Browse articles</span>
           </Link>
         </div>
+        <p className="mt-3 text-sm text-slate-600 dark:text-slate-300">
+          Prefer email? <Link href="/contact" className="underline underline-offset-2">Contact us</Link>.
+        </p>
       </section>
     </>
   );
