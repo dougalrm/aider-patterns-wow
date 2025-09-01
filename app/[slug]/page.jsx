@@ -117,7 +117,7 @@ export default async function ArticlePage({ params }) {
           <div className="mb-6 lg:hidden">
             <TableOfContents toc={toc} variant="inline" />
           </div>
-          <div className="rounded-xl border border-indigo-400/50 bg-indigo-950/40 p-4 backdrop-blur-md shadow-lg shadow-purple-900/50">
+          <div className="rounded-xl border border-indigo-400/50 bg-indigo-950/40 backdrop-blur-md shadow-lg shadow-purple-900/50">
             <div className="prose prose-lg prose-invert max-w-none prose-a:text-indigo-300 hover:prose-a:text-fuchsia-300 prose-img:rounded-lg js-article" dangerouslySetInnerHTML={{ __html: htmlWithIds }} />
           </div>
         </div>
