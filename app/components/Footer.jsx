@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-12">
         <div className="constellation-divider mb-8">Team Patterns</div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-sm">
           <div>
             <h4 className="font-serif text-slate-200 mb-3">
               <Map aria-hidden="true" className="mr-2 inline-block h-5 w-5 align-[-2px]" />
@@ -32,7 +32,6 @@ export default function Footer() {
             </h4>
             <ul className="space-y-1.5">
               <li><Link className="footer-link" href="/about">About</Link></li>
-              <li><Link className="footer-link" href="/glossary">Glossary</Link></li>
             </ul>
           </div>
           <div>
@@ -43,16 +42,6 @@ export default function Footer() {
             <ul className="space-y-1.5">
               <li><Link className="footer-link" href="/contact">Contact</Link></li>
               <li><a className="footer-link" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="font-serif text-slate-200 mb-3">
-              <Scale aria-hidden="true" className="mr-2 inline-block h-5 w-5 align-[-2px]" />
-              <span>Legal</span>
-            </h4>
-            <ul className="space-y-1.5">
-              <li><Link className="footer-link" href="/terms">Terms</Link></li>
-              <li><Link className="footer-link" href="/privacy">Privacy</Link></li>
             </ul>
           </div>
         </div>
