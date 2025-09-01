@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-12">
         <div className="constellation-divider mb-8">Team Patterns</div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-sm">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 text-sm">
           <div>
             <h4 className="font-serif text-slate-200 mb-3">
               <Map aria-hidden="true" className="mr-2 inline-block h-5 w-5 align-[-2px]" />
@@ -25,7 +25,7 @@ export default function Footer() {
               <li><Link className="footer-link" href="/collections">Collections</Link></li>
             </ul>
           </div>
-          <div>
+          <div className="md:text-center">
             <h4 className="font-serif text-slate-200 mb-3">
               <BookOpen aria-hidden="true" className="mr-2 inline-block h-5 w-5 align-[-2px]" />
               <span>Learn</span>
@@ -34,7 +34,7 @@ export default function Footer() {
               <li><Link className="footer-link" href="/about">About</Link></li>
             </ul>
           </div>
-          <div>
+          <div className="md:text-right">
             <h4 className="font-serif text-slate-200 mb-3">
               <MessagesSquare aria-hidden="true" className="mr-2 inline-block h-5 w-5 align-[-2px]" />
               <span>Connect</span>
