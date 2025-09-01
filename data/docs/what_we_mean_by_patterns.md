@@ -7,7 +7,7 @@ title: What we mean by patterns
 #  - keyword1
 #  - keyword2
 #  - keyword3
-description: Discover the importance of 'Ways of Working' patterns as part of the Common Delivery Framework. These patterns serve as practical, repeatable solutions to improve team practices and processes. Categorized into mandatory, highly recommended, and recommended, they guide teams in enhancing productivity and problem-solving across various domains like delivery, product, and engineering.
+description: Discover the importance of 'Ways of Working' patterns. These patterns serve as practical, repeatable solutions to improve team practices and processes. Categorized into mandatory, highly recommended, and recommended, they guide teams in enhancing productivity and problem-solving across various domains like delivery, product, and engineering.
 #tags:
 #  - tag1
 #  - tag2
@@ -17,7 +17,7 @@ description: Discover the importance of 'Ways of Working' patterns as part of th
 
 ![Pattern Image](What%20we%20mean%20by%20patterns_media/media/image1.jpeg)
 
-# What We Mean by Patterns (Common Delivery Framework)
+# What We Mean by Patterns
 
 The Ways of Working patterns provide information about good practice or guide you in solving specific problems and are underpinned by [our five ways of working principles](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/de10612a-0346-4267-83ec-cafb3e8a88d7.aspx).
 
@@ -40,18 +40,6 @@ In the context of our ways of working, when we talk about patterns, we mean:
 - A repeatable solution to a commonly occurring problem.
 
 - Specific guidance on how to adopt and use an approach or tool to solve a problem.
-
-## Categories of Patterns
-
-Within the CDF, we've grouped the patterns into the following categories:
-
-- **Mandatory** — ones all teams must adopt
-
-- **Highly Recommended** — ones that should be a priority to adopt
-
-- **Recommended** — ones to adopt if they tackle a problem you face
-
-Each of the links below groups the patterns by a specific focus such as Delivery or Engineering. Within each page, these are grouped into mandatory, highly recommended, and recommended. Where a pattern is categorized as mandatory, it has a banner text prompting this at the top of the page.
 
 ## Why We Need Patterns
 

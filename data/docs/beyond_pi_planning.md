@@ -15,7 +15,7 @@ description: The article explores the shift from traditional PI Planning to shor
 ---
 
 
-# Beyond PI Planning: Moving to Shorter Planning Horizons to Deliver Greater Value (CDF)
+# Beyond PI Planning: Moving to Shorter Planning Horizons to Deliver Greater Value
 
 ![A beach with waves crashing on the shore Description automatically generated](Beyond%20PI%20Planning_media/media/image1.jpeg)
 
@@ -73,7 +73,7 @@ You can find guidance on how to create a [roadmap](https://schroders365eur.share
 
 ## Further Insights
 
-A related CDF article highlights the benefits of [shorter planning horizons to increase agility](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/1nbaFUYSA3XRQlX51UQ9g/9792c2bf-d3bc-418f-a0c1-45bf02778573.aspx?xsdata=MDV8MDF8fGJlZTNmOWIzODM1YzRjMzJlMTFkMDhkYjQxYTc2YWE2fDJmNTdiNmM0MTdlNDQ5NjVhYzFhODVjY2NjYmU2YzRhfDB8MHw2MzgxNzU5NTk1MDc3MjI1MjV8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxNVFk0TVRrNU9URTFNREExTWpzeE5qZ3hPVGs1TVRVd01EVXlPekU1T2pNMlltVmlNVGhoTFdJMk4yVXROR0prTnkwNE1tUmxMVGhsTjJRd01XTTVNRGt4TUY4MVkyVXlOR1E1T1MwMVkySXhMVFE1WkRFdE9UQTFNaTFqTm1ReE5tUmpaakZoTmpCQWRXNXhMbWRpYkM1emNHRmpaWE09fGVmYWEzMjI4ZTFiMDQzOWE3ZWNmMDhkYjQxYTc2YWE0fGQyMWFiZjZmMDViMzRiNTNhYTExZTEwNTNlMjQ0NzU1&sdata=aHdQaVVNeFdOMHgzeGFWY1hmcDlIY2dicDNreXc5MFJHRHZnMnR5eG9UTT0%3D).
+A related article highlights the benefits of [shorter planning horizons to increase agility](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/1nbaFUYSA3XRQlX51UQ9g/9792c2bf-d3bc-418f-a0c1-45bf02778573.aspx?xsdata=MDV8MDF8fGJlZTNmOWIzODM1YzRjMzJlMTFkMDhkYjQxYTc2YWE2fDJmNTdiNmM0MTdlNDQ5NjVhYzFhODVjY2NjYmU2YzRhfDB8MHw2MzgxNzU5NTk1MDc3MjI1MjV8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxNVFk0TVRrNU9URTFNREExTWpzeE5qZ3hPVGs1TVRVd01EVXlPekU1T2pNMlltVmlNVGhoTFdJMk4yVXROR0prTnkwNE1tUmxMVGhsTjJRd01XTTVNRGt4TUY4MVkyVXlOR1E1T1MwMVkySXhMVFE1WkRFdE9UQTFNaTFqTm1ReE5tUmpaakZoTmpCQWRXNXhMbWRpYkM1emNHRmpaWE09fGVmYWEzMjI4ZTFiMDQzOWE3ZWNmMDhkYjQxYTc2YWE0fGQyMWFiZjZmMDViMzRiNTNhYTExZTEwNTNlMjQ0NzU1&sdata=aHdQaVVNeFdOMHgzeGFWY1hmcDlIY2dicDNreXc5MFJHRHZnMnR5eG9UTT0%3D).
 
 This article discusses [when and how to choose the appropriate agile method, i.e., Scrum or Kanban](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/YASyWyZ006UdMmjiDSgqSQ/1afe113f-f808-4f9a-b97e-9b592e82d061.aspx).
 

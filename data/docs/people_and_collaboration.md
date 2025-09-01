@@ -9,7 +9,7 @@ description: Explore the "People & Collaboration" principle, central to agile me
 
 ![Collaboration Image](People%20and%20Collaboration_media/media/image1.jpeg)
 
-# People & Collaboration (CDF Principle)
+# People & Collaboration
 
 
 

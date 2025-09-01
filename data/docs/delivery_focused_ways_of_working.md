@@ -9,7 +9,7 @@ title: Delivery focused Ways of Working
 
 ![Image](Delivery%20focused%20Ways%20of%20Working_media/media/image1.jpeg)
 
-# Delivery Focused Ways of Working (Common Delivery Framework)
+# Delivery Focused Ways of Working
 
 The Ways of Working patterns provide information about good practice or guide you in solving specific problems, and they're underpinned by [**our five ways of working principles.**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/de10612a-0346-4267-83ec-cafb3e8a88d7.aspx)
 
@@ -29,11 +29,7 @@ Below we've grouped the patterns into the following categories:
 
 - **Recommended** – ones to adopt if they tackle a problem you face
 
-### A Note on Mandatory Ways of Working
-
-Within the Common Delivery Framework, there are a number of things that we expect all teams in Global Technology (GT) to adhere to. This may be because they are mandatory for governance, regulatory, or compliance reasons, they are referenced within our policies, or because they are considered fundamental to helping us mature as an agile organisation.
-
-## Ways of Working (Delivery)
+### Ways of Working (Delivery)
 
 Below you will find patterns with a delivery focus. However, this doesn't mean they are exclusive to that discipline.
 
@@ -49,7 +45,7 @@ Below you will find patterns with a delivery focus. However, this doesn't mean t
 
 | [Iterative & incremental working](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/dc7c0b13-1a7a-4646-ab14-e41cf6792d17.aspx) | Agile development is based on iterative and incremental development of a product or initiative. Rather than pre-planning everything, small, incremental plans are created and executed upon with feedback in between. |
 
-| [Adopting the appropriate agile method: Scrum vs Kanban (CDF Pattern)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/YASyWyZ006UdMmjiDSgqSQ/1afe113f-f808-4f9a-b97e-9b592e82d061.aspx) | Agile methods place the emphasis on people over process. They are about bringing people together to find the most appropriate and effective way of working, and then using this to iteratively work towards the outcomes they want to achieve. |
+| [Adopting the appropriate agile method: Scrum vs Kanban](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/YASyWyZ006UdMmjiDSgqSQ/1afe113f-f808-4f9a-b97e-9b592e82d061.aspx) | Agile methods place the emphasis on people over process. They are about bringing people together to find the most appropriate and effective way of working, and then using this to iteratively work towards the outcomes they want to achieve. |
 
 ### Highly Recommended
 

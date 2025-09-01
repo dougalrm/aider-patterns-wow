@@ -8,13 +8,13 @@ description: This page explores systemic impediments in agile work environments,
 
 ![A stone stairs in a building Description automatically generated with medium confidence](Recognising%20systemic%20impediments_media/media/image1.jpeg)
 
-# Recognising Systemic Impediments (CDF Pattern)
+# Recognising Systemic Impediments
 
 
 
 One of our five ways of working principles is [**Continuous Improvement**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/d88bc27f-dd37-4d04-878e-c46efea9d098.aspx). This is about regularly taking the time to identify sources of friction, frustration, and waste so that we can take steps to tackle them and improve what we do.
 
-For an introduction to impediments, check out the CDF pattern [**Recognising & tackling team-level impediments**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/J2yM0atCqqk8E6VdblTQ/b7321862-7a74-40ed-85db-f048e751b21b.aspx) which covers the basics.
+For an introduction to impediments, check out the pattern [**Recognising & tackling team-level impediments**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/J2yM0atCqqk8E6VdblTQ/b7321862-7a74-40ed-85db-f048e751b21b.aspx) which covers the basics.
 
 ## A Different Type of Impediment
 

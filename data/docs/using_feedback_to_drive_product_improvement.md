@@ -17,7 +17,7 @@ description: Explore the significance of feedback in agile development, highligh
 
 ![A yellow star shaped object](Using%20feedback%20to%20drive%20product%20improvement_media/media/image1.jpeg)
 
-# Using Feedback to Drive Product Improvement (CDF)
+# Using Feedback to Drive Product Improvement
 
 
 
@@ -89,7 +89,7 @@ Pairing, where two people work together on a single task, enables constant feedb
 
 Regular retrospectives are an effective way to gather feedback on the process of developing a product. Team members can provide feedback on the process and identify areas that can be improved.
 
-Check out the [**'Inspect & adapt to continuously improve (Retrospectives)' (opens new browser tab)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/11323923-036e-4eb7-9d15-12856e7b2a0b.aspx) CDF pattern.
+Check out the [**'Inspect & adapt to continuously improve (Retrospectives)' (opens new browser tab)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/11323923-036e-4eb7-9d15-12856e7b2a0b.aspx) pattern.
 
 ### Performance Reviews
 
@@ -99,7 +99,7 @@ Performance reviews are a formal method of gathering feedback on an individual\'
 
 Encourage open and transparent communication among team members and create an environment where team members feel comfortable giving and receiving feedback, and where constructive criticism is encouraged.
 
-Check out the [**Nurturing the right environment (Psychological Safety)' (opens new browser tab)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/aa3752ff-4edf-4889-a690-516f1cd2755c.aspx) CDF pattern for suggestions you can adopt.
+Check out the [**Nurturing the right environment (Psychological Safety)' (opens new browser tab)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/aa3752ff-4edf-4889-a690-516f1cd2755c.aspx) pattern for suggestions you can adopt.
 
 ## Who Should be Involved in Feedback?
 

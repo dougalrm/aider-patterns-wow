@@ -17,7 +17,7 @@ description: Explore how tracking key metrics like cycle time and defect ratio c
 
 ![Image](Tracking%20key%20metrics%20to%20improve%20delivery%20efficiency_media/media/image1.jpeg)
 
-# Tracking Key Metrics to Improve Delivery Efficiency (CDF Standard)
+# Tracking Key Metrics to Improve Delivery Efficiency
 
 
 
@@ -43,17 +43,17 @@ Most teams already track these two key metrics as well as others they find valua
 
 Teams are also expected to establish [ways of working that enable them to get accurate data from our metrics tools](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/AxES3qYq3pYZaIjkYGCfsA/e8a5b67a-2929-4bd0-901b-eeb7472b4379.aspx). They should then be using the insights from the new Team Metrics tool and Actionable Agile on a routine basis to understand their delivery performance and identify impediments to progress.
 
-We're excited to see what improvements the adoption of AI can bring; however, we have already seen examples of teams making excellent progress in improving their cycle time. We've shared some of these on the [Success Stories](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/qUWG6ER2Zxtp9omT6Sqg/00b96f00-f338-45e9-9e1f-32b974c194c5.aspx) CDF page.
+We're excited to see what improvements the adoption of AI can bring; however, we have already seen examples of teams making excellent progress in improving their cycle time. We've shared some of these on the [Success Stories](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/qUWG6ER2Zxtp9omT6Sqg/00b96f00-f338-45e9-9e1f-32b974c194c5.aspx) page.
 
 Of particular interest is the video about how [the ILS team reduced their cycle time from 40 days to 14 days](https://schroders.wistia.com/medias/1oublpvsbp) by identifying bottlenecks and improving flow.
 
 ## More Information
 
-For more information on metrics and analysis techniques that can be used to improve delivery efficiency, check out the [using metrics to identify impediments and improve delivery efficiency page on the CDF](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/6ee92e3d-3dfd-498f-8203-1d77f132e82c.aspx).
+For more information on metrics and analysis techniques that can be used to improve delivery efficiency, check out the [using metrics to identify impediments and improve delivery efficiency page](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/6ee92e3d-3dfd-498f-8203-1d77f132e82c.aspx).
 
 For more about why we care about metrics, [**click here.**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/AxES3qYq3pYZaIjkYGCfsA/27ec752f-b29e-4d63-b345-b217b913e7ba.aspx)
 
-You can explore your team's metrics in ActionableAgile (AA), a tool within ADO, to gain insights into possible improvements. Guidance on AA can be found on the [using Actionable Agile on ADO](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/uvdmNFbhGhzyMpGgOHA/0760f6f1-b30a-49ee-8b21-b6a913ea3014.aspx) CDF page.
+You can explore your team's metrics in ActionableAgile (AA), a tool within ADO, to gain insights into possible improvements. Guidance on AA can be found on the [using Actionable Agile on ADO](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/uvdmNFbhGhzyMpGgOHA/0760f6f1-b30a-49ee-8b21-b6a913ea3014.aspx) page.
 
 
 

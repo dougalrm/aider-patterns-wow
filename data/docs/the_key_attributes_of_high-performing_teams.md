@@ -15,7 +15,7 @@ description: Explore the essential attributes of high-performing teams in agile 
 ---
 
 
-# The Key Attributes of High-Performing Teams (CDF)
+# The Key Attributes of High-Performing Teams
 
 In today's fast-paced and ever-changing business world, organizations need to be agile, adaptable, and innovative to stay ahead of the competition. One of the keys to achieving this is to establish and maintain high-performing teams. These are teams that not only achieve exceptional results but also foster an environment that supports team members' growth and development, collaborate effectively, and have a sense of purpose and fulfillment in their work. In this article, we'll explore the key attributes of high-performing teams and provide practical tips and strategies for creating them.
 

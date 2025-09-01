@@ -8,7 +8,7 @@ tags: ["delivery-and-flow"]
 
 ![Image](Adopting%20the%20appropriate%20agile%20method_media/media/image1.jpeg)
 
-# Adopting the Appropriate Agile Method: Scrum vs Kanban (CDF Pattern)
+# Adopting the Appropriate Agile Method: Scrum vs Kanban
 
 
 

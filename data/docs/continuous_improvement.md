@@ -9,7 +9,7 @@ description: Explore the principle of Continuous Improvement within agile method
 
 ![Continuous Improvement](Continuous%20Improvement_media/media/image1.jpeg)
 
-# Continuous Improvement (CDF Principle)
+# Continuous Improvement
 
 
 
@@ -191,13 +191,13 @@ Below are links to some of the patterns that might help you work towards this:
 
 - [**Inspect & adapt to continuously improve.**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/11323923-036e-4eb7-9d15-12856e7b2a0b.aspx)
 
-- [**Tracking key metrics to improve delivery efficiency (CDF Standard)**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/4845e02e-dfaa-4cdf-88f8-a1fb4578b58a.aspx)
+- [**Tracking key metrics to improve delivery efficiency**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/4845e02e-dfaa-4cdf-88f8-a1fb4578b58a.aspx)
 
-- [**Improving code quality through peer review. (CDF Standard)**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/7SSZvpCu3cfjiRlAaYeoAw/050f55eb-23d4-4ea4-ab75-452a1ef082c7.aspx)
+- [**Improving code quality through peer review.**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/7SSZvpCu3cfjiRlAaYeoAw/050f55eb-23d4-4ea4-ab75-452a1ef082c7.aspx)
 
-- [**Iterative & incremental working (CDF Standard).**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/dc7c0b13-1a7a-4646-ab14-e41cf6792d17.aspx)
+- [**Iterative & incremental working.**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/dc7c0b13-1a7a-4646-ab14-e41cf6792d17.aspx)
 
-- [**Adopting the appropriate agile method (CDF Standard).**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/YASyWyZ006UdMmjiDSgqSQ/1afe113f-f808-4f9a-b97e-9b592e82d061.aspx)
+- [**Adopting the appropriate agile method.**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/YASyWyZ006UdMmjiDSgqSQ/1afe113f-f808-4f9a-b97e-9b592e82d061.aspx)
 
 - [**Shorter planning horizons to increase agility**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/1nbaFUYSA3XRQlX51UQ9g/9792c2bf-d3bc-418f-a0c1-45bf02778573.aspx)
 

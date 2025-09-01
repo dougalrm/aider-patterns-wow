@@ -18,7 +18,7 @@ description: Explore how the Cynefin Framework categorizes work by complexity to
 
 ![A group of trees in a forest Description automatically generated](Categorising%20work%20using%20an%20understanding%20of%20complexity_media/media/image1.jpeg)
 
-# Categorising Work Using an Understanding of Complexity (Cynefin) (CDF Pattern)
+# Categorising Work Using an Understanding of Complexity (Cynefin)
 
 
 

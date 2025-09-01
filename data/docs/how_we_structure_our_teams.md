@@ -99,7 +99,7 @@ description: Explore our team structure within Global Technology, emphasizing St
 </Tabs>
 
 
-# How We Structure Our Teams (Common Delivery Framework)
+# How We Structure Our Teams
 
 The following page details what we currently believe is the right structure for teams within Global Technology (GT), and is aligned to one of our principles about [**building Stable, Empowered Teams**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/3eb8aeab-9c4f-4c9a-b0ab-8850f3cd0247.aspx).
 

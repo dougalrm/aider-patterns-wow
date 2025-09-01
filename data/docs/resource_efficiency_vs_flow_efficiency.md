@@ -9,7 +9,7 @@ description: Explore the contrasting approaches of Resource Efficiency and Flow 
 
 ![Resource Efficiency vs Flow Efficiency](Resource%20Efficiency%20vs%20Flow%20Efficiency_media/media/image1.jpeg)
 
-# Resource Efficiency vs Flow Efficiency (CDF)
+# Resource Efficiency vs Flow Efficiency
 
 Productivity and efficiency are important aspects to success at Schroders but also ones with the potential to be problematic.
 

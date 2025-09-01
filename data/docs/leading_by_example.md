@@ -7,7 +7,7 @@ description: This page delves into the "Leading by Example" principle, highlight
 ---
 
 
-# Leading by Example (CDF Principle)
+# Leading by Example
 
 ![Image](Leading%20by%20Example_media/media/image1.jpeg)
 

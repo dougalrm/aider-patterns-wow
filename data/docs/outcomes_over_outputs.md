@@ -17,7 +17,7 @@ description: The content emphasizes the importance of focusing on outcomes over 
 
 ![Outcome Over Outputs Image 1](Outcomes%20over%20Outputs_media/media/image1.jpeg)
 
-# Outcomes Over Outputs (CDF)
+# Outcomes Over Outputs
 
 Outcomes mean the direct and indirect end results that occur after one has taken action. Outputs refer to what is directly produced by an action: for example, working software is the output of a programming task.
 

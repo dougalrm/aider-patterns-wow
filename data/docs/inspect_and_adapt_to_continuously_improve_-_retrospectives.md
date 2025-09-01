@@ -9,7 +9,7 @@ description: Retrospectives are essential for continuous improvement, allowing t
 
 ![Inspect and Adapt to Continuously Improve - Retrospectives](Inspect%20and%20adapt%20to%20continuously%20improve%20-%20Retrospectives_media/media/image1.jpeg)
 
-# Inspect & Adapt to Continuously Improve - Retrospectives (CDF Pattern)
+# Inspect & Adapt to Continuously Improve - Retrospectives
 
 
 

@@ -17,7 +17,7 @@ description: Explore how psychological safety fosters innovation and adaptation 
 
 ![A orange life preserver on a white wall Description automatically generated](Nurturing%20the%20right%20environment_media/media/image1.jpeg)
 
-# Nurturing the Right Environment (Developing Psychological Safety) (CDF Pattern)
+# Nurturing the Right Environment (Developing Psychological Safety)
 
 ****
 

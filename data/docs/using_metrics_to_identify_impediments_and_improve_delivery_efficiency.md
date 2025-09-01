@@ -17,7 +17,7 @@ description: Explore how flow metrics like cycle time, lead time, and throughput
 
 ![A person standing on a wooden bridge](Using%20metrics%20to%20identify%20impediments%20and%20improve%20delivery%20efficiency_media/media/image1.jpeg)
 
-# Using Metrics to Identify Impediments and Improve Delivery Efficiency - Flow Metrics (CDF Pattern)
+# Using Metrics to Identify Impediments and Improve Delivery Efficiency - Flow Metrics
 
 
 
@@ -51,7 +51,7 @@ When looking to optimize flow, it's important to strike the right balance betwee
 
 The speed at which work flows through the system is limited by its slowest step or constraint. Any optimizations that don't address this constraint will not produce the expected efficiency improvement. [**Theory of Constraints**](https://www.leanproduction.com/theory-of-constraints/).
 
-Some teams have made their end-to-end analysis easier by [**ensuring their Definition of Done (CDF Pattern)**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/87fd8010-884c-426f-a99c-58b8fbe17df8.aspx) means released to production.
+Some teams have made their end-to-end analysis easier by [**ensuring their Definition of Done**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/87fd8010-884c-426f-a99c-58b8fbe17df8.aspx) means released to production.
 
 ## How to Use Metrics to Identify Impediments and Improve Delivery Efficiency
 
@@ -73,5 +73,5 @@ Other articles that might be of interest include [**this article from Scrum.org*
 
 ## More Information
 
-Guidance on Actionable Agile (AA) can be found on the [using Actionable Agile on ADO](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/uvdmNFbhGhzyMpGgOHA/0760f6f1-b30a-49ee-8b21-b6a913ea3014.aspx?xsdata=...) CDF page.
+Guidance on Actionable Agile (AA) can be found on the [using Actionable Agile on ADO](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/uvdmNFbhGhzyMpGgOHA/0760f6f1-b30a-49ee-8b21-b6a913ea3014.aspx?xsdata=...) page.
 

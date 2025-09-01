@@ -8,7 +8,7 @@ description: This page explores the principle of "Clear Business Outcomes," emph
 
 ![Clear Business Outcomes](/img/img_docs/principles/p_cbo1.jpeg)
 
-# Clear Business Outcomes (CDF Principle)
+# Clear Business Outcomes
 
 ## Our Five Ways of Working Principles
 

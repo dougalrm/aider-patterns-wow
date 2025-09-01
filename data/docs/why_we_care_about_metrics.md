@@ -90,7 +90,3 @@ Having access to data and the insights that data provides allows us to do the fo
 - Validate and quantify our achievements.
 
 The key thing is that we want data and metrics that help us achieve our business objectives. It's about having access to actionable insights, at the right time, and in the right way.
-
-## More Information
-
-For more about the metrics teams must track, [click here](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/4845e02e-dfaa-4cdf-88f8-a1fb4578b58a.aspx). To learn more about how the ILS cut their cycle time, [click here](https://schroders365eur.sharepoint.com/sites/myschroders/News/Pages/Stories/CIWsscu83QKHLo3NKRvg/f9042cf0-30f1-4f82-a2fb-002a2ad8948e.aspx?xsdata...).

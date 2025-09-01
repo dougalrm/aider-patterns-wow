@@ -17,7 +17,7 @@ description: Schroders introduces a new Product Lead role to strengthen the syne
 
 ![Introducing Product at Schroders](Introducing%20Product%20at%20Schroders_media/media/image1.jpeg)
 
-# Introducing Product at Schroders (CDF)
+# Introducing Product at Schroders
 
 Building the right thing, and building the thing right. Product at Schroders.
 

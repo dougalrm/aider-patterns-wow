@@ -17,7 +17,7 @@ description: This guide emphasizes the importance of understanding how individua
 
 ![Image Description](Understanding%20how%20our%20work%20contributes%20to%20our%20overall%20purpose_media/media/image1.jpeg)
 
-# Understanding How Our Work Contributes to Our Overall Purpose (CDF Pattern)
+# Understanding How Our Work Contributes to Our Overall Purpose
 
 
 

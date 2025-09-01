@@ -9,7 +9,7 @@ description: This guide focuses on recognizing and overcoming team-level impedim
 
 ![A close-up of a chain link fence](Recognising%20and%20tackling%20team-level%20impediments_media/media/image1.jpeg)
 
-# Recognising & Tackling Team-Level Impediments (CDF Pattern)
+# Recognising & Tackling Team-Level Impediments
 
 
 

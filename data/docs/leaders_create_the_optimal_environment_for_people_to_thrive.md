@@ -17,7 +17,7 @@ description: This page outlines how effective leadership at Schroders fosters an
 
 ![A close up of leaves Description automatically generated](Leaders%20create%20the%20optimal%20environment%20for%20people%20to%20thrive_media/media/image1.jpeg)
 
-# Leaders Create the Optimal Environment for People to Thrive (CDF Pattern)
+# Leaders Create the Optimal Environment for People to Thrive
 
 
 

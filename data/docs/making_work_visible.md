@@ -9,7 +9,7 @@ description: This content explores the power of visualization in agile methodolo
 
 ![A close up of a graph Description automatically generated](Making%20work%20visible_media/media/image1.jpeg)
 
-# Making Work Visible - Visualisation Tools and Techniques (CDF)
+# Making Work Visible - Visualisation Tools and Techniques
 
 Visualisation is a powerful tool for explaining complex concepts and promoting communication and collaboration. It allows teams to share a common understanding of data and radiate critical information about their work. This section explores various practices for visualising work and highlights the importance of visualising the flow of work from a strategic perspective.
 

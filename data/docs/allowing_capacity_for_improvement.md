@@ -8,7 +8,7 @@ description: Balancing business outcomes with improvement is essential for agile
 
 ![A building with plants growing on it](./Allowing%20capacity%20for%20improvement_media/media/image1.jpeg)
 
-# Allowing Capacity for Improvement (CDF Pattern)
+# Allowing Capacity for Improvement
 
 
 

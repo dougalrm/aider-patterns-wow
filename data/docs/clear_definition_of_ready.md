@@ -2,11 +2,11 @@
 tags: ["work-visibility"]
 title: Clear Definition of Ready
 
-description: The "Clear Definition of Ready (CDF Pattern)" page outlines the importance of a well-defined "Definition of Ready" for agile teams to ensure that work is clear, feasible, and testable before entering an iteration. It highlights criteria such as clarity, feasibility, and testability, alongside the INVEST framework to enhance collaboration and maintain quality standards in product development.
+description: The "Clear Definition of Ready" page outlines the importance of a well-defined "Definition of Ready" for agile teams to ensure that work is clear, feasible, and testable before entering an iteration. It highlights criteria such as clarity, feasibility, and testability, alongside the INVEST framework to enhance collaboration and maintain quality standards in product development.
 ---
 
 
-# Clear Definition of Ready (CDF Pattern)
+# Clear Definition of Ready
 
 
 

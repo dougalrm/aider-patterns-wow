@@ -17,7 +17,7 @@ description: Explore the strategic framework of outcome and horizon-based roadma
 
 ![A hand holding a compass Description automatically generated](Roadmaps_media/media/image1.jpeg)
 
-# Roadmaps - Using Now, Next, Later Roadmaps (CDF)
+# Roadmaps - Using Now, Next, Later Roadmaps
 
 
 

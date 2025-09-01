@@ -15,7 +15,7 @@ description: Delivery plans coordinate and communicate the expected delivery of 
 ---
 
 
-# Delivery Plans - Communicating the Expected Approach and Timeline (CDF)
+# Delivery Plans - Communicating the Expected Approach and Timeline
 
  (opens new browser tab)
 

@@ -7,7 +7,7 @@ description: Emphasizing flexibility and rapid feedback, shorter planning horizo
 ---
 
 
-# Shorter Planning Horizons to Increase Agility (CDF)
+# Shorter Planning Horizons to Increase Agility
 
 ![A hand holding a light bulb Description automatically generated](Shorter%20planning%20horizons%20to%20increase%20agility_media/media/image1.jpeg)
 
@@ -75,9 +75,9 @@ Agile principles suggest more frequent planning to allow for greater agility in 
 
 ## Further Reading
 
-- [Delivery Plans - Communicating the expected approach and timeline (CDF) (sharepoint.com)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/CIWsscu83QKHLo3NKRvg/530254f9-8222-4bb6-a35c-10b41f5dd835.aspx)
+- [Delivery Plans - Communicating the expected approach and timeline (sharepoint.com)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/CIWsscu83QKHLo3NKRvg/530254f9-8222-4bb6-a35c-10b41f5dd835.aspx)
 
-- [Roadmaps - Using Now, Next, Later Roadmaps (CDF) (sharepoint.com)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/ZnItogF7IpiI2HA9asSMiA/4e2e7b9c-34de-41ac-9241-f02c2704d523.aspx)
+- [Roadmaps - Using Now, Next, Later Roadmaps (sharepoint.com)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/ZnItogF7IpiI2HA9asSMiA/4e2e7b9c-34de-41ac-9241-f02c2704d523.aspx)
 
 - [Really good article on why product roadmaps and delivery plans are different](https://www.prodpad.com/blog/difference-between-roadmaps-and-release-plans/)
 

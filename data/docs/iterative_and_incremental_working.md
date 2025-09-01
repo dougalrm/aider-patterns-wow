@@ -7,7 +7,7 @@ description: This page elaborates on the mandatory agile methodology of Iterativ
 ---
 
 
-# Iterative & Incremental Working (CDF Pattern)
+# Iterative & Incremental Working
 
 
 

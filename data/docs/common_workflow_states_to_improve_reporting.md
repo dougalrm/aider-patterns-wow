@@ -8,7 +8,7 @@ description: This document outlines the mandatory workflow states for Global Tec
 
 ![A close-up of a piece of paper Description automatically generated](Common%20workflow%20states%20to%20improve%20reporting_media/media/image1.jpeg)
 
-# Common Workflow States to Improve Reporting (CDF Pattern)
+# Common Workflow States to Improve Reporting
 
  (opens new browser tab)
 

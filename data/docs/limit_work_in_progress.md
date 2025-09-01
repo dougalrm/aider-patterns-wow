@@ -8,7 +8,7 @@ description: This guide explores the importance of limiting Work In Progress (WI
 
 ![A wooden blocks stacked in a shape of a horse Description automatically generated](Limit%20Work%20In%20Progress_media/media/image1.jpeg)
 
-# Limit Work In Progress (WIP) at Every Level: Stop Starting, Start Finishing (CDF Pattern)
+# Limit Work In Progress (WIP) at Every Level: Stop Starting, Start Finishing
 
 [**Back to the Patterns overview page**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/XeHDBpKDVFziBxivUrK0A/c8357f9c-361f-4a21-868b-339a7cfa1295.aspx)
 

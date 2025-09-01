@@ -17,7 +17,7 @@ description: This page outlines the importance of well-written requirements in a
 
 ![Well Written Requirements](Well%20written%20requirements_media/media/image1.jpeg)
 
-# Well Written Requirements (CDF Pattern)
+# Well Written Requirements
 
 
 

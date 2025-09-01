@@ -14,7 +14,7 @@ description: Explore various structured techniques for effective prioritization 
 #  - tag3
 ---
 
-# Structured Techniques to Help with Prioritisation (CDF Pattern)
+# Structured Techniques to Help with Prioritisation
 
 
 

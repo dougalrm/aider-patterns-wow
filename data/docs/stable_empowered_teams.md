@@ -9,7 +9,7 @@ description: Explore the concept of Stable, Empowered Teams within agile framewo
 
 ![Stable Empowered Teams](Stable%20Empowered%20Teams_media/media/image1.jpeg)
 
-# Stable Empowered Teams (CDF Principle)
+# Stable Empowered Teams
 
 
 
@@ -205,11 +205,11 @@ The most effective managers usually realise that they work for their teams and n
 
 Below are links to some of the patterns that might help you work towards this; these of course aren't the only ones but should point you in the right direction.
 
-- [Adopting the appropriate agile method (CDF Standard)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/YASyWyZ006UdMmjiDSgqSQ/1afe113f-f808-4f9a-b97e-9b592e82d061.aspx)
+- [Adopting the appropriate agile method](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/YASyWyZ006UdMmjiDSgqSQ/1afe113f-f808-4f9a-b97e-9b592e82d061.aspx)
 
-- [Tracking key metrics to improve delivery efficiency (CDF Standard)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/4845e02e-dfaa-4cdf-88f8-a1fb4578b58a.aspx)
+- [Tracking key metrics to improve delivery efficiency](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/4845e02e-dfaa-4cdf-88f8-a1fb4578b58a.aspx)
 
-- [Shorter planning horizons (CDF Pattern)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/1nbaFUYSA3XRQlX51UQ9g/9792c2bf-d3bc-418f-a0c1-45bf02778573.aspx)
+- [Shorter planning horizons](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/1nbaFUYSA3XRQlX51UQ9g/9792c2bf-d3bc-418f-a0c1-45bf02778573.aspx)
 
 - [Competency frameworks](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/J2yM0atCqqk8E6VdblTQ/b0cab31d-e5d8-46b0-9fdd-4482ac73bc86.aspx)
 

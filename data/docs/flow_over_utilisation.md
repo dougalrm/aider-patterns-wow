@@ -17,7 +17,7 @@ description: This page explores optimizing team flow over individual utilization
 
 ![A waterfall in the water Description automatically generated](Flow%20over%20Utilisation_media/media/image1.jpeg)
 
-# Flow Over Utilisation (CDF)
+# Flow Over Utilisation
 
 When people say "optimising for flow of the team rather than utilisation of individuals" in a project to product setting, they are referring to a shift in focus from individual productivity to the overall effectiveness and efficiency of the whole team.
 
@@ -67,4 +67,4 @@ When people say "optimising for flow of the team rather than utilisation of indi
 
 ## Further Reading
 
-[Improving Productivity - Resource Efficiency vs Flow Efficiency (CDF)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/ZnItogF7IpiI2HA9asSMiA/098e6a34-642e-4d91-ae40-365f84191819.aspx) (opens new browser tab)
+[Improving Productivity - Resource Efficiency vs Flow Efficiency](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/ZnItogF7IpiI2HA9asSMiA/098e6a34-642e-4d91-ae40-365f84191819.aspx) (opens new browser tab)

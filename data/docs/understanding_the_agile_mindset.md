@@ -14,7 +14,7 @@ description: Explore the essence of the agile mindset, emphasizing flexibility, 
 #  - tag3
 ---
 
-# Understanding the Agile Mindset (CDF)
+# Understanding the Agile Mindset
 
 As a modern enterprise, it's important we stay agile and adapt quickly to changes in the business environment. This is where the agile mindset comes in. At its core, the agile mindset is a way of thinking that values flexibility, adaptability, and customer satisfaction.
 

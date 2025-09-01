@@ -45,7 +45,7 @@ Both the new Team Metrics tool and Actionable Agile get their data from ADO. For
 
 - Adopt a Definition of Done (DoD) that means a PBI is done when it's in production. Therefore, PBIs do not move to the done state in ADO until they are deployed to production.
 
-- Continue to make use of Actionable Agile (AA) to gain insights into possible improvements. Guidance on AA can be found on the [using Actionable Agile on ADO](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/uvdmNFbhGhzyMpGgOHA/0760f6f1-b30a-49ee-8b21-b6a913ea3014.aspx) CDF page.
+- Continue to make use of Actionable Agile (AA) to gain insights into possible improvements. Guidance on AA can be found on the [using Actionable Agile on ADO](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/uvdmNFbhGhzyMpGgOHA/0760f6f1-b30a-49ee-8b21-b6a913ea3014.aspx) page.
 
 ## Differences Between the Two Tools
 
@@ -55,7 +55,7 @@ This is due to the fact that AA includes production defects that move straight t
 
 ## More Information & Getting Help
 
-The CDF page [Why We Care About Metrics](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/AxES3qYq3pYZaIjkYGCfsA/27ec752f-b29e-4d63-b345-b217b913e7ba.aspx) provides a good overview of the benefits of focusing on adopting and refining the right capabilities.
+The page [Why We Care About Metrics](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/AxES3qYq3pYZaIjkYGCfsA/27ec752f-b29e-4d63-b345-b217b913e7ba.aspx) provides a good overview of the benefits of focusing on adopting and refining the right capabilities.
 
 You can find more information on Actionable Agile on Confluence [here](https://confluence.schroders.com/pages/viewpage.action?pageId=179523543).
 
