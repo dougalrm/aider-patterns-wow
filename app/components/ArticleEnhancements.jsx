@@ -39,8 +39,8 @@ export default function ArticleEnhancements() {
         aria-valuemin={0}
         aria-valuemax={100}
         aria-valuenow={Math.round(progress * 100)}
-        className="progress-bar pointer-events-none fixed left-0 bottom-0 z-50 h-2 w-full origin-left transition-transform transform-gpu bg-indigo-500/90"
-        style={{ transform: `scaleX(${progress})` }}
+        className="progress-bar pointer-events-none fixed left-0 bottom-0 z-50 h-2 w-full origin-left transform-gpu bg-indigo-500/90 transition-transform transition-opacity"
+        style={{ transform: `scaleX(${progress})`, opacity: progress === 0 ? 0 : 1 }}
       />
       <button
         type="button"
