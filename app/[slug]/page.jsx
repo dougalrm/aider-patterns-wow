@@ -113,7 +113,7 @@ export default async function ArticlePage({ params }) {
       </section>
 
       <section className="relative">
-        <div>
+        <div className="lg:pr-[clamp(220px,24vw,280px)]">
           <div className="mb-6 lg:hidden">
             <TableOfContents toc={toc} variant="inline" />
           </div>
