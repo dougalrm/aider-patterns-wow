@@ -1,5 +1,5 @@
 ---
-tags: ["impediments-and-blockers", "retrospectives-and-improvement", "efficiency-and-waste"]
+tags: ["impediments-and-blockers"]
 title: Recognising and tackling team-level impediments
 
 description: This guide focuses on recognizing and overcoming team-level impediments within agile frameworks, emphasizing continuous improvement in operations. It outlines strategies for identifying and addressing friction points through collaboration, prioritization, and root cause analysis, with techniques such as retrospectives and value stream mapping to enhance team productivity and foster a culture of continuous learning and optimization.

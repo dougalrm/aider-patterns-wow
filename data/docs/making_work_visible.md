@@ -1,5 +1,5 @@
 ---
-tags: ["work-visibility", "wip-and-throughput", "metrics-and-reporting"]
+tags: ["work-visibility"]
 title: Making work visible
 
 description: This content explores the power of visualization in agile methodologies for enhancing communication, collaboration, and transparency within teams. It covers tools and techniques such as Kanban boards and metrics visualizations, highlights methods for managing work in progress, planned and unplanned tasks, and the reduction of waste, emphasizing the role of visual tools in fostering accountability and informed decision-making.

@@ -1,5 +1,5 @@
 ---
-tags: ["planning-and-roadmapping", "agile-practices", "delivery-and-flow"]
+tags: ["planning-and-roadmapping"]
 title: Shorter planning horizons to increase agility
 
 description: Emphasizing flexibility and rapid feedback, shorter planning horizons enhance agility by enabling frequent delivery and quick adaptation to change. This approach boosts collaboration, productivity, and reduces risk, aligning with Agile values across frameworks like Scrum and SAFe. The key is balancing detailed planning with the adaptability needed for modern technology environments.

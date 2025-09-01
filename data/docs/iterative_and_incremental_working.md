@@ -1,5 +1,5 @@
 ---
-tags: ["agile-practices", "delivery-and-flow", "wip-and-throughput"]
+tags: ["delivery-and-flow"]
 title: Iterative and incremental working
 
 description: This page elaborates on the mandatory agile methodology of Iterative and Incremental Working in Global Technology teams. It highlights the benefits of breaking down development into manageable cycles for continuous improvement and adaptation, emphasizing enhanced planning, fast feedback, and risk management, using Scrum as an example framework.

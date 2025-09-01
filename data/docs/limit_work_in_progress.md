@@ -1,5 +1,5 @@
 ---
-tags: ["wip-and-throughput", "delivery-and-flow", "efficiency-and-waste"]
+tags: ["delivery-and-flow"]
 title: Limit Work In Progress
 
 description: This guide explores the importance of limiting Work In Progress (WIP) to enhance productivity and reduce cognitive overload. By minimizing multitasking and implementing WIP limits through tools like Kanban boards, teams can optimize workflow, reduce bottlenecks, and improve efficiency, leading to faster delivery and higher-quality outputs.

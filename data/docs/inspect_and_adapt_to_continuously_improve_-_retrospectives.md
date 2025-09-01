@@ -1,5 +1,5 @@
 ---
-tags: ["retrospectives-and-improvement", "agile-practices", "impediments-and-blockers"]
+tags: ["retrospectives-and-improvement"]
 title: Inspect and adapt to continuously improve - Retrospectives
 
 description: Retrospectives are essential for continuous improvement, allowing teams to reflect and adapt their practices. This guide outlines the retrospective process, emphasizing safe, constructive discussions to identify successes and areas for improvement. Regular retrospectives enhance team collaboration and problem-solving, transforming insights into actionable plans and fostering a culture of ongoing learning and development.

@@ -1,5 +1,5 @@
 ---
-tags: ["impediments-and-blockers", "delivery-and-flow", "efficiency-and-waste"]
+tags: ["impediments-and-blockers"]
 title: Recognising systemic impediments
 
 description: This page explores systemic impediments in agile work environments, emphasizing the need for a holistic approach to problem-solving beyond individual teams. It discusses the importance of systems thinking, the Cynefin Framework, and value stream mapping to identify and tackle challenges for more effective product delivery.

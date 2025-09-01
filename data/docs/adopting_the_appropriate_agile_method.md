@@ -2,7 +2,7 @@
 title: Adopting the appropriate agile method
 
 description: Explore Scrum and Kanban agile methods to identify the most suitable for your team. This guide details Scrum's iterative approach, focusing on predictability and risk management, and Kanban's visual process, enhancing workflow efficiency. Understand their principles, practices, and applicability to improve delivery speed, transparency, and customer satisfaction in product development.
-tags: ["agile-practices", "delivery-and-flow", "work-visibility"]
+tags: ["delivery-and-flow"]
 ---
 
 

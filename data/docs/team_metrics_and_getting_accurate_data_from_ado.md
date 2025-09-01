@@ -1,5 +1,5 @@
 ---
-tags: ["metrics-and-reporting", "delivery-and-flow", "definitions-of-done-ready"]
+tags: ["metrics-and-reporting"]
 title: Team metrics and getting accurate data from ADO
 
 description: Discover how the new Team Metrics tool from the Enterprise Insights Unit enhances agile teams by providing precise cycle time and defect ratio data, crucial for balancing speed and quality. Learn best practices to maintain data accuracy from ADO, and understand differences with Actionable Agile for improved product development.

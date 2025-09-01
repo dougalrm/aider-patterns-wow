@@ -1,5 +1,5 @@
 ---
-tags: ["efficiency-and-waste", "wip-and-throughput", "metrics-and-reporting"]
+tags: ["delivery-and-flow"]
 title: Resource Efficiency vs Flow Efficiency
 
 description: Explore the contrasting approaches of Resource Efficiency and Flow Efficiency in optimizing team productivity. Prioritizing Flow Efficiency enhances collaboration, shortens cycle times, and fosters an environment that values individuals while improving work processes, enabling faster and more sustainable delivery of results without overburdening team members.
