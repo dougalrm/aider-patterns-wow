@@ -34,8 +34,13 @@ export default function TableOfContents({ toc = [], variant = 'panel' }) {
     );
   }
 
+  const containerClass =
+    variant === 'floating'
+      ? 'sticky top-24 max-h:[calc(100vh-8rem)] max-h-[calc(100vh-8rem)] overflow-auto rounded-lg border border-white/10 bg-white/70 p-4 shadow-sm backdrop-blur-md dark:border-white/10 dark:bg-slate-950/50'
+      : 'sticky top-24 max-h-[calc(100vh-8rem)] overflow-auto rounded-lg border border-white/20 bg-white/60 p-4 backdrop-blur dark:border-white/10 dark:bg-slate-950/40';
+
   return (
-    <div className="sticky top-24 max-h-[calc(100vh-8rem)] overflow-auto rounded-lg border border-white/20 bg-white/60 p-4 backdrop-blur dark:border-white/10 dark:bg-slate-950/40">
+    <div className={containerClass}>
       <p className="mb-3 text-xs uppercase tracking-widest text-slate-500">
         <ListTree aria-hidden="true" className="mr-2 inline-block h-5 w-5 align-[-2px]" />
         On this page

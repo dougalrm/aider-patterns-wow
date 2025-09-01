@@ -113,19 +113,19 @@ export default async function ArticlePage({ params }) {
       </section>
 
       <section className="relative">
-        <div className="grid grid-cols-1 gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(0,48rem)_clamp(200px,22vw,230px)_minmax(0,1fr)]">
-          <div className="lg:col-start-2">
-            <div className="mb-6 lg:hidden">
-              <TableOfContents toc={toc} variant="inline" />
-            </div>
-            <div className="rounded-xl border border-indigo-400/50 bg-indigo-950/40 p-4 backdrop-blur-md shadow-lg shadow-purple-900/50">
-              <div className="prose prose-lg prose-invert max-w-none prose-a:text-indigo-300 hover:prose-a:text-fuchsia-300 prose-img:rounded-lg js-article" dangerouslySetInnerHTML={{ __html: htmlWithIds }} />
-            </div>
+        <div>
+          <div className="mb-6 lg:hidden">
+            <TableOfContents toc={toc} variant="inline" />
           </div>
-          <aside className="hidden lg:block lg:col-start-3">
-            <TableOfContents toc={toc} />
-          </aside>
+          <div className="rounded-xl border border-indigo-400/50 bg-indigo-950/40 p-4 backdrop-blur-md shadow-lg shadow-purple-900/50">
+            <div className="prose prose-lg prose-invert max-w-none prose-a:text-indigo-300 hover:prose-a:text-fuchsia-300 prose-img:rounded-lg js-article" dangerouslySetInnerHTML={{ __html: htmlWithIds }} />
+          </div>
         </div>
+        <aside className="hidden lg:block absolute inset-y-0 right-0 w-[clamp(220px,24vw,280px)]">
+          <div className="sticky top-24">
+            <TableOfContents toc={toc} variant="floating" />
+          </div>
+        </aside>
       </section>
 
       <ArticleEnhancements />
