@@ -85,7 +85,7 @@ export default async function ArticlePage({ params }) {
   return (
     <>
       <section className="mb-8">
-        <div className="relative overflow-hidden rounded-xl border border-indigo-400/50 bg-indigo-950/40 backdrop-blur-md p-6 shadow-lg shadow-purple-900/50">
+        <div className="relative overflow-hidden rounded-xl border border-indigo-400/50 bg-indigo-950/40 backdrop-blur-md p-6 md:p-8 shadow-lg shadow-purple-900/50">
           <h1 className="text-3xl md:text-4xl font-bold tracking-wide">
             <FileText aria-hidden="true" className="mr-2 inline-block h-6 w-6 align-[-2px]" />
             {article.title}
@@ -95,6 +95,11 @@ export default async function ArticlePage({ params }) {
             <span aria-hidden="true">•</span>
             <span>{readingTime}</span>
           </div>
+          {article.description ? (
+            <p className="mt-3 max-w-3xl text-indigo-100/95 dark:text-indigo-100/90 leading-relaxed">
+              {article.description}
+            </p>
+          ) : null}
           {article.tags?.length ? (
             <div className="mt-4 flex flex-wrap gap-2">
               {article.tags.map((tag) => (
