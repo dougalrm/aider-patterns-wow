@@ -43,7 +43,7 @@ export default function ArticleEnhancements() {
           aria-valuemax={100}
           aria-valuenow={Math.round(displayed * 100)}
           className="progress-bar h-2 bg-indigo-500/90 transition-[width,opacity] duration-200 ease-out"
-          style={{ width: `${displayed * 100}%`, opacity: displayed === 0 ? 0 : 1 }}
+          style={{ width: `${displayed * 100}%`, opacity: displayed < 0.1 ? 0 : 1 }}
         />
       </div>
       <button
