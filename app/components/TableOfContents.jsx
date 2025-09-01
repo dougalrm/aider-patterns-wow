@@ -10,7 +10,7 @@ export default function TableOfContents({ toc = [], variant = 'panel' }) {
           <li key={h.id} className={h.level === 3 ? 'pl-4' : h.level >= 4 ? 'pl-6' : ''}>
             <a
               href={`#${h.id}`}
-              className="block text-sm text-slate-700 transition hover:text-brand-600 dark:text-slate-300 dark:hover:text-brand-100"
+              className="block text-sm text-slate-700 transition hover:text-brand-600"
             >
               {h.text}
             </a>
@@ -22,7 +22,7 @@ export default function TableOfContents({ toc = [], variant = 'panel' }) {
 
   if (variant === 'inline') {
     return (
-      <details className="rounded-lg border border-white/20 bg-white/70 p-4 backdrop-blur dark:border-white/10 dark:bg-slate-950/40">
+      <details className="rounded-lg border border-white/20 bg-white/70 p-4 backdrop-blur">
         <summary className="mb-1 cursor-pointer select-none text-xs uppercase tracking-widest text-slate-600 dark:text-slate-400">
           <ListTree aria-hidden="true" className="mr-2 inline-block h-5 w-5 align-[-2px]" />
           On this page
@@ -36,8 +36,8 @@ export default function TableOfContents({ toc = [], variant = 'panel' }) {
 
   const containerClass =
     variant === 'floating'
-      ? 'sticky top-24 max-h-[calc(100vh-8rem)] overflow-auto rounded-lg border border-white/10 bg-white/70 p-4 shadow-sm backdrop-blur-md dark:border-white/10 dark:bg-slate-950/50'
-      : 'sticky top-24 max-h-[calc(100vh-8rem)] overflow-auto rounded-lg border border-white/20 bg-white/60 p-4 backdrop-blur dark:border-white/10 dark:bg-slate-950/40';
+      ? 'sticky top-24 max-h-[calc(100vh-8rem)] overflow-auto rounded-lg border border-white/10 bg-white/70 p-4 shadow-sm backdrop-blur-md'
+      : 'sticky top-24 max-h-[calc(100vh-8rem)] overflow-auto rounded-lg border border-white/20 bg-white/60 p-4 backdrop-blur';
 
   return (
     <div className={containerClass}>

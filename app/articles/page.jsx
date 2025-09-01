@@ -38,7 +38,7 @@ export default async function ArticlesPage({ searchParams }) {
               <FileText aria-hidden="true" className="mr-2 inline-block h-6 w-6 align-[-2px]" />
               Articles
             </h1>
-            <p className="mt-2 text-slate-700 dark:text-slate-200">
+            <p className="mt-2 text-slate-700">
               {tag ? `Filtering by “${tag}” — ` : ''}Curated guidance for better ways of working.
             </p>
           </div>
@@ -59,7 +59,7 @@ export default async function ArticlesPage({ searchParams }) {
                 className="badge"
               >
                 <span>#{t}</span>
-                <span className="text-slate-600 dark:text-slate-400">· {count}</span>
+                <span className="text-slate-600">· {count}</span>
               </Link>
             ))}
           </div>
@@ -68,7 +68,7 @@ export default async function ArticlesPage({ searchParams }) {
 
       {filtered.length === 0 ? (
         <div className="kb-card p-8 text-center">
-          <p className="text-slate-700 dark:text-slate-200">No articles match your filter.</p>
+          <p className="text-slate-700">No articles match your filter.</p>
           <p className="mt-2 text-sm">
             Try another tag or <Link className="text-primary hover:text-secondary" href="/articles">view all articles</Link>.
           </p>

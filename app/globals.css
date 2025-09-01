@@ -138,16 +138,6 @@
   color: #0b1020;
 }
 
-@media (prefers-color-scheme: dark) {
-  .js-article :where(pre) { background: #0b1220; color: #e6e8ff; }
-  .js-article :where(blockquote) {
-    background: rgba(2, 6, 23, 0.55);
-    color: #e6e8ff;
-    border-left-color: rgba(167, 139, 250, 0.35);
-  }
-  .js-article :where(th) { background: rgba(2, 6, 23, 0.65); color: #e6e8ff; }
-  .js-article :where(th, td) { border-color: rgba(167, 139, 250, 0.25); }
-}
 
 /* Epic-cosmic starlit sky */
 .retro-bg {
@@ -250,14 +240,6 @@
     border-color: rgba(15, 23, 42, 0.08);
     box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
   }
-  @media (prefers-color-scheme: dark) {
-    .kb-card {
-      background: rgba(2, 6, 23, 0.78);
-      color: #e6e8ff;
-      border-color: rgba(148, 163, 184, 0.2);
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
-    }
-  }
 
   /* Collection card accent */
   .collection-card {
@@ -288,20 +270,10 @@
   .collection-card h2 {
     color: #3730a3; /* indigo-800 */
   }
-  @media (prefers-color-scheme: dark) {
-    .collection-card h2 { color: #c7b7ff; }
-  }
   .collection-card .meta-pill {
     background: #eef2ff;
     color: #3730a3;
     border: 1px solid #c7d2fe;
-  }
-  @media (prefers-color-scheme: dark) {
-    .collection-card .meta-pill {
-      background: rgba(79, 70, 229, 0.35);
-      color: #e6e8ff;
-      border-color: rgba(167, 139, 250, 0.75);
-    }
   }
   /* Article card — keep neutral surface */
   .article-card {
@@ -317,28 +289,12 @@
     background: #e5e7eb;
     color: #334155;
   }
-  @media (prefers-color-scheme: dark) {
-    .article-card {
-      background: rgba(2, 6, 23, 0.85);
-      color: #e6e8ff;
-      border-color: rgba(148, 163, 184, 0.25);
-    }
-    .article-card .meta-pill {
-      background: rgba(30, 41, 59, 0.65);
-      color: #e6e8ff;
-    }
-  }
 
   /* Meta pill to differentiate content types */
   .meta-pill {
     @apply inline-flex items-center rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide;
     background: #e5e7eb; /* slate-200 */
     color: #334155; /* slate-700 */
-  }
-  @media (prefers-color-scheme: dark) {
-    .meta-pill { background: rgba(30, 41, 59, 0.65); color: #e6e8ff; }
-    .collection-card { border-color: rgba(148, 163, 184, 0.25); }
-    .collection-card::before { opacity: 0.7; }
   }
 
   /* Constellation divider: subtle dots + connecting lines */
@@ -366,13 +322,6 @@
     border: 1px solid var(--border);
     background: rgba(99, 102, 241, 0.16);
     color: #1e293b;
-  }
-  @media (prefers-color-scheme: dark) {
-    .badge {
-      background: rgba(30, 41, 59, 0.45);
-      color: var(--foreground);
-      border-color: rgba(167, 139, 250, 0.45);
-    }
   }
   /* Accessible tag chips */
   .chip {
@@ -408,21 +357,9 @@
     border: 1px solid rgba(15, 23, 42, 0.12);
     background-color: #ffffff;
   }
-  @media (prefers-color-scheme: dark) {
-    .btn-outline {
-      color: #e7e9ff;
-      background-color: rgba(30, 41, 59, 0.4);
-      border-color: rgba(148, 163, 184, 0.25);
-    }
-  }
   .btn-outline:hover {
     box-shadow: 0 1px 2px rgba(15, 23, 42, 0.12);
     background-color: #f8fafc;
-  }
-  @media (prefers-color-scheme: dark) {
-    .btn-outline:hover {
-      background-color: rgba(49, 46, 129, 0.35);
-    }
   }
   .input {
     @apply w-full rounded-md border border-input bg-white px-3 py-2 text-sm placeholder:text-muted-foreground focus:ring-2 focus:ring-ring focus:ring-opacity-50 focus:outline-none;
