@@ -3,7 +3,7 @@ import Link from 'next/link';
 import ArticleEnhancements from '../components/ArticleEnhancements';
 import TableOfContents from '../components/TableOfContents';
 import { loadArticleBySlug, resolveContentDir } from '../../lib/contentLoader';
-import { FileText, ArrowLeft } from 'lucide-react';
+import { FileText, ArrowLeft, Calendar, Clock, Tag } from 'lucide-react';
 
 export async function generateStaticParams() {
   // Optionally pre-generate can be implemented by loading all slugs; keep empty for on-demand.
@@ -84,33 +84,66 @@ export default async function ArticlePage({ params }) {
 
   return (
     <>
-      <section className="mb-8">
-        <div className="relative overflow-hidden rounded-xl border border-indigo-400/50 bg-indigo-950/40 backdrop-blur-md p-6 md:p-8 shadow-lg shadow-purple-900/50">
-          <h1 className="text-3xl md:text-4xl font-bold tracking-wide">
-            <FileText aria-hidden="true" className="mr-2 inline-block h-6 w-6 align-[-2px]" />
-            {article.title}
-          </h1>
-          <div className="mt-2 flex flex-wrap items-center gap-3 text-sm text-indigo-200/85">
-            {article.date && <span>{new Date(article.date).toLocaleDateString()}</span>}
-            <span aria-hidden="true">•</span>
-            <span>{readingTime}</span>
+      <section className="mb-10">
+        <div className="relative overflow-hidden rounded-2xl border border-indigo-400/40 bg-gradient-to-br from-indigo-900/50 via-indigo-950/40 to-violet-950/40 backdrop-blur-xl p-6 md:p-8 shadow-lg shadow-purple-900/40">
+          <div aria-hidden="true" className="pointer-events-none absolute -top-12 -right-12 h-40 w-40 rounded-full bg-fuchsia-500/20 blur-3xl" />
+          <div aria-hidden="true" className="pointer-events-none absolute -bottom-16 -left-16 h-56 w-56 rounded-full bg-indigo-500/20 blur-3xl" />
+          <div aria-hidden="true" className="pointer-events-none absolute inset-0 ring-1 ring-white/10" />
+
+          <div className="flex items-start gap-3">
+            <div className="mt-1 rounded-lg bg-indigo-400/10 p-2 ring-1 ring-inset ring-indigo-300/20">
+              <FileText aria-hidden="true" className="h-6 w-6 text-indigo-200" />
+            </div>
+            <div className="min-w-0">
+              <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight">
+                <span className="bg-gradient-to-r from-indigo-100 via-white to-indigo-100 bg-clip-text text-transparent">
+                  {article.title}
+                </span>
+              </h1>
+
+              <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-indigo-200/85">
+                {article.date && (
+                  <span className="inline-flex items-center gap-1.5">
+                    <Calendar aria-hidden="true" className="h-4 w-4 opacity-80" />
+                    {new Date(article.date).toLocaleDateString()}
+                  </span>
+                )}
+                <span className="inline-flex items-center gap-1.5">
+                  <Clock aria-hidden="true" className="h-4 w-4 opacity-80" />
+                  {readingTime}
+                </span>
+              </div>
+            </div>
           </div>
+
           {article.description ? (
-            <p className="mt-3 max-w-3xl text-indigo-100/95 leading-relaxed">
+            <p className="mt-4 max-w-3xl text-indigo-100/95 leading-relaxed">
               {article.description}
             </p>
           ) : null}
+
           {article.tags?.length ? (
-            <div className="mt-4 flex flex-wrap gap-2">
+            <div className="mt-4 flex flex-wrap items-center gap-2">
               {article.tags.map((tag) => (
-                <span key={tag} className="inline-flex items-center rounded-full border border-indigo-400/40 bg-indigo-950/30 px-2.5 py-1 text-xs text-indigo-200">{tag}</span>
+                <Link
+                  key={tag}
+                  href={`/articles?tag=${encodeURIComponent(String(tag).toLowerCase())}`}
+                  className="inline-flex items-center gap-1 rounded-full border border-indigo-400/40 bg-indigo-950/30 px-2.5 py-1 text-xs text-indigo-200 transition hover:bg-indigo-900/40"
+                >
+                  <Tag aria-hidden="true" className="h-3.5 w-3.5 opacity-80" />
+                  <span>{tag}</span>
+                </Link>
               ))}
             </div>
           ) : null}
+
           <div className="mt-6 flex flex-wrap gap-3">
-            <Link href="/" className="inline-flex items-center gap-2 rounded-lg border border-indigo-400/40 bg-indigo-950/30 px-3 py-1.5 text-sm text-indigo-200 hover:bg-indigo-900/40">
+            <Link
+              href="/"
+              className="inline-flex items-center gap-2 rounded-lg bg-white/5 px-3 py-1.5 text-sm text-indigo-100 ring-1 ring-inset ring-white/10 transition hover:bg-white/10"
+            >
               <ArrowLeft aria-hidden="true" className="h-5 w-5" />
-              Back
+              Back to Home
             </Link>
             {/* Copy link handled client-side below */}
           </div>
