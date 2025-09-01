@@ -34,8 +34,12 @@ export default function ArticleEnhancements() {
   return (
     <>
       <div
-        aria-hidden="true"
-        className="progress-bar"
+        role="progressbar"
+        aria-label="Reading progress"
+        aria-valuemin={0}
+        aria-valuemax={100}
+        aria-valuenow={Math.round(progress * 100)}
+        className="progress-bar pointer-events-none fixed left-0 top-0 z-50 h-1 w-full bg-brand-600/90 origin-left transition-transform"
         style={{ transform: `scaleX(${progress})` }}
       />
       <button
