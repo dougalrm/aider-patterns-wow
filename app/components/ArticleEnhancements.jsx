@@ -35,15 +35,17 @@ export default function ArticleEnhancements() {
 
   return (
     <>
-      <div
-        role="progressbar"
-        aria-label="Reading progress"
-        aria-valuemin={0}
-        aria-valuemax={100}
-        aria-valuenow={Math.round(displayed * 100)}
-        className="progress-bar pointer-events-none fixed left-0 bottom-0 z-50 h-2 w-full origin-left transform-gpu bg-indigo-500/90 transition-transform transition-opacity"
-        style={{ transform: `scaleX(${displayed})`, opacity: displayed === 0 ? 0 : 1 }}
-      />
+      <div className="pointer-events-none fixed left-0 bottom-0 z-50 w-full">
+        <div
+          role="progressbar"
+          aria-label="Reading progress"
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-valuenow={Math.round(displayed * 100)}
+          className="progress-bar h-2 bg-indigo-500/90 transition-[width,opacity] duration-200 ease-out"
+          style={{ width: `${displayed * 100}%`, opacity: displayed === 0 ? 0 : 1 }}
+        />
+      </div>
       <button
         type="button"
         onClick={copyLink}
