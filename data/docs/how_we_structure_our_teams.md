@@ -101,7 +101,7 @@ description: Explore our team structure within Global Technology, emphasizing St
 
 # How We Structure Our Teams
 
-The following page details what we currently believe is the right structure for teams within Global Technology (GT), and is aligned to one of our principles about [**building Stable, Empowered Teams**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/3eb8aeab-9c4f-4c9a-b0ab-8850f3cd0247.aspx).
+The following page details what we currently believe is the right structure for teams within Global Technology (GT), and is aligned to one of our principles about [**building Stable, Empowered Teams**](cA5DcI8h54ye17yXUNla6w/3eb8aeab-9c4f-4c9a-b0ab-8850f3cd0247.aspx).
 
 
 
@@ -111,11 +111,11 @@ Typically, teams will have fewer than 10 people and consist of engineers support
 
 In some specific areas or situations, other team models exist.
 
-![This image shows the makeup of a standard GT Team containing the respective three leadership roles and team members](How%20we%20structure%20our%20teams_media/media/image2.png)
+![This image shows the makeup of a standard team containing the respective three leadership roles and team members](How%20we%20structure%20our%20teams_media/media/image2.png)
 
-*[Image caption: This image shows the makeup of a standard team in GT highlighting the three leadership roles]*
+*[Image caption: This image shows the makeup of a standard team highlighting the three leadership roles]*
 
-Roles and responsibilities, job descriptions, and competency frameworks for each role can be found in the [**People section**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/e7263682-badb-499c-b285-0dcb66598a1a.aspx).
+Roles and responsibilities, job descriptions, and competency frameworks for each role can be found in the [**People section**](cA5DcI8h54ye17yXUNla6w/e7263682-badb-499c-b285-0dcb66598a1a.aspx).
 
 ## Team Leadership
 
@@ -123,7 +123,7 @@ The Delivery Lead, Engineering Lead, and Product Lead roles are the leadership r
 
 - **Delivery Leads (DL):** Support teams to develop good agile and lean practices, overcome challenges, and focus on continuous improvement while providing an appropriate level of delivery support. They are responsible for the 'Who' and 'When'.
 
-- **Product Leads (PL):** Support teams by maintaining a laser focus on value, and by partnering with end-users to develop the product vision, strategy, and outcomes the team work on. They are responsible for the 'What', and in combination with the wider business, the 'Why'. More information can be found on our [**Product specific pages**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/a9784708-b2d8-46a5-8628-2c6cd132c763.aspx).
+- **Product Leads (PL):** Support teams by maintaining a laser focus on value, and by partnering with end-users to develop the product vision, strategy, and outcomes the team work on. They are responsible for the 'What', and in combination with the wider business, the 'Why'. More information can be found on our [**Product specific pages**](cA5DcI8h54ye17yXUNla6w/a9784708-b2d8-46a5-8628-2c6cd132c763.aspx).
 
 - **Engineering Leads (EL):** Support teams by providing technical clarity, guiding design and implementation, and mentoring and developing others. They are responsible within the Engineering team for the 'How'.
 
@@ -137,7 +137,7 @@ It's important to note there is no 'one description fits all', and these three r
 
 In addition to the individual responsibilities, the three roles collectively look after the team - maintaining a sustainable pace, allowing time for personal development and innovation, as well as elements of pastoral care.
 
-Formal line management responsibilities will also lie with one of these three roles. Typically, this will be the person who is best placed to take on this role in addition to their other responsibilities. For more information on what this may involve, please see the [**Central HR guidance for colleagues**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/KXM7uD9NbfFsiIViZExTBA/c2f0e6d4-cbc9-42c2-b077-2710fda0b7cc.aspx) and [**managers**](https://schroders365eur.sharepoint.com/sites/myschroders/content/pages/corporatepages/znwzrgdseashrzhgren3xw/c9bceca6-f689-4a88-b936-738497013ce9.aspx).
+Formal line management responsibilities will also lie with one of these three roles. Typically, this will be the person who is best placed to take on this role in addition to their other responsibilities. For more information on what this may involve, please see the [**Central HR guidance for colleagues**](KXM7uD9NbfFsiIViZExTBA/c2f0e6d4-cbc9-42c2-b077-2710fda0b7cc.aspx) and [**managers**](znwzrgdseashrzhgren3xw/c9bceca6-f689-4a88-b936-738497013ce9.aspx).
 
 ## The Roles in More Detail
 

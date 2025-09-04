@@ -31,9 +31,9 @@ Kanban means signboard or billboard. In Agile, it is a tool for workflow visuali
 
 - Scrum also utilises a Kanban to visualise work. It helps Teams make Sprint Backlog items visible. The board can take many physical and virtual forms, but it performs the same function regardless of how it looks. The board is updated by the Team and shows all items that need to be completed for the current Sprint.
 
-- In both Kanban and Scrum, the [workflow](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/a0c57e41-50e0-481d-81f9-fc8686dba2f3.aspx) can be modified to provide added visibility.
+- In both Kanban and Scrum, the [workflow](cA5DcI8h54ye17yXUNla6w/a0c57e41-50e0-481d-81f9-fc8686dba2f3.aspx) can be modified to provide added visibility.
 
-- Choosing which [method](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/YASyWyZ006UdMmjiDSgqSQ/1afe113f-f808-4f9a-b97e-9b592e82d061.aspx) or framework is most appropriate for the type of work a team does is an important part of defining the team's ways of working.
+- Choosing which [method](YASyWyZ006UdMmjiDSgqSQ/1afe113f-f808-4f9a-b97e-9b592e82d061.aspx) or framework is most appropriate for the type of work a team does is an important part of defining the team's ways of working.
 
 ![A diagram of a task Description automatically generated with medium confidence](Making%20work%20visible_media/media/image2.jpeg)
 
@@ -43,13 +43,13 @@ Kanban means signboard or billboard. In Agile, it is a tool for workflow visuali
 
 - The use of a Kanban board is a simple way to help limit Work in Progress by having a column that visually displays the work that exists in that state and setting a maximum limit on the quantity. The idea is that we shouldn't start new work before the existing work gets to done. Once a column has a WIP limit and the column fills up, then we're forced to move downstream to help get the most downstream work to truly done.
 
-- Over time, teams often reduce their [WIP limit](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/8f28ec5a-7b86-4fbc-bdf4-9d61c142d1bf.aspx) to improve flow. Each reduction will challenge the team to cross-skill and collaborate more.
+- Over time, teams often reduce their [WIP limit](cA5DcI8h54ye17yXUNla6w/8f28ec5a-7b86-4fbc-bdf4-9d61c142d1bf.aspx) to improve flow. Each reduction will challenge the team to cross-skill and collaborate more.
 
 ### Planned Work
 
 Planned work refers to the work that we are aware of and will likely be included in the team's backlog. It can originate from various sources:
 
-- Features derived from the Product [Roadmap](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/ZnItogF7IpiI2HA9asSMiA/4e2e7b9c-34de-41ac-9241-f02c2704d523.aspx)
+- Features derived from the Product [Roadmap](ZnItogF7IpiI2HA9asSMiA/4e2e7b9c-34de-41ac-9241-f02c2704d523.aspx)
 
 - Defects
 
@@ -127,7 +127,7 @@ A dashboard is a way of displaying various types of visual data in one place. Us
 
 ### DevOps Research and Assessment (DORA)
 
-[DORA](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/4845e02e-dfaa-4cdf-88f8-a1fb4578b58a.aspx) metrics are a great way to measure and provide objective data on the effectiveness, efficiency, and reliability of team development and deployment practices, and help to identify areas for improvement for your team.
+[DORA](cA5DcI8h54ye17yXUNla6w/4845e02e-dfaa-4cdf-88f8-a1fb4578b58a.aspx) metrics are a great way to measure and provide objective data on the effectiveness, efficiency, and reliability of team development and deployment practices, and help to identify areas for improvement for your team.
 
 ### Risks, Actions, Issues, Decisions
 
@@ -137,11 +137,11 @@ By incorporating the Risks, Actions, Issues, and Decisions framework into Agile 
 
 ## Prioritisation
 
-[Prioritisation](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/f0544d50-aa38-48b6-ad70-ca51c12aa76c.aspx) is an essential part of working in an Agile environment. It enables teams to focus on delivering the most valuable and impactful work first. Making the process of prioritisation visible gives the team insight into why decisions have been made, helping them to keep the big picture in mind.
+[Prioritisation](cA5DcI8h54ye17yXUNla6w/f0544d50-aa38-48b6-ad70-ca51c12aa76c.aspx) is an essential part of working in an Agile environment. It enables teams to focus on delivering the most valuable and impactful work first. Making the process of prioritisation visible gives the team insight into why decisions have been made, helping them to keep the big picture in mind.
 
 ## Roadmap
 
-A [roadmap](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/ZnItogF7IpiI2HA9asSMiA/4e2e7b9c-34de-41ac-9241-f02c2704d523.aspx) is a communication tool. It's a visual representation of your strategic plans.
+A [roadmap](ZnItogF7IpiI2HA9asSMiA/4e2e7b9c-34de-41ac-9241-f02c2704d523.aspx) is a communication tool. It's a visual representation of your strategic plans.
 
 - It provides direction to the team.
 
@@ -155,7 +155,7 @@ A [roadmap](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pag
 
 ## Delivery Plan
 
-[Delivery Plans](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/CIWsscu83QKHLo3NKRvg/530254f9-8222-4bb6-a35c-10b41f5dd835.aspx) can be used to coordinate and communicate the expected delivery of features. They facilitate discussions on capacity and sequencing, providing clarity and confidence. They also help to identify and manage dependencies, risks, and issues, and help to communicate progress to stakeholders. However, they are not designed to track value or serve as project plans.
+[Delivery Plans](CIWsscu83QKHLo3NKRvg/530254f9-8222-4bb6-a35c-10b41f5dd835.aspx) can be used to coordinate and communicate the expected delivery of features. They facilitate discussions on capacity and sequencing, providing clarity and confidence. They also help to identify and manage dependencies, risks, and issues, and help to communicate progress to stakeholders. However, they are not designed to track value or serve as project plans.
 
 ## The Advantages of Good Visualisation Encompass:
 

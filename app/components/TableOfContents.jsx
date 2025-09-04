@@ -23,7 +23,7 @@ export default function TableOfContents({ toc = [], variant = 'panel' }) {
   if (variant === 'inline') {
     return (
       <details className="rounded-lg border border-white/20 bg-white/70 p-4 backdrop-blur">
-        <summary className="mb-1 cursor-pointer select-none text-xs uppercase tracking-widest text-slate-600 dark:text-slate-400">
+        <summary className="mb-1 cursor-pointer select-none text-xs uppercase tracking-widest text-slate-600">
           <ListTree aria-hidden="true" className="mr-2 inline-block h-5 w-5 align-[-2px]" />
           On this page
         </summary>

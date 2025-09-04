@@ -10,8 +10,6 @@ description: This guide explores the importance of limiting Work In Progress (WI
 
 # Limit Work In Progress (WIP) at Every Level: Stop Starting, Start Finishing
 
-[**Back to the Patterns overview page**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/XeHDBpKDVFziBxivUrK0A/c8357f9c-361f-4a21-868b-339a7cfa1295.aspx)
-
 The more work we have in progress, the slower and less productive we will be. Individuals and teams should limit work in progress (WIP) and stop multitasking so they can get more done.
 
 ## Stop Starting, Start Finishing
@@ -68,7 +66,7 @@ The diagram below shows WIP limits on a Kanban board -- with a maximum of 3 item
 
 Visualizing work using a Kanban board helps monitor the amount of WIP and prevents WIP limits being breached. It also shows when work is accumulating and causing a bottleneck.
 
-WIP Limits are often used in conjunction with a [**definition of 'Done'**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/87fd8010-884c-426f-a99c-58b8fbe17df8.aspx) which helps ensure that work meets a certain standard or level of completeness. This helps ensure work does not return to the system for rework.
+WIP Limits are often used in conjunction with a [**definition of 'Done'**](cA5DcI8h54ye17yXUNla6w/87fd8010-884c-426f-a99c-58b8fbe17df8.aspx) which helps ensure that work meets a certain standard or level of completeness. This helps ensure work does not return to the system for rework.
 
 The combination of these two techniques helps ensure a balance between completing work and delivering work that's of the right quality.
 
@@ -91,15 +89,7 @@ As an example, reducing the amount of work in progress may expose periods of idl
 
 For a more detailed and scientific look at work in progress, it may be useful to read about [**Queuing theory**](https://less.works/less/principles/queueing_theory) and [**Little's law**](https://kanbanzone.com/littles-law/).
 
-You can read more about Little's law on the Schroders Confluence site [**Metrics - Little's Law**](https://confluence.schroders.com/pages/viewpage.action?spaceKey=DN&title=Metrics+-+Little%27s+Law), or, for a light-hearted perspective, read [**Little's Law (Explained With Tacos)**](https://toggl.com/track/littles-law/).
-
 ## References
 
 - [**Limit Work in Progress**](https://agilecanon.com/pattern-work-in-progress/), by Dan Greening
 - [**Why you should limit work in progress and stop multitasking**](https://medium.com/@Adrien_Liard/why-you-should-limit-work-in-progress-and-stop-multitasking-ba7ecd4670f), by Adrien Liard
-
-## Feedback
-
-If you have any comments about this page or others, we'd love to hear them. You can email [waysofworking@schroders.com](mailto:waysofworking@schroders.com).
-
-[**Back to the Patterns overview page**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/XeHDBpKDVFziBxivUrK0A/c8357f9c-361f-4a21-868b-339a7cfa1295.aspx)

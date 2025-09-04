@@ -1,17 +1,9 @@
 ---
 tags: ["retrospectives-and-improvement"]
 title: Using feedback to drive product improvement
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: Explore the significance of feedback in agile development, highlighting its role in enhancing product quality and team dynamics. Learn about various feedback methods, including surveys and code reviews, and identify key contributors such as customers and team members. This guide offers strategies to incorporate feedback into your product development cycle for continuous improvement.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 
@@ -23,7 +15,7 @@ description: Explore the significance of feedback in agile development, highligh
 
 "***I love the feedback cycle. It\'s all about taking feedback, considering it, and using it to make our product even better. It\'s really important to me because it helps me make sure I\'m always on top of what our customers and users need and want."***
 
-Feedback is a crucial part of the agile development process, as it helps teams grow and create better products by [**continuously improving** (opens new browser tab)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/d88bc27f-dd37-4d04-878e-c46efea9d098.aspx). When combined with open and honest communication, it ensures everyone is on the same page about what needs improvement.
+Feedback is a crucial part of the agile development process, as it helps teams grow and create better products by [**continuously improving**](cA5DcI8h54ye17yXUNla6w/d88bc27f-dd37-4d04-878e-c46efea9d098.aspx). When combined with open and honest communication, it ensures everyone is on the same page about what needs improvement.
 
 By giving and receiving feedback regularly, teams can quickly spot and solve issues, leading to better efficiency and higher-quality results, giving a better experience to users and boosting customer satisfaction.
 
@@ -51,7 +43,7 @@ Regular feedback is vital for making sure the product satisfies customer and use
 
 - **Boost engineering & quality**: Feedback drives improvement in engineering, leading to higher quality outcomes. By incorporating feedback on readability, maintainability, and scalability of code, we can improve our engineering efforts and deliver top-notch results.
 
-- **Foster team unity & performance**: Feedback is vital for building strong team relationships and collaboration. It\'s important to create a [**positive environment** (opens new browser tab)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/aa3752ff-4edf-4889-a690-516f1cd2755c.aspx) where team members feel comfortable giving and receiving feedback, and where constructive criticism is not only accepted but also encouraged.
+- **Foster team unity & performance**: Feedback is vital for building strong team relationships and collaboration. It\'s important to create a [**positive environment**](cA5DcI8h54ye17yXUNla6w/aa3752ff-4edf-4889-a690-516f1cd2755c.aspx) where team members feel comfortable giving and receiving feedback, and where constructive criticism is not only accepted but also encouraged.
 
 ## Methods for Getting Regular, Reliable, Timely, and Constructive Feedback
 
@@ -61,13 +53,13 @@ There are several methods for getting feedback within an agile team, including:
 
 Interviews are a more in-depth method of gathering feedback. They can be conducted in person, over the phone, or through video conferencing. Interviews allow teams to gather detailed feedback on specific topics and can provide valuable insights into user or customer needs.
 
-For inspiration, check out the following article from Roadmunk: [**'How to find the best features to build using the right customer interview questions' (opens new browser tab)](https://roadmunk.com/guides/customer-interview-questions-product-management/).
+For inspiration, check out the following article from Roadmunk: [**'How to find the best features to build using the right customer interview questions'](https://roadmunk.com/guides/customer-interview-questions-product-management/).
 
 ### Surveys
 
 Surveys are a great way to gather feedback from a large number of users or customers. Surveys can be conducted online or in person, and can be designed to gather feedback on a wide range of topics, such as product satisfaction, usability, and user experience.
 
-Check out the following Product Alpaca article about what a good survey-led approach looks like: [**'Surveys: when should you use them, and when to pass' (opens new browser tab)](https://medium.com/design-warp/surveys-when-should-you-use-them-and-when-to-pass-ac2a6ba81a01).
+Check out the following Product Alpaca article about what a good survey-led approach looks like: [**'Surveys: when should you use them, and when to pass'](https://medium.com/design-warp/surveys-when-should-you-use-them-and-when-to-pass-ac2a6ba81a01).
 
 ### Usability Testing
 
@@ -77,9 +69,9 @@ Usability testing is a method of gathering feedback by observing users as they i
 
 Code reviews are an effective way to gather feedback on the quality of the code. Team members provide feedback on the readability, maintainability, and scalability of the code.
 
-Check out the following Git Lab article covering [**'What are code reviews, and how do they work?' (opens new browser tab)](https://about.gitlab.com/topics/version-control/what-is-code-review/).
+Check out the following Git Lab article covering [**'What are code reviews, and how do they work?'](https://about.gitlab.com/topics/version-control/what-is-code-review/).
 
-Peer review is also one of our mandatory ways of working. [**Software must be peer reviewed prior to deployment into a production environment' (opens new browser tab)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/7SSZvpCu3cfjiRlAaYeoAw/050f55eb-23d4-4ea4-ab75-452a1ef082c7.aspx).
+Peer review is also one of our mandatory ways of working. [**Software must be peer reviewed prior to deployment into a production environment'](7SSZvpCu3cfjiRlAaYeoAw/050f55eb-23d4-4ea4-ab75-452a1ef082c7.aspx).
 
 ### Pairing
 
@@ -89,7 +81,7 @@ Pairing, where two people work together on a single task, enables constant feedb
 
 Regular retrospectives are an effective way to gather feedback on the process of developing a product. Team members can provide feedback on the process and identify areas that can be improved.
 
-Check out the [**'Inspect & adapt to continuously improve (Retrospectives)' (opens new browser tab)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/11323923-036e-4eb7-9d15-12856e7b2a0b.aspx) pattern.
+Check out the [**'Inspect & adapt to continuously improve (Retrospectives)'](cA5DcI8h54ye17yXUNla6w/11323923-036e-4eb7-9d15-12856e7b2a0b.aspx) pattern.
 
 ### Performance Reviews
 
@@ -99,7 +91,7 @@ Performance reviews are a formal method of gathering feedback on an individual\'
 
 Encourage open and transparent communication among team members and create an environment where team members feel comfortable giving and receiving feedback, and where constructive criticism is encouraged.
 
-Check out the [**Nurturing the right environment (Psychological Safety)' (opens new browser tab)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/aa3752ff-4edf-4889-a690-516f1cd2755c.aspx) pattern for suggestions you can adopt.
+Check out the [**Nurturing the right environment (Psychological Safety)'](cA5DcI8h54ye17yXUNla6w/aa3752ff-4edf-4889-a690-516f1cd2755c.aspx) pattern for suggestions you can adopt.
 
 ## Who Should be Involved in Feedback?
 
@@ -119,15 +111,10 @@ In conclusion, feedback is a much-needed component of the agile development proc
 
 Teams must prioritize and encourage feedback to ensure it is timely, reliable, and actionable. With the right approach, feedback can help teams identify and address issues early on, validate assumptions, improve the user experience, and drive personal development.
 
-In addition to the above article, there is some central HR produced guidance around feedback including a video featuring Peter Harrison on '[**The Power of Feedback** (opens new browser tab)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/9gnxDq0wshct8hcJHaZKQ/c4143563-d964-4224-96a2-e268cc175cf2.aspx)' and how we can be better at giving and receiving feedback as colleagues. There are also some courses on Spark that may be of interest.
+In addition to the above article, there is some central HR produced guidance around feedback including a video featuring Peter Harrison on '[**The Power of Feedback**](9gnxDq0wshct8hcJHaZKQ/c4143563-d964-4224-96a2-e268cc175cf2.aspx)' and how we can be better at giving and receiving feedback as colleagues. There are also some courses on Spark that may be of interest.
 
 ## Further Reading
 
-- [**Discovery - Feedback, SVPG article by Marty Cagan** (opens new browser tab)](https://www.svpg.com/discovery-feedback/) talks about the crucial nature of feedback and specifically negative feedback while calling out and challenging some of the excuses for not collecting feedback.
+- [**Discovery - Feedback, SVPG article by Marty Cagan**](https://www.svpg.com/discovery-feedback/) talks about the crucial nature of feedback and specifically negative feedback while calling out and challenging some of the excuses for not collecting feedback.
 
-## Further Resources
-
-- [**Feedback at Schroders - Spark playlist** (opens new browser tab)](https://schroders.csod.com/samldefault.aspx?returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d2faaf65b-3c7c-4042-834a-af95c16860a3)
-
-- [**Psychological Safety & Candour - Spark playlist** (opens new browser tab)](https://schroders.csod.com/samldefault.aspx?returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253dd59a63f2-795e-40b9-9e5b-35b15cb7bee3)
 

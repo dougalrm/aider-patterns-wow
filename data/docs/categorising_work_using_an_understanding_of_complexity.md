@@ -1,18 +1,10 @@
 ---
 tags: ["planning-and-roadmapping"]
 title: Categorising work using an understanding of complexity
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: Explore how the Cynefin Framework categorizes work by complexity to determine appropriate problem-solving approaches. Discover how domains like Clear, Complicated, Complex, Chaos, and Confusion guide decision making by blending predictability and expertise with emergent behavior and adaptability. This framework aids in clarifying complex work scenarios, enhancing agile methodologies and product development strategies.
 
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 
@@ -26,7 +18,7 @@ description: Explore how the Cynefin Framework categorizes work by complexity to
 
 When faced with a problem, most assume that all they need to do is elaborate on the options, select one, and then execute. This assumes that causality, when we can relate cause and effect, of the problem is determinable and therefore we have a valid means of eliminating options until the correct one remains. However, this is not always the case.
 
-Within Schroders, the type of work we do varies significantly. This context is important because it influences the ways of working we will use to deliver our business outcomes. Typically, the work falls into one of three categories or 'domains': Complex, Complicated, or Clear. These are covered in detail below.
+Within your organisation, the type of work you do can vary significantly. This context is important because it influences the ways of working we will use to deliver our business outcomes. Typically, the work falls into one of three categories or 'domains': Complex, Complicated, or Clear. These are covered in detail below.
 
 It's worth recognizing that different processes will fit different types of work, but identifying which process to choose is challenging. The Cynefin framework aims to assist us in identifying the type of work which will help inform the most appropriate delivery approach.
 

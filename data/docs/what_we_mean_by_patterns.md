@@ -1,17 +1,9 @@
 ---
 tags: ["delivery-and-flow"]
 title: What we mean by patterns
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: Discover the importance of 'Ways of Working' patterns. These patterns serve as practical, repeatable solutions to improve team practices and processes. Categorized into mandatory, highly recommended, and recommended, they guide teams in enhancing productivity and problem-solving across various domains like delivery, product, and engineering.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 
@@ -19,7 +11,7 @@ description: Discover the importance of 'Ways of Working' patterns. These patter
 
 # What We Mean by Patterns
 
-The Ways of Working patterns provide information about good practice or guide you in solving specific problems and are underpinned by [our five ways of working principles](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/de10612a-0346-4267-83ec-cafb3e8a88d7.aspx).
+The Ways of Working patterns provide information about good practice or guide you in solving specific problems and are underpinned by [our five ways of working principles](cA5DcI8h54ye17yXUNla6w/de10612a-0346-4267-83ec-cafb3e8a88d7.aspx).
 
 
 
@@ -49,15 +41,14 @@ The challenge is to ensure that each change introduces the most relevant pattern
 
 ## Ways of Working Patterns
 
-- [Delivery Focused Ways of Working Patterns](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/XeHDBpKDVFziBxivUrK0A/081348aa-e904-42c6-b435-5a9fa7f65acf.aspx).
+- [Delivery Focused Ways of Working Patterns](XeHDBpKDVFziBxivUrK0A/081348aa-e904-42c6-b435-5a9fa7f65acf.aspx).
 
-- [Product Focused Ways of Working Patterns](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/XeHDBpKDVFziBxivUrK0A/357c5c6c-9fec-443d-a57d-e2d5e2040832.aspx).
+- [Product Focused Ways of Working Patterns](XeHDBpKDVFziBxivUrK0A/357c5c6c-9fec-443d-a57d-e2d5e2040832.aspx).
 
-- [Engineering Focused Ways of Working Patterns](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/XeHDBpKDVFziBxivUrK0A/ea78fa5b-2bef-4aee-aec4-3a822703e18f.aspx).
+- [Engineering Focused Ways of Working Patterns](XeHDBpKDVFziBxivUrK0A/ea78fa5b-2bef-4aee-aec4-3a822703e18f.aspx).
 
-- [Additional Ways of Working Patterns](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/XeHDBpKDVFziBxivUrK0A/830dd201-b7c9-42ca-b055-a1875f17a1ab.aspx).
+- [Additional Ways of Working Patterns](XeHDBpKDVFziBxivUrK0A/830dd201-b7c9-42ca-b055-a1875f17a1ab.aspx).
 
-- [Patterns that Can Be Applied by All Areas of Schroders](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/XeHDBpKDVFziBxivUrK0A/06afb4d0-7932-41e3-9c51-a2c228ed3a94.aspx).
 
 
 

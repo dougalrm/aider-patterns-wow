@@ -12,9 +12,9 @@ description: This page explores systemic impediments in agile work environments,
 
 
 
-One of our five ways of working principles is [**Continuous Improvement**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/d88bc27f-dd37-4d04-878e-c46efea9d098.aspx). This is about regularly taking the time to identify sources of friction, frustration, and waste so that we can take steps to tackle them and improve what we do.
+One of our five ways of working principles is [**Continuous Improvement**](cA5DcI8h54ye17yXUNla6w/d88bc27f-dd37-4d04-878e-c46efea9d098.aspx). This is about regularly taking the time to identify sources of friction, frustration, and waste so that we can take steps to tackle them and improve what we do.
 
-For an introduction to impediments, check out the pattern [**Recognising & tackling team-level impediments**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/J2yM0atCqqk8E6VdblTQ/b7321862-7a74-40ed-85db-f048e751b21b.aspx) which covers the basics.
+For an introduction to impediments, check out the pattern [**Recognising & tackling team-level impediments**](J2yM0atCqqk8E6VdblTQ/b7321862-7a74-40ed-85db-f048e751b21b.aspx) which covers the basics.
 
 ## A Different Type of Impediment
 
@@ -48,7 +48,7 @@ As teams gain more understanding about agility and better ways of working, they 
 
 *Adapted from The Impediment Pyramid by Dominik Maximini*
 
-Initially, it will be easier to solve [**team level impediments**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/J2yM0atCqqk8E6VdblTQ/b7321862-7a74-40ed-85db-f048e751b21b.aspx), but soon the team will see that some impediments are caused by technical dependencies, are reliant on working with other teams, or are driven by adjacent processes outside the direct control of the team.
+Initially, it will be easier to solve [**team level impediments**](J2yM0atCqqk8E6VdblTQ/b7321862-7a74-40ed-85db-f048e751b21b.aspx), but soon the team will see that some impediments are caused by technical dependencies, are reliant on working with other teams, or are driven by adjacent processes outside the direct control of the team.
 
 When dealing with systemic impediments, due to the complexity of our ecosystem, it's very hard for any one person to have a comprehensive understanding of the end-to-end system at work. We must therefore take steps to examine the system surrounding any impediment to gain insights into its inefficiencies and help us discover opportunities for improvement.
 
@@ -74,7 +74,7 @@ For more on Systems Thinking, check out this series of articles on Medium by Ley
 
 - [**Tools for Systems Thinkers: Systems Mapping**](https://medium.com/disruptive-design/tools-for-systems-thinkers-systems-mapping-2db5cf30ab3a)
 
-**The Cynefin Framework** helps us to [**identify the true nature of the challenge or impediment**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/b36805f8-cf48-47ce-a831-c885989289d1.aspx) we are facing. This understanding then enables us to choose the most appropriate and effective techniques for tackling them, which in turn, helps to ensure the best results.
+**The Cynefin Framework** helps us to [**identify the true nature of the challenge or impediment**](cA5DcI8h54ye17yXUNla6w/b36805f8-cf48-47ce-a831-c885989289d1.aspx) we are facing. This understanding then enables us to choose the most appropriate and effective techniques for tackling them, which in turn, helps to ensure the best results.
 
 ![A diagram of a complex and complex practice Description automatically generated with medium confidence](Recognising%20systemic%20impediments_media/media/image4.png)
 

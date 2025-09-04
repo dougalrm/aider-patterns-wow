@@ -39,11 +39,11 @@ Combining the two, we can attempt to leverage the benefits whilst negating the d
 
 ## How
 
-Below we detail some of the key characteristics that we follow when working in an iterative and incremental way. For simplicity, we will use the example of Scrum as our agile framework and use the term Sprint. Generally, at Schroders, we refer to this period as an 'Iteration'.
+Below we detail some of the key characteristics that we follow when working in an iterative and incremental way. For simplicity, we will use the example of Scrum as our agile framework and use the term Sprint.
 
 ### Iteration Cycles
 
-Within [Scrum](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/YASyWyZ006UdMmjiDSgqSQ/1afe113f-f808-4f9a-b97e-9b592e82d061.aspx), we organize the work into iteration cycles of up to a calendar month called Sprints. Sprints are rooted in the concept of timeboxing, a time-management technique that helps organize the performance of work and manage scope.
+Within [Scrum](YASyWyZ006UdMmjiDSgqSQ/1afe113f-f808-4f9a-b97e-9b592e82d061.aspx), we organize the work into iteration cycles of up to a calendar month called Sprints. Sprints are rooted in the concept of timeboxing, a time-management technique that helps organize the performance of work and manage scope.
 
 Each sprint takes place in a fixed-length time frame with a specific start and end date, usually lasting between 1 and 4 weeks, and is consistent in length once decided. During each of these fixed-length time frames, teams plan their work, do their work, demonstrate what they've done, and also hold a retrospective to look for ways to improve going forward.
 

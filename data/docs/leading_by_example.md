@@ -31,7 +31,7 @@ Our principles are rooted in the agile values and principles. Here we take each 
 
 ### Leading by Example
 
-To succeed in [achieving our outcomes](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/YASyWyZ006UdMmjiDSgqSQ/481855c1-f699-480e-8805-cea97f7b0939.aspx) we will need leaders that take people on a path that challenges the status quo.
+To succeed in [achieving our outcomes](YASyWyZ006UdMmjiDSgqSQ/481855c1-f699-480e-8805-cea97f7b0939.aspx) we will need leaders that take people on a path that challenges the status quo.
 
 Leaders in an agile organisation serve the people in the organisation, empowering and developing them. Rather than planners, directors, and controllers, agile leaders act as visionaries, architects, and coaches that empower people to help them develop the most relevant competencies so they can lead, collaborate, and deliver exceptional results.
 
@@ -147,18 +147,18 @@ We should use our Ways of Working principles to inform decision-making and to de
 
 Below are links to some of the patterns that might help you work towards this. These of course aren't the only ones but should point you in the right direction.
 
-- [Understanding how our work contributes to our overall purpose](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/f5a15f2e-81de-4ec6-b29f-920bccd23e46.aspx)
+- [Understanding how our work contributes to our overall purpose](cA5DcI8h54ye17yXUNla6w/f5a15f2e-81de-4ec6-b29f-920bccd23e46.aspx)
 
-- [Nurturing the right environment (Developing Psychological Safety)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/aa3752ff-4edf-4889-a690-516f1cd2755c.aspx)
+- [Nurturing the right environment (Developing Psychological Safety)](cA5DcI8h54ye17yXUNla6w/aa3752ff-4edf-4889-a690-516f1cd2755c.aspx)
 
-- [Leaders create the optimal environment for people to thrive](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/0ac650e4-de00-43bf-92fc-6074af8efeaa.aspx)
+- [Leaders create the optimal environment for people to thrive](cA5DcI8h54ye17yXUNla6w/0ac650e4-de00-43bf-92fc-6074af8efeaa.aspx)
 
-- [Anyone can demonstrate leadership qualities](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/1e4126b8-0149-4a6d-b376-e207a2ef2712.aspx)
+- [Anyone can demonstrate leadership qualities](cA5DcI8h54ye17yXUNla6w/1e4126b8-0149-4a6d-b376-e207a2ef2712.aspx)
 
-- [Recognising & tackling team-level impediments](https://my.schroders.com/content/Pages/CorporatePages/J2yM0atCqqk8E6VdblTQ/b7321862-7a74-40ed-85db-f048e751b21b.aspx)
+- [Recognising & tackling team-level impediments](J2yM0atCqqk8E6VdblTQ/b7321862-7a74-40ed-85db-f048e751b21b.aspx)
 
-- [Recognising & tackling systemic impediments](https://my.schroders.com/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/e15b6363-17c6-4167-a3fa-93e0569f9d88.aspx)
+- [Recognising & tackling systemic impediments](cA5DcI8h54ye17yXUNla6w/e15b6363-17c6-4167-a3fa-93e0569f9d88.aspx)
 
-- [Visit the Patterns overview page and scroll to the bottom for more](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/XeHDBpKDVFziBxivUrK0A/c8357f9c-361f-4a21-868b-339a7cfa1295.aspx)
+- [Visit the Patterns overview page and scroll to the bottom for more](XeHDBpKDVFziBxivUrK0A/c8357f9c-361f-4a21-868b-339a7cfa1295.aspx)
 
 

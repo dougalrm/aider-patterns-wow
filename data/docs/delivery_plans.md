@@ -1,23 +1,13 @@
 ---
 tags: ["planning-and-roadmapping"]
 title: Delivery Plans
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: Delivery plans coordinate and communicate the expected delivery of features within agile product development. They align with roadmaps to clarify feature sequencing, identify risks and dependencies, and update progress. While fostering stakeholder engagement, they differentiate from tracking value metrics, evolving alongside regular team events. Suitable for managing expectations and refining strategies, delivery plans guide iterations and promote meticulous stakeholder communication.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 
 # Delivery Plans - Communicating the Expected Approach and Timeline
-
- (opens new browser tab)
 
 *We've provided a link at the bottom of this article to a PDF version of a presentation deck which also covers this topic.*
 
@@ -37,7 +27,7 @@ description: Delivery plans coordinate and communicate the expected delivery of 
 
 - **Contains**: A Delivery Plan is made up of features that are aligned to an outcome. An outcome can be worked on by multiple delivery teams. However ideally, a feature should only be worked on by one delivery team.
 
-- **Accessibility**: The Delivery Plan should be saved in a central place and accessible to anyone at Schroders.
+- **Accessibility**: The Delivery Plan should be saved in a central place and accessible to all.
 
 *\*The equivalent role may be one in the delivery family (i.e. the role responsible for a team or group of teams' delivery, such as a Head of Delivery) or an appropriate team lead.*
 
@@ -119,7 +109,7 @@ In this example:
 
 3. Feature 1.1: Make a Cake - Bin; requirements not feasible currently.
 
-### A Schroders Example
+### An Example
 
 **Outcome**: Client Service teams can navigate to information needed to efficiently fulfill client requirements
 
@@ -183,7 +173,7 @@ Your delivery plan might look like this, aligning features to an outcome but del
 
 ## How Should I Capture My Delivery Plan?
 
-To ensure easy accessibility for all Schroders employees, it's recommended to save the Delivery Plan centrally. Azure DevOps Services (ADO) is the preferred option as the team's work is stored there. ADO EPICS should be used for outcomes, and ADO FEATURES for features.
+To ensure easy accessibility for all, it's recommended to save the Delivery Plan centrally. Azure DevOps Services (ADO) is an option if this is where the team's work is. ADO EPICS should be used for outcomes, and ADO FEATURES for features.
 
 ### Recommendations:
 
@@ -239,7 +229,7 @@ Features should include mandatory information, with optional information as bene
 
 **Mandatory Elements:**
 
-- Client/Customer: Identify the client/customer (e.g., Institutional Investor, Schroders Salesperson)
+- Client/Customer: Identify the client/customer (e.g., Institutional Investor, Salesperson)
 
 - Description: Focus on the need, not implementation, with product and technical details.
 
@@ -307,10 +297,3 @@ The right approach to feature development is crucial for impactful value deliver
 
 | **Output** | A specific, tangible product, service, or solution resulting from work. |
 
-## Download Links
-
-- [This article in Presentation format](https://schroders365eur.sharepoint.com/%3ab%3a/s/EnterpriseSoftwareDelivery/ERRJ9FdAK7VKpqAIi7HmcmwByWZ6FWwimZtPCPdaA67z1Q?e=ArdJ38) (opens new browser tab)
-
-- [Delivery Plan Guidance v1.1 PDF](https://sdr/deliveryplanpdf) (opens new browser tab)
-
-- [Delivery Plan Guidance v1.1.pptx](https://sdr/deliveryplans)

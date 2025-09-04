@@ -39,7 +39,7 @@ The [**12th Agile Principle**](https://agilemanifesto.org/principles.html) state
 
 This is about making it a priority to stop and take a step back, to evaluate performance and identify room for improvement. And crucially, it's about doing so on a regular basis so that over time things get easier and better.
 
-In short, if we're to succeed in [achieving our outcomes](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/YASyWyZ006UdMmjiDSgqSQ/481855c1-f699-480e-8805-cea97f7b0939.aspx), continuous improvement must become a habitual part of the way we work.
+In short, if we're to succeed in [achieving our outcomes](YASyWyZ006UdMmjiDSgqSQ/481855c1-f699-480e-8805-cea97f7b0939.aspx), continuous improvement must become a habitual part of the way we work.
 
 ## On this page
 
@@ -149,7 +149,7 @@ In some teams or organisations, the attitude is **"if it ain't broke, don't fix 
 
 This is exemplified by the boy scout rule to "Always leave the campground cleaner than you found it."
 
-[**Retrospectives are a powerful practice that ensures teams have a regular opportunity to improve**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/11323923-036e-4eb7-9d15-12856e7b2a0b.aspx), but a wide variety of practices can be utilised in the pursuit of continuous improvement.
+[**Retrospectives are a powerful practice that ensures teams have a regular opportunity to improve**](cA5DcI8h54ye17yXUNla6w/11323923-036e-4eb7-9d15-12856e7b2a0b.aspx), but a wide variety of practices can be utilised in the pursuit of continuous improvement.
 
 A programme of continuous improvement is designed to empower employees to identify sources of friction, frustration or waste, and give them the time and resources to address the problems they find. When utilised on a consistent basis it's highly beneficial—improving collaboration, reducing waste, streamlining processes, increasing the effectiveness of teams, and so on.
 
@@ -169,7 +169,7 @@ An example of this is that at the end of each iteration, a team will openly and 
 
 ## Continuous Improvement as a Habit
 
-To enable continuous improvement at Schroders, it must be integrated into our ways of working. Not only should all teams, including leadership teams, hold regular retrospectives, but everything from client meetings to town halls should be followed by a deliberate opportunity to make things better.
+To enable continuous improvement, it must be integrated into our ways of working. Not only should all teams, including leadership teams, hold regular retrospectives, but everything from client meetings to town halls should be followed by a deliberate opportunity to make things better.
 
 Our default behaviour should be to ask: how can we do this better next time?
 
@@ -189,25 +189,25 @@ Continuous improvement challenges all of us to go beyond what we're used to and 
 
 Below are links to some of the patterns that might help you work towards this:
 
-- [**Inspect & adapt to continuously improve.**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/11323923-036e-4eb7-9d15-12856e7b2a0b.aspx)
+- [**Inspect & adapt to continuously improve.**](cA5DcI8h54ye17yXUNla6w/11323923-036e-4eb7-9d15-12856e7b2a0b.aspx)
 
-- [**Tracking key metrics to improve delivery efficiency**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/4845e02e-dfaa-4cdf-88f8-a1fb4578b58a.aspx)
+- [**Tracking key metrics to improve delivery efficiency**](cA5DcI8h54ye17yXUNla6w/4845e02e-dfaa-4cdf-88f8-a1fb4578b58a.aspx)
 
-- [**Improving code quality through peer review.**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/7SSZvpCu3cfjiRlAaYeoAw/050f55eb-23d4-4ea4-ab75-452a1ef082c7.aspx)
+- [**Improving code quality through peer review.**](7SSZvpCu3cfjiRlAaYeoAw/050f55eb-23d4-4ea4-ab75-452a1ef082c7.aspx)
 
-- [**Iterative & incremental working.**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/dc7c0b13-1a7a-4646-ab14-e41cf6792d17.aspx)
+- [**Iterative & incremental working.**](cA5DcI8h54ye17yXUNla6w/dc7c0b13-1a7a-4646-ab14-e41cf6792d17.aspx)
 
-- [**Adopting the appropriate agile method.**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/YASyWyZ006UdMmjiDSgqSQ/1afe113f-f808-4f9a-b97e-9b592e82d061.aspx)
+- [**Adopting the appropriate agile method.**](YASyWyZ006UdMmjiDSgqSQ/1afe113f-f808-4f9a-b97e-9b592e82d061.aspx)
 
-- [**Shorter planning horizons to increase agility**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/1nbaFUYSA3XRQlX51UQ9g/9792c2bf-d3bc-418f-a0c1-45bf02778573.aspx)
+- [**Shorter planning horizons to increase agility**](1nbaFUYSA3XRQlX51UQ9g/9792c2bf-d3bc-418f-a0c1-45bf02778573.aspx)
 
-- [**Allowing capacity for improvement**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/e15b6363-17c6-4167-a3fa-93e0569f9d88.aspx)
+- [**Allowing capacity for improvement**](cA5DcI8h54ye17yXUNla6w/e15b6363-17c6-4167-a3fa-93e0569f9d88.aspx)
 
-- [**Clear Definition of Ready**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/7b41446b-109e-4460-99ac-37ce8c62dd91.aspx)
+- [**Clear Definition of Ready**](cA5DcI8h54ye17yXUNla6w/7b41446b-109e-4460-99ac-37ce8c62dd91.aspx)
 
-- [**Clear Definition of Done**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/87fd8010-884c-426f-a99c-58b8fbe17df8.aspx)
+- [**Clear Definition of Done**](cA5DcI8h54ye17yXUNla6w/87fd8010-884c-426f-a99c-58b8fbe17df8.aspx)
 
-- [**Visit the Patterns overview page and scroll to the bottom for more**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/XeHDBpKDVFziBxivUrK0A/c8357f9c-361f-4a21-868b-339a7cfa1295.aspx)
+- [**Visit the Patterns overview page and scroll to the bottom for more**](XeHDBpKDVFziBxivUrK0A/c8357f9c-361f-4a21-868b-339a7cfa1295.aspx)
 
 
 

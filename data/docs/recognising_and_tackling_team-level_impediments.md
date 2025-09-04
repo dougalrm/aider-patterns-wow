@@ -13,7 +13,7 @@ description: This guide focuses on recognizing and overcoming team-level impedim
 
 
 
-One of our five ways of working principles is [**Continuous Improvement**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/d88bc27f-dd37-4d04-878e-c46efea9d098.aspx). This is about regularly taking the time to identify sources of friction, frustration, and waste so that we can take steps to tackle them and improve what we do.
+One of our five ways of working principles is [**Continuous Improvement**](cA5DcI8h54ye17yXUNla6w/d88bc27f-dd37-4d04-878e-c46efea9d098.aspx). This is about regularly taking the time to identify sources of friction, frustration, and waste so that we can take steps to tackle them and improve what we do.
 
 From time to time, teams will suffer from impediments—anything that slows down or hinders the productivity of a team, hence affecting the successful delivery of a product. An impediment acts like a parachute, slowing down overall progress. This can be considered different from a 'blocker,' which is a much more singular issue affecting perhaps only a single task. Impediments are much wider in their area of effect and are usually tougher to solve, leading us to shy away from addressing them.
 
@@ -75,7 +75,7 @@ Teams wishing to tackle a problem that's within their control may, as an example
 
 Teams have many tools and techniques available to help them do this. These include:
 
-- [**Sprint Retrospectives**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/11323923-036e-4eb7-9d15-12856e7b2a0b.aspx) or major milestone or release retrospectives.
+- [**Sprint Retrospectives**](cA5DcI8h54ye17yXUNla6w/11323923-036e-4eb7-9d15-12856e7b2a0b.aspx) or major milestone or release retrospectives.
 
 - [**Blameless Post-Mortem**](https://sre.google/sre-book/postmortem-culture/) are used to learn from incidents or problems in a way that promotes no finger-pointing or blaming of particular persons or teams, and aims to look backward to look forward and prevent issues from occurring again.
 
@@ -85,9 +85,9 @@ Teams have many tools and techniques available to help them do this. These inclu
 
 - [**Value Stream Mapping (VSM)**](https://www.atlassian.com/continuous-delivery/principles/value-stream-mapping), a technique to analyze, design, and manage the flow of materials and information required to bring a product to a customer. By mapping out each step in our development process, we can look for inefficiencies and begin to tackle these.
 
-- [**5 Dysfunctions of a Team**](https://confluence.schroders.com/display/ESD/The+Five+Dysfunctions+of+a+Team), which sets out a model for team performance, each level builds on the previous and highlights how to overcome some of the common dysfunctions found in any team.
+- [**5 Dysfunctions of a Team**](ESD/The+Five+Dysfunctions+of+a+Team), which sets out a model for team performance, each level builds on the previous and highlights how to overcome some of the common dysfunctions found in any team.
 
-- [**7 Types of Waste**](https://confluence.schroders.com/display/DIT/Waste). Lean thinking aims to remove waste from work processes and Lean defines 7 types of waste which can cause inefficiencies.
+- [**7 Types of Waste**](DIT/Waste). Lean thinking aims to remove waste from work processes and Lean defines 7 types of waste which can cause inefficiencies.
 
 - Root cause analysis aims to get to a problem's essence and then fix it. An example such as the [**Fives Whys Technique**](https://kanbanize.com/lean-management/improvement/5-whys-analysis-tool) continues to explore the why behind a situation until you get to the true root cause. This can also be used in a [**Group/Workshop Setting**](https://www.liberatingstructures.com/3-nine-whys/).
 
@@ -107,7 +107,7 @@ Sir David Brailsford became well-known for his application of business improveme
 
 ### Local vs Systemic Impediments
 
-Recognizing & tackling team-level impediments is highly valuable, but optimization at the organization level that deals with systemic and enterprise-wide impediments is also important. Local optimization without addressing the problems experienced by multiple teams is considered an anti-pattern. Within GT, we are cataloguing and developing a process for tackling impediments that are a source of frustration for all in Schroders. This is detailed more within the [Recognising & Tackling Organisation-Wide Impediments Article](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/ID6VBaZIXQPTWxMkPM5uw/14c1a8d6-9ad4-49ab-a0ec-e9504707cf21.aspx).
+Recognizing & tackling team-level impediments is highly valuable, but optimization at the organization level that deals with systemic and enterprise-wide impediments is also important. Local optimization without addressing the problems experienced by multiple teams is considered an anti-pattern. This is detailed more within the [Recognising & Tackling Organisation-Wide Impediments Article](ID6VBaZIXQPTWxMkPM5uw/14c1a8d6-9ad4-49ab-a0ec-e9504707cf21.aspx).
 
 ### Further Reading
 

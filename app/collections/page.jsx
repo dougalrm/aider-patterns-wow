@@ -31,36 +31,36 @@ export default async function CollectionsPage() {
           <Layers aria-hidden="true" className="mr-2 inline-block h-6 w-6 align-[-2px]" />
           Collections
         </h1>
-        <p className="mt-2 text-slate-700 dark:text-slate-200">
+        <p className="mt-2 text-slate-700">
           Thematic groups based on tags; jump into focused sets of patterns.
         </p>
       </section>
 
       {collections.length === 0 ? (
         <div className="kb-card p-8">
-          <p className="text-slate-700 dark:text-slate-200">No collections yet — add tags to your articles to build them.</p>
+          <p className="text-slate-700">No collections yet — add tags to your articles to build them.</p>
         </div>
       ) : (
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {collections.map(({ tag, count }) => (
             <li key={tag} className="kb-card collection-card p-6">
-              <div className="flex items-center justify-between text-xs text-slate-600 dark:text-indigo-200/80">
+              <div className="flex items-center justify-between text-xs text-slate-600">
                 <div className="flex items-center gap-2">
-                  <Layers className="h-4 w-4 text-indigo-700 dark:text-indigo-300" />
+                  <Layers className="h-4 w-4 text-indigo-700" />
                   <span className="meta-pill">Collection</span>
                 </div>
-                <span className="text-slate-500 dark:text-slate-300">{count} {count === 1 ? 'article' : 'articles'}</span>
+                <span className="text-slate-500">{count} {count === 1 ? 'article' : 'articles'}</span>
               </div>
               <h2 className="mt-2 text-lg font-semibold">
                 <Link href={`/articles?tag=${encodeURIComponent(tag)}`} className="hover:underline">
                   {tag.replace(/[-_]/g, ' ').replace(/\b\w/g, (m) => m.toUpperCase())}
                 </Link>
               </h2>
-              <p className="mt-2 text-sm text-slate-700 dark:text-slate-200">
+              <p className="mt-2 text-sm text-slate-700">
                 Explore practices related to {tag}.
               </p>
               <div className="mt-4">
-                <Link href={`/articles?tag=${encodeURIComponent(tag)}`} className="inline-flex items-center gap-2 text-sm text-indigo-700 hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-fuchsia-300">
+                <Link href={`/articles?tag=${encodeURIComponent(tag)}`} className="inline-flex items-center gap-2 text-sm text-indigo-700 hover:text-indigo-900">
                   View collection
                   <ArrowRight aria-hidden="true" className="h-5 w-5" />
                 </Link>

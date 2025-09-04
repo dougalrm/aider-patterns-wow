@@ -1,17 +1,9 @@
 ---
 tags: ["delivery-and-flow"]
 title: Well written requirements
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: This page outlines the importance of well-written requirements in agile product development, emphasizing user stories as key tools for clarity and adaptability. It details best practices for writing requirements, including the "INVEST" criteria and acceptance criteria using the Gherkin format, while cautioning against common anti-patterns that hinder effective team collaboration and product innovation.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 
@@ -33,7 +25,7 @@ Agile teams leverage feedback from the market to learn and improve, and most tea
 
 Giving up this optionality too soon is a mistake and may also result in waste, since detailed stories created too early often become redundant or need to be rewritten.
 
-It's not only undesirable to identify and capture a great deal upfront, in many cases it's not possible since [**product development generally exists in the Complex domain**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/b36805f8-cf48-47ce-a831-c885989289d1.aspx) and necessitates an adaptive approach.
+It's not only undesirable to identify and capture a great deal upfront, in many cases it's not possible since [**product development generally exists in the Complex domain**](cA5DcI8h54ye17yXUNla6w/b36805f8-cf48-47ce-a831-c885989289d1.aspx) and necessitates an adaptive approach.
 
 There are, however, circumstances when stories might need more detail, and this will be influenced by factors such as:
 
@@ -53,7 +45,7 @@ Stories are short requirements written from the perspective of an end-user. As a
 
 Stories enable conversations and collaboration among the team and any others involved in achieving the outcome, and these discussions are vital for success. They should be inclusive and should lead to greater understanding - adding more detail and splitting stories into multiple smaller ones just before they are to be worked on.
 
-Anyone can write a story at any time, and they provide the flexibility to express something large or something small. Within Global Technology, we have chosen to use a hierarchy of stories to help provide structure to our backlogs. This hierarchy uses [**Epic, Feature, and Product Backlog Item**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/388a414f-4b39-4a75-85ba-621264a4b949.aspx).
+Anyone can write a story at any time, and they provide the flexibility to express something large or something small. Within Global Technology, we have chosen to use a hierarchy of stories to help provide structure to our backlogs. This hierarchy uses [**Epic, Feature, and Product Backlog Item**](cA5DcI8h54ye17yXUNla6w/388a414f-4b39-4a75-85ba-621264a4b949.aspx).
 
 There are several different formats for writing stories and acceptance criteria, but a user story, which is expressed from the point of view of someone in a particular role, uses the "user's voice" to describe a need. This provides useful context which is important in local decision-making and also provides empathy, reminding us that we are writing software which will impact the work experience of users -- for better or for worse.
 
@@ -101,13 +93,13 @@ Given \<initial state\> When \<an event or action\> Then \<expected result or ou
 
 ![Acceptance Criteria Format](Well%20written%20requirements_media/media/image3.png)
 
-The information required to form a well-written requirement is something to consider when writing and agreeing on your [**Definition of Ready**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/7b41446b-109e-4460-99ac-37ce8c62dd91.aspx).
+The information required to form a well-written requirement is something to consider when writing and agreeing on your [**Definition of Ready**](cA5DcI8h54ye17yXUNla6w/7b41446b-109e-4460-99ac-37ce8c62dd91.aspx).
 
 ## Anti-Patterns
 
 When trying to improve our ways of working, it's almost inevitable that some choices will hamper rather than improve our efforts to build the right product and build the product right.
 
-Some of these choices might solve a current problem but cause issues such as re-work down the line, and being aware of some of these '[**antipatterns**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/388a414f-4b39-4a75-85ba-621264a4b949.aspx)' can help us avoid them. Some of the antipatterns related to requirements and stories writing are:
+Some of these choices might solve a current problem but cause issues such as re-work down the line, and being aware of some of these '[**antipatterns**](cA5DcI8h54ye17yXUNla6w/388a414f-4b39-4a75-85ba-621264a4b949.aspx)' can help us avoid them. Some of the antipatterns related to requirements and stories writing are:
 
 - The Product Owner writes detailed stories and defines all of the acceptance criteria, but does so alone or only in conjunction with a BA.
 

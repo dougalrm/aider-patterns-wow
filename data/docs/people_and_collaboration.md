@@ -33,7 +33,7 @@ Our principles are rooted in agile values and principles. Here we take each prin
 
 ## Intro
 
-To succeed in [achieving our outcomes](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/YASyWyZ006UdMmjiDSgqSQ/481855c1-f699-480e-8805-cea97f7b0939.aspx) we need an organization that values its people, their contribution, and their opinions and one which enables and empowers everyone. Empowered organizations create value more quickly, collaboratively, and effectively than a siloed and highly managed one. They also create much more valuable products and achieve better business outcomes.
+To succeed in [achieving our outcomes](YASyWyZ006UdMmjiDSgqSQ/481855c1-f699-480e-8805-cea97f7b0939.aspx) we need an organization that values its people, their contribution, and their opinions and one which enables and empowers everyone. Empowered organizations create value more quickly, collaboratively, and effectively than a siloed and highly managed one. They also create much more valuable products and achieve better business outcomes.
 
 ## On this Page
 
@@ -97,15 +97,15 @@ People & Collaboration comes from a desire to improve in several areas. The 'Fro
 
 2. People are placed into roles within an agile delivery team without the experience, training, or support to set them up for success.
 
-3. Some people are unclear as to what is expected of them in order to progress in their career, or what options are available to them in Schroders.
+3. Some people are unclear as to what is expected of them in order to progress in their career, or what options are available to them.
 
 4. Delivery teams are reliant on a large number of people ("supporting roles") to deliver value to their clients and customers. A lack of consistency in the cadence and processes used by the supporting roles can result in avoidable delays, for example, the need to book a test environment that is in a suitable state for testing.
 
-5. The Schroders landscape is hard to navigate, especially for new people, because they do not know who to approach to get things done, which can make progress laborious.
+5. The organistional landscape is hard to navigate, especially for new people, because they do not know who to approach to get things done, which can make progress laborious.
 
 6. Poor tools/IT setup routinely hampers effective collaboration.
 
-7. A culture of "us and them" means that those in "the business" and those in "technology" seldom talk or collaborate to explore common goals. Technology is seen as a solutions provider rather than a core part of the Schroders business.
+7. A culture of "us and them" means that those in "the business" and those in "technology" seldom talk or collaborate to explore common goals. Technology is seen as a solutions provider rather than a core part of the overall business.
 
 ### Where We'd Like to Get To
 
@@ -115,7 +115,7 @@ People & Collaboration comes from a desire to improve in several areas. The 'Fro
 
 2. New and existing people in agile delivery teams have the experience, training, and support they need to be successful in their role.
 
-3. Competency frameworks and career pathways ensure those in the agile delivery teams know what is expected of them in order to progress to the next level, and what career options are available to them in Schroders.
+3. Competency frameworks and career pathways ensure those in the agile delivery teams know what is expected of them in order to progress to the next level, and what career options are available to them.
 
 4. Delivery teams work effectively with those outside their teams - gaining new skills and becoming "t-shaped" as they do so. They are enabled by self-service tooling and automation, helping them to become more empowered and achieve their missions more easily over time.
 
@@ -137,7 +137,7 @@ To succeed, we require efficient collaboration, adaptation, and flexibility. Thi
 
 In a recent [McKinsey Global Survey](https://www.mckinsey.com/business-functions/organization/our-insights/beyond-hiring-how-companies-are-reskilling-to-address-talent-gaps), 87% of leaders acknowledged skill gaps in their workforces — yet less than half of respondents had a clear plan for confronting this challenge.
 
-At Schroders, we wish to promote the idea of T-shaped colleagues. While generalists know a little about a lot of subjects and I-shaped employees are experts in a single area, a T-shaped person is a subject-matter expert in at least one area and knowledgeable or skilled in several others.
+Promoting the idea of T-shaped colleagues. While generalists know a little about a lot of subjects and I-shaped employees are experts in a single area, a T-shaped person is a subject-matter expert in at least one area and knowledgeable or skilled in several others.
 
 ![T-Shaped Skills](People%20and%20Collaboration_media/media/image4.png)
 
@@ -193,11 +193,11 @@ A question to ask ourselves, "What can I do to ease the shift to the right-hand 
 
 Below are links to some of the patterns that might help you work towards this; these, of course, aren't the only ones but should point you in the right direction.
 
-- [Understanding how our work contributes to our overall purpose](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/f5a15f2e-81de-4ec6-b29f-920bccd23e46.aspx)
+- [Understanding how our work contributes to our overall purpose](cA5DcI8h54ye17yXUNla6w/f5a15f2e-81de-4ec6-b29f-920bccd23e46.aspx)
 
-- [Nurturing the right environment (Developing Psychological Safety)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/aa3752ff-4edf-4889-a690-516f1cd2755c.aspx)
+- [Nurturing the right environment (Developing Psychological Safety)](cA5DcI8h54ye17yXUNla6w/aa3752ff-4edf-4889-a690-516f1cd2755c.aspx)
 
-- [Visit the Patterns overview page and scroll to the bottom for more](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/XeHDBpKDVFziBxivUrK0A/c8357f9c-361f-4a21-868b-339a7cfa1295.aspx)
+- [Visit the Patterns overview page and scroll to the bottom for more](XeHDBpKDVFziBxivUrK0A/c8357f9c-361f-4a21-868b-339a7cfa1295.aspx)
 
 
 

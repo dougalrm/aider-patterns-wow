@@ -18,9 +18,9 @@ If teams work off of insufficiently detailed or defined stories, they are unlike
 
 The best way to ensure that the high-priority pieces of work in the backlog are ready is to work on refining the backlog together as a team. This tends to naturally lead to workable stories, as it leverages the creativity of the team, creates shared understanding and ownership, and reduces the number of story-related questions during an iteration. One way to understand if an item is 'Ready' is to consider the following criteria; it should be **clear**, **feasible**, and **testable**.
 
-- **Clear**: A story is clear if all team members have a shared understanding of what it means. This means collaboratively writing user stories and specifically adding [acceptance criteria](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/388a414f-4b39-4a75-85ba-621264a4b949.aspx) that bring clarity. Teams that are new to this way of working will typically need more clarity, and as knowledge increases, less detail will be required.
+- **Clear**: A story is clear if all team members have a shared understanding of what it means. This means collaboratively writing user stories and specifically adding [acceptance criteria](cA5DcI8h54ye17yXUNla6w/388a414f-4b39-4a75-85ba-621264a4b949.aspx) that bring clarity. Teams that are new to this way of working will typically need more clarity, and as knowledge increases, less detail will be required.
 
-- **Feasible**: A story is feasible if it can be realistically completed in one iteration and meet the criteria set out in the [Definition of Done](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/87fd8010-884c-426f-a99c-58b8fbe17df8.aspx). Feasible implies two things: The item must be sized appropriately, and it must not be too complex.
+- **Feasible**: A story is feasible if it can be realistically completed in one iteration and meet the criteria set out in the [Definition of Done](cA5DcI8h54ye17yXUNla6w/87fd8010-884c-426f-a99c-58b8fbe17df8.aspx). Feasible implies two things: The item must be sized appropriately, and it must not be too complex.
 
 - **Testable**: A story is testable if there is an effective way to determine if the functionality works as expected. Quality acceptance criteria ensure that each story can be tested. As a rule of thumb, it's good to have three to five acceptance criteria per user story.
 
@@ -42,7 +42,7 @@ A good definition of ready will ensure that each piece of work is sufficiently d
 
 ## Example Definition of Ready for a User Story
 
-- Well-defined story\* ([Product backlog item](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/388a414f-4b39-4a75-85ba-621264a4b949.aspx) in ADO)
+- Well-defined story\* ([Product backlog item](cA5DcI8h54ye17yXUNla6w/388a414f-4b39-4a75-85ba-621264a4b949.aspx) in ADO)
 
 - Clear and understandable
 
@@ -56,7 +56,7 @@ A good definition of ready will ensure that each piece of work is sufficiently d
 
 - The Team is able to 'demo' the user story.
 
-\*Typically, this would be in the form of a User Story, but other methods do exist. [For a real example, here is the Definition of Ready for one of the teams in Private Assets](https://confluence.schroders.com/pages/viewpage.action?pageId=155527352).
+\*Typically, this would be in the form of a User Story, but other methods do exist. [For a real example, here is the Definition of Ready for one of the teams in Private Assets](/pages/viewpage.action?pageId=155527352).
 
 The Definition of Ready is best owned jointly by the Product Lead and the team, and each team's Delivery Lead will be suitably equipped to facilitate its creation. An important consideration is to prevent the Definition of Ready from becoming too heavyweight, such that it turns into an impediment for collaboration and communication.
 
@@ -71,8 +71,6 @@ For another take on the Definition of Ready, [Mike Cohn's article talks about th
 ## References
 
 - [Definition of Ready - Roman Pichler](https://www.romanpichler.com/blog/the-definition-of-ready/)
-
-- [Using Definition of Ready - InfoQ](https://www.infoq.com/sites/myschroders/News/2014/06/using-definition-of-ready/)
 
 
 

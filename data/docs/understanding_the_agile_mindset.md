@@ -1,17 +1,9 @@
 ---
 tags: ["retrospectives-and-improvement"]
 title: Understanding the agile mindset
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: Explore the essence of the agile mindset, emphasizing flexibility, adaptability, and customer satisfaction. This page delves into the Agile Manifesto's core values and principles, the importance of creating an agile culture and leadership, and the Agile Onion model by Simon Powers, highlighting the significance of mindset in enhancing collaboration and continuous improvement.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 # Understanding the Agile Mindset
@@ -30,7 +22,7 @@ As a modern enterprise, it's important we stay agile and adapt quickly to change
 
 - The Agile Onion
 
-To truly adopt an agile mindset, it's important to understand the agile values and principles that make up the [**Agile Manifesto** (opens new browser tab)](https://agilemanifesto.org/) and some of the changes we will need to make to our culture to fully support it.
+To truly adopt an agile mindset, it's important to understand the agile values and principles that make up the [**Agile Manifesto**](https://agilemanifesto.org/) and some of the changes we will need to make to our culture to fully support it.
 
 The Agile Manifesto is the foundation of the agile mindset and is a set of guiding values and principles. It was created by a group of software developers in 2001 and through its values and principles, the Agile Manifesto provides a foundation of behaviours for Agile teams to put into practice.
 
@@ -108,7 +100,7 @@ This principle acknowledges that self-organizing teams are often best placed to 
 
 This principle emphasizes the importance of continuous improvement, which is key to ensuring that the team can continue to deliver value over the long term.
 
-While at a glance these principles reference software development they can equally be applied in other areas and industries. Check out the '[**Agile beyond software development** (opens new browser tab)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/uqe0X9ItmVZY5cwdd8a77A/99136439-0947-4f39-9815-b4662ca03af1.aspx)' article to understand more.
+While at a glance these principles reference software development they can equally be applied in other areas and industries. Check out the '[**Agile beyond software development**](uqe0X9ItmVZY5cwdd8a77A/99136439-0947-4f39-9815-b4662ca03af1.aspx)' article to understand more.
 
 ## Agile Culture and the Importance of Leadership
 
@@ -122,7 +114,7 @@ Leadership plays a crucial role in fostering an agile culture. Agile leaders und
 
 Agile leaders also understand that their role is to remove obstacles and create a supportive environment for their teams. They provide clear goals and objectives, but they also give teams the autonomy to figure out how to achieve those goals. By doing so, they create a sense of ownership and accountability among team members, which is essential for success in an agile environment.
 
-For more on the topic of agile leadership we have two further articles that may be worth reading. The first exploring how **'**[**Leaders create the optimal environment for people to thrive** (opens new browser tab)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/0ac650e4-de00-43bf-92fc-6074af8efeaa.aspx)**'** and the second exploring how [**'Anyone can demonstrate a leadership mindset'** (opens new browser tab)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/1e4126b8-0149-4a6d-b376-e207a2ef2712.aspx)
+For more on the topic of agile leadership we have two further articles that may be worth reading. The first exploring how **'**[**Leaders create the optimal environment for people to thrive**](cA5DcI8h54ye17yXUNla6w/0ac650e4-de00-43bf-92fc-6074af8efeaa.aspx)**'** and the second exploring how [**'Anyone can demonstrate a leadership mindset'**](cA5DcI8h54ye17yXUNla6w/1e4126b8-0149-4a6d-b376-e207a2ef2712.aspx)
 
 ## The Agile Onion by Simon Powers
 
@@ -170,7 +162,7 @@ As the business landscape continues to evolve, the agile mindset will become an 
 
 ## Further Reading
 
-- [**What is Agile? — Adventures with Agile** (opens new browser tab)](https://www.adventureswithagile.com/what-is-agile/)
+- [**What is Agile? — Adventures with Agile**](https://www.adventureswithagile.com/what-is-agile/)
 
-- [**What is the agile mindset?** (opens new browser tab)](https://www.linkedin.com/pulse/what-agile-mindset-simon-powers/)
+- [**What is the agile mindset?**](https://www.linkedin.com/pulse/what-agile-mindset-simon-powers/)
 

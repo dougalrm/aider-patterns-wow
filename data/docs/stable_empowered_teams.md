@@ -31,7 +31,7 @@ Our principles are rooted in agile values and principles. Here we take each prin
 
 ## Intro
 
-To succeed in [achieving our outcomes](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/YASyWyZ006UdMmjiDSgqSQ/481855c1-f699-480e-8805-cea97f7b0939.aspx) we will need our organisation to comprise of a dense network of empowered teams that operate with high standards of alignment, accountability, expertise, transparency, and collaboration.
+To succeed in [achieving our outcomes](YASyWyZ006UdMmjiDSgqSQ/481855c1-f699-480e-8805-cea97f7b0939.aspx) we will need our organisation to comprise of a dense network of empowered teams that operate with high standards of alignment, accountability, expertise, transparency, and collaboration.
 
 Networks of empowered teams are a natural way to organise people because they balance individual freedom with collective coordination. Research has shown that fatigued NASA crews that had worked extensively together made about half as many mistakes as teams of rested pilots with no prior experience working together. This is because many of the factors that relate to effective teamwork (such as shared mental models, cohesion, climate, and psychological safety) come about only in teams that have consistently worked together.
 
@@ -99,7 +99,7 @@ Stable, Empowered Teams comes from a desire to improve in a number of areas. The
 
 4. The decision making process is slow because it requires information to be passed up the organisational hierarchy, and requires decisions to be passed back down once they are made.
 
-5. When faced with a problem, it is hard to find out whether an existing solution is available within Schroders. Where a problem hasn’t been solved it’s often because it requires a systemic solution that is beyond the remit of a single person or team. Getting the funding, sign off and prioritisation to tackle such a solution is very difficult meaning that these types of problems remain unsolved.
+5. When faced with a problem, it is hard to find out whether an existing solution is available. Where a problem hasn’t been solved it’s often because it requires a systemic solution that is beyond the remit of a single person or team. Getting the funding, sign off and prioritisation to tackle such a solution is very difficult meaning that these types of problems remain unsolved.
 
 6. Our teams are typically long-lived, however team members are often moved between teams to accommodate growth or at the request of the business, and this can disrupt team dynamics and impact morale and delivery.
 
@@ -205,13 +205,13 @@ The most effective managers usually realise that they work for their teams and n
 
 Below are links to some of the patterns that might help you work towards this; these of course aren't the only ones but should point you in the right direction.
 
-- [Adopting the appropriate agile method](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/YASyWyZ006UdMmjiDSgqSQ/1afe113f-f808-4f9a-b97e-9b592e82d061.aspx)
+- [Adopting the appropriate agile method](YASyWyZ006UdMmjiDSgqSQ/1afe113f-f808-4f9a-b97e-9b592e82d061.aspx)
 
-- [Tracking key metrics to improve delivery efficiency](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/4845e02e-dfaa-4cdf-88f8-a1fb4578b58a.aspx)
+- [Tracking key metrics to improve delivery efficiency](cA5DcI8h54ye17yXUNla6w/4845e02e-dfaa-4cdf-88f8-a1fb4578b58a.aspx)
 
-- [Shorter planning horizons](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/1nbaFUYSA3XRQlX51UQ9g/9792c2bf-d3bc-418f-a0c1-45bf02778573.aspx)
+- [Shorter planning horizons](1nbaFUYSA3XRQlX51UQ9g/9792c2bf-d3bc-418f-a0c1-45bf02778573.aspx)
 
-- [Competency frameworks](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/J2yM0atCqqk8E6VdblTQ/b0cab31d-e5d8-46b0-9fdd-4482ac73bc86.aspx)
+- [Competency frameworks](J2yM0atCqqk8E6VdblTQ/b0cab31d-e5d8-46b0-9fdd-4482ac73bc86.aspx)
 
 
 

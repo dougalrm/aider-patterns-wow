@@ -1,17 +1,9 @@
 ---
 tags: ["planning-and-roadmapping"]
 title: Roadmaps
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
-description: Explore the strategic framework of outcome and horizon-based roadmaps that prioritize customer outcomes without time constraints, fostering cross-domain collaboration and strategic alignment. This approach empowers teams to adapt to changing needs by focusing on problems rather than solutions, ensuring flexibility and coherence with Schroders' broader objectives.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
+description: Explore the strategic framework of outcome and horizon-based roadmaps that prioritize customer outcomes without time constraints, fostering cross-domain collaboration and strategic alignment. This approach empowers teams to adapt to changing needs by focusing on problems rather than solutions, ensuring flexibility and coherence with an organisations broader objectives.
+
 ---
 
 
@@ -19,19 +11,17 @@ description: Explore the strategic framework of outcome and horizon-based roadma
 
 # Roadmaps - Using Now, Next, Later Roadmaps
 
-
-
 We've provided a link at the bottom of this article to a PDF version of a presentation deck which also covers this topic.
 
 ## Outcome and Horizon-Based Roadmaps
 
 Horizon-based Roadmaps are an essential tool in helping us prioritize customer outcomes without committing to timelines or solutions.
 
-Observations from the State of Tech (SOT) highlighted issues the teams are facing with our current approach as it not only obscures the connection to our mission but also leaves our team members struggling to see how their work contributes to Schroders' broader strategy.
+Observations from the State of Tech (SOT) highlighted issues the teams are facing with our current approach as it not only obscures the connection to our mission but also leaves our team members struggling to see how their work contributes to the organsations broader strategy.
 
 By adopting outcome and horizon-based roadmaps, we create a communication tool that can work outside our teams and domains, without prior context and agnostic of our organizational structure. It allows our priorities to be aligned across all domains at both the Leadership Team (LT) and Senior Leadership Team (SLT) levels, fostering a shared understanding and improved collaboration.
 
-By grounding our work in a comprehensive understanding of the problem, we can ensure that our solutions are not only meeting the customer need but also directly align with Schroders' strategic goals.
+By grounding our work in a comprehensive understanding of the problem, we can ensure that our solutions are not only meeting the customer need but also directly align with the organisations strategic goals.
 
 ![A screenshot of a computer Description automatically generated](Roadmaps_media/media/image2.png)
 
@@ -41,11 +31,11 @@ Our work is structured into three focus horizons, addressing immediate to long-t
 
 The roadmap, a living document, communicates our strategy and outlines our collective approach to achieving our vision. It's a dynamic tool, evolving to reflect changes in our strategies and circumstances.
 
-Achieving an outcome on a roadmap is a collective effort, with numerous teams and individuals contributing. We must remember that our roadmap operates within a broader Schroders context, and remain cognizant that the priority for a domain might not be the overall priority for Schroders. This understanding should inform our feasibility assessments in each horizon, ensuring alignment with the broader organizational goals.
+Achieving an outcome on a roadmap is a collective effort, with numerous teams and individuals contributing. We must remember that our roadmap operates within a broader context, and remain cognizant that the priority for a domain might not be the overall priority. This understanding should inform our feasibility assessments in each horizon, ensuring alignment with the broader organizational goals.
 
 ## Where Do Roadmaps Fit In?
 
-In the image below, you can see that everything aligns to the Schroders Vision, which is set at the highest level by our CEO, Peter Harrison, and the SLT. From this, our high-level strategy is crafted.
+In the image below, you can see that everything aligns to the Vision, which is set at the highest level. From this, our high-level strategy is crafted.
 
 The high-level strategy is broken down into focus areas. A key tool in articulating and communicating the strategy in each area and making it actionable is the roadmap.
 
@@ -112,8 +102,6 @@ Each outcome must include the '**Result to achieve for Customer**', the '**Probl
 Depending on the audience or communication channel it may be beneficial to display the roadmap in a simpler format. This would include the headline information only i.e., the 'Result to achieve for Customer' and the linked Strategic Objective and/or grouping.
 
 *The decision of which style to use will depend on the best way to communicate this information to your stakeholders.*
-
-**Roadmap Template (Powerpoint) - [Roadmap Template Stand-alone v2.0.pptx](https://sdr/roadmaptemplate) [-](https://schroders365eur.sharepoint.com/%3ap%3a/s/EnterpriseSoftwareDelivery/EYIZ4d3Tf3JEl2qIzn7PNwwBoinHbyeBh9U_r_T-5VHVVw?e=FlVeIP)** You can also download this article in presentation format using the links at the bottom of the page.
 
 ### What it Should Look Like
 
@@ -260,9 +248,3 @@ Below you'll see a list of achieved outcomes that reminds us of the problems we 
 | **Strategic Objective** | Strategic Objectives break down the vision into achievable, high-level goals. |
 
 | **Vision** | A vision statement outlines the company's long-term goals and aspirations for the future in terms of its long-term growth and impact on the world. |
-
-## Download Links
-
-This article in Presentation format [-](https://schroders365eur.sharepoint.com/%3ab%3a/s/EnterpriseSoftwareDelivery/ERRJ9FdAK7VKpqAIi7HmcmwByWZ6FWwimZtPCPdaA67z1Q?e=ArdJ38) [Roadmap Guidance v2.0 PDF](https://sdr/roadmappdf) // [Roadmap Guidance v2.0.pptx](https://sdr/roadmaps)
-
-Roadmap Template (Powerpoint) - [Roadmap Template Stand-alone v2.0.pptx](https://sdr/roadmaptemplate)

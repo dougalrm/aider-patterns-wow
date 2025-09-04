@@ -20,13 +20,13 @@ To be the most effective we can be, we must strike the right balance between ded
 
 The first Agile Principle from the Agile Manifesto is *"Our highest priority is to satisfy the customer through early and continuous delivery of valuable software"*. In a modern context, the word "software" can be replaced with "products," but the emphasis remains relevant even today -- 20+ years after it was written.
 
-A [**regular cadence**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/dc7c0b13-1a7a-4646-ab14-e41cf6792d17.aspx) of putting actual working products into customers' hands is at the heart of agile ways of working, as it allows immediate feedback from those whose needs you're trying to satisfy. However, there's a need to balance the continuous delivery of valuable products with the needs that enable teams to become and remain high-performing and to maintain high-quality products.
+A [**regular cadence**](cA5DcI8h54ye17yXUNla6w/dc7c0b13-1a7a-4646-ab14-e41cf6792d17.aspx) of putting actual working products into customers' hands is at the heart of agile ways of working, as it allows immediate feedback from those whose needs you're trying to satisfy. However, there's a need to balance the continuous delivery of valuable products with the needs that enable teams to become and remain high-performing and to maintain high-quality products.
 
 An example of the former may include improving how the team understands and gathers requirements, whereas the latter involves prioritizing the reduction of technical debt over developing a new feature.
 
-In environments where the mindset is that the Technology function is simply a "[**feature factory**](https://medium.com/@johnpcutler/12-signs-youre-working-in-a-feature-factory-44a5b938d6a2)", there's typically pressure to push for the delivery of more features at the expense of staying on top of technical debt or [**continuous improvement**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/11323923-036e-4eb7-9d15-12856e7b2a0b.aspx).
+In environments where the mindset is that the Technology function is simply a "[**feature factory**](https://medium.com/@johnpcutler/12-signs-youre-working-in-a-feature-factory-44a5b938d6a2)", there's typically pressure to push for the delivery of more features at the expense of staying on top of technical debt or [**continuous improvement**](cA5DcI8h54ye17yXUNla6w/11323923-036e-4eb7-9d15-12856e7b2a0b.aspx).
 
-Eventually, this leads to very long lead times for features and often-significant rewrites of the codebase. [**This is closely related to capacity and queue length (the time it takes to get work over the line)**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/8f28ec5a-7b86-4fbc-bdf4-9d61c142d1bf.aspx).
+Eventually, this leads to very long lead times for features and often-significant rewrites of the codebase. [**This is closely related to capacity and queue length (the time it takes to get work over the line)**](cA5DcI8h54ye17yXUNla6w/8f28ec5a-7b86-4fbc-bdf4-9d61c142d1bf.aspx).
 
 The Navy SEALs have a saying that emphasizes the need to get this balance right: "Slow is smooth and smooth is fast." When we push to go too fast and do too much, it causes mistakes and results in slower (and riskier) performance than following a measured, methodical cadence.
 
@@ -38,7 +38,7 @@ We need to ensure there is sufficient capacity planned into roadmaps, backlogs, 
 
 - We do not fill capacity purely with new features but consider other work types, including team improvement activities.
 
-- [**Retrospectives and other improvement activities**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/11323923-036e-4eb7-9d15-12856e7b2a0b.aspx) are not routinely deprioritized.
+- [**Retrospectives and other improvement activities**](cA5DcI8h54ye17yXUNla6w/11323923-036e-4eb7-9d15-12856e7b2a0b.aspx) are not routinely deprioritized.
 
 - Teams stay on top of technical debt. (It's a good idea to have some measure of this).
 

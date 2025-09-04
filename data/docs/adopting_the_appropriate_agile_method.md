@@ -40,9 +40,9 @@ Scrum is a lightweight framework that was created to help teams and organization
 
 Scrum is simple, well proven, and easy to understand. It brings with it the structure, roles, and events that teams need to become high performing. There are two important concepts at the heart of Scrum:
 
-- [**Empiricism**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/388a414f-4b39-4a75-85ba-621264a4b949.aspx): Empiricism asserts that knowledge comes from experience and that decisions should be based on past experience.
+- [**Empiricism**](cA5DcI8h54ye17yXUNla6w/388a414f-4b39-4a75-85ba-621264a4b949.aspx): Empiricism asserts that knowledge comes from experience and that decisions should be based on past experience.
 
-- [**Lean thinking**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/388a414f-4b39-4a75-85ba-621264a4b949.aspx): Lean thinking is about reducing waste and focusing on the essentials.
+- [**Lean thinking**](cA5DcI8h54ye17yXUNla6w/388a414f-4b39-4a75-85ba-621264a4b949.aspx): Lean thinking is about reducing waste and focusing on the essentials.
 
 The fundamental unit of Scrum is the small team of people known as the Scrum Team. Within a Scrum Team, there are no sub-teams or hierarchies. It is a cohesive unit of professionals who collectively have all the skills and expertise to do the work.
 
@@ -96,7 +96,7 @@ In the context of knowledge work, Kanban is an incremental and evolutionary appr
 
 2. **Limit work in progress**: Set a limit on how much work (the number of cards) can be in progress at any one time in each column.
 
-3. **Manage flow**: Teams should constantly look for any interruptions in flow and use these as opportunities for improvement. [**Tracking and analyzing metrics can help with this**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/4845e02e-dfaa-4cdf-88f8-a1fb4578b58a.aspx).
+3. **Manage flow**: Teams should constantly look for any interruptions in flow and use these as opportunities for improvement. [**Tracking and analyzing metrics can help with this**](cA5DcI8h54ye17yXUNla6w/4845e02e-dfaa-4cdf-88f8-a1fb4578b58a.aspx).
 
 4. **Make process policies explicit**: The workflow process should be made clear using visible, well-defined work policies.
 
@@ -168,7 +168,7 @@ The tables below compare the attributes of both methods in more detail.
 
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-| In Scrum, specific roles have clear responsibilities. For example, the Product Owner (Product Lead in Schroders) is responsible for maximizing the value of the product resulting from the work of the Scrum Team, while the Scrum Master is accountable for the Scrum Team's effectiveness. If there's a need for clear responsibilities, then Scrum is a good choice. | There are two primary roles that can be implemented by teams practicing Kanban: the Service Delivery Manager (SDM), and the Service Request Manager (SRM). The Service Delivery Manager is dedicated to improving the efficiency of the workflow and has some similarities to the role of Scrum Master. The Service Request Manager has functions similar to those of the Product Owner and is responsible for understanding the clients' needs and expectations. |
+| In Scrum, specific roles have clear responsibilities. For example, the Product Owner is responsible for maximizing the value of the product resulting from the work of the Scrum Team, while the Scrum Master is accountable for the Scrum Team's effectiveness. If there's a need for clear responsibilities, then Scrum is a good choice. | There are two primary roles that can be implemented by teams practicing Kanban: the Service Delivery Manager (SDM), and the Service Request Manager (SRM). The Service Delivery Manager is dedicated to improving the efficiency of the workflow and has some similarities to the role of Scrum Master. The Service Request Manager has functions similar to those of the Product Owner and is responsible for understanding the clients' needs and expectations. |
 
 ### Stakeholder/Customer
 

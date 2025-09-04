@@ -1,17 +1,9 @@
 ---
 tags: ["delivery-and-flow"]
 title: Flow over Utilisation
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: This page explores optimizing team flow over individual utilization in product development, emphasizing outcomes, cross-functional collaboration, and smooth workflows. Benefits include quicker, sustainable value delivery, enhanced employee satisfaction, and greater focus on quality and innovation, fostering higher efficiency, job satisfaction, and competitive advantage in the market.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 
@@ -21,7 +13,7 @@ description: This page explores optimizing team flow over individual utilization
 
 When people say "optimising for flow of the team rather than utilisation of individuals" in a project to product setting, they are referring to a shift in focus from individual productivity to the overall effectiveness and efficiency of the whole team.
 
- (opens new browser tab)
+
 
 ![Image](Flow%20over%20Utilisation_media/media/image2.png)
 
@@ -67,4 +59,4 @@ When people say "optimising for flow of the team rather than utilisation of indi
 
 ## Further Reading
 
-[Improving Productivity - Resource Efficiency vs Flow Efficiency](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/ZnItogF7IpiI2HA9asSMiA/098e6a34-642e-4d91-ae40-365f84191819.aspx) (opens new browser tab)
+[Improving Productivity - Resource Efficiency vs Flow Efficiency](ZnItogF7IpiI2HA9asSMiA/098e6a34-642e-4d91-ae40-365f84191819.aspx)

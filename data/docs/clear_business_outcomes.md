@@ -30,7 +30,7 @@ Our principles are rooted in agile values and principles. Here, we explore each 
 
 A business outcome is a concise, defined, observable result or change in business performance, supported by a specific measure. It is agnostic to solution, organizational structure, or other constraints, and articulates strategy in a measurable and achievable manner.
 
-Feedback suggests that Schroders' focus has been on output rather than outcomes. In doing so, we risk solutioning before fully understanding the problem space. By shifting our focus to outcomes, we create space for the co-creation of more valuable products and solutions.
+Feedback suggests that people tend to focus more on output rather than outcomes. In doing so, we risk solutioning before fully understanding the problem space. By shifting our focus to outcomes, we create space for the co-creation of more valuable products and solutions.
 
 ## On This Page
 
@@ -132,7 +132,7 @@ Measuring strategy and aligning teams through outcomes and metrics allows:
 
 Starting with the desired outcome helps avoid wrong solutions by choosing too early in problem understanding. Without understanding feature effectiveness through end customer use, we risk misalignment.
 
-Focusing on outcomes and progress towards them provides insight into product and platform efficacy. Coupled with [iterative and incremental working](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/dc7c0b13-1a7a-4646-ab14-e41cf6792d17.aspx), we can change direction if metrics show desired value is unrealized.
+Focusing on outcomes and progress towards them provides insight into product and platform efficacy. Coupled with [iterative and incremental working](cA5DcI8h54ye17yXUNla6w/dc7c0b13-1a7a-4646-ab14-e41cf6792d17.aspx), we can change direction if metrics show desired value is unrealized.
 
 ### Qualitative and Quantitative Metrics
 
@@ -152,8 +152,8 @@ Leaders ensure suitable rigor in defining business outcomes that align with stra
 
 ## Patterns to Help You Achieve This
 
-- [Understanding how our work contributes to overall purpose](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/f5a15f2e-81de-4ec6-b29f-920bccd23e46.aspx)
+- [Understanding how our work contributes to overall purpose](cA5DcI8h54ye17yXUNla6w/f5a15f2e-81de-4ec6-b29f-920bccd23e46.aspx)
 
-- [Categorizing work using an understanding of complexity (Cynefin)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/b36805f8-cf48-47ce-a831-c885989289d1.aspx)
+- [Categorizing work using an understanding of complexity (Cynefin)](cA5DcI8h54ye17yXUNla6w/b36805f8-cf48-47ce-a831-c885989289d1.aspx)
 
-- [Visit the Patterns overview page for more](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/XeHDBpKDVFziBxivUrK0A/c8357f9c-361f-4a21-868b-339a7cfa1295.aspx)
+- [Visit the Patterns overview page for more](XeHDBpKDVFziBxivUrK0A/c8357f9c-361f-4a21-868b-339a7cfa1295.aspx)

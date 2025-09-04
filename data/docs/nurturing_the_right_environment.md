@@ -1,17 +1,9 @@
 ---
 tags: ["retrospectives-and-improvement"]
 title: Nurturing the right environment
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: Explore how psychological safety fosters innovation and adaptation in teams by encouraging open communication and risk-taking without fear of negative consequences. Learn about its foundations, benefits, and methods to cultivate this environment, drawing insights from experts like Amy Edmondson and successful initiatives like Google's Project Aristotle.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 
@@ -119,8 +111,6 @@ Research finds that a positive team climate---in which team members value one an
 
 ## Further Reading
 
-- [**Psychology Safety Playlist in Sparks**](https://schroders.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=d59a63f2-795e-40b9-9e5b-35b15cb7bee3)
-
 - [**Amy Edmonson's website talking through Psychological Safety**](https://amycedmondson.com/psychological-safety/)
 
 - [**Agile doesn't work without psychological safety - HBR.org Article**](https://hbr.org/2022/02/agile-doesnt-work-without-psychological-safety)
@@ -134,7 +124,3 @@ Research finds that a positive team climate---in which team members value one an
 ## References
 
 - Schein, Edgar H., and Warren Bennis. *Personal and Organizational Change via Group Methods.* New York: Wiley, 1965.
-
-
-
-****

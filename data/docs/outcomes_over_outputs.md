@@ -1,17 +1,9 @@
 ---
 tags: ["planning-and-roadmapping"]
 title: Outcomes over Outputs
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: The content emphasizes the importance of focusing on outcomes over outputs in the context of product development and agile methodologies. It highlights aligning with business strategy, adopting a customer-centric approach, enhancing user satisfaction, staying flexible and adaptable, and fostering continuous improvement to drive business success and deliver meaningful value.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 
@@ -28,7 +20,7 @@ Outcomes require outputs, and both matter; but first deeply understanding our in
 
 ## Align to Business Strategy
 
-- Emphasizing outcomes helps us align our efforts with the strategic goals and objectives of Schroders as a whole. It allows us to identify and prioritize the outcomes that have the most significant impact on the success of the product and the organization. By concentrating on outcomes aligned to strategic objectives and our strategy, we can be sure we are delivering value that directly contributes to the bottom line and drives business growth.
+- Emphasizing outcomes helps us align our efforts with the strategic goals and objectives of the organisation as a whole. It allows us to identify and prioritize the outcomes that have the most significant impact on the success of the product and the organization. By concentrating on outcomes aligned to strategic objectives and our strategy, we can be sure we are delivering value that directly contributes to the bottom line and drives business growth.
 
 ## Take a Customer-Centric Approach
 
@@ -48,10 +40,10 @@ Outcomes require outputs, and both matter; but first deeply understanding our in
 
 ## Further Reading
 
-- [Clear Business Outcomes- Ways of Working Principle (opens new browser tab)](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/2f1e15e6-4110-44df-b678-6512f607945a.aspx)
+- [Clear Business Outcomes- Ways of Working Principle](cA5DcI8h54ye17yXUNla6w/2f1e15e6-4110-44df-b678-6512f607945a.aspx)
 
-- [The benefits and pitfalls of outcomes over outputs (insideproduct.co) (opens new browser tab)](https://insideproduct.co/benefits-pitfalls-outcomes-over-outputs/#:~:text=The%20idea%20of%20focusing%20on,to%20reach%20a%20specific%20outcome.)
+- [The benefits and pitfalls of outcomes over outputs (insideproduct.co)](https://insideproduct.co/benefits-pitfalls-outcomes-over-outputs/#:~:text=The%20idea%20of%20focusing%20on,to%20reach%20a%20specific%20outcome.)
 
-- [Outcomes Over Output: Why customer behavior is the key metric for business success eBook: Seiden, Josh: Amazon.co.uk: Books (opens new browser tab)](https://www.amazon.co.uk/Outcomes-Over-Output-customer-behavior-ebook/dp/B07QJ1Y8Y5)
+- [Outcomes Over Output: Why customer behavior is the key metric for business success eBook: Seiden, Josh: Amazon.co.uk: Books](https://www.amazon.co.uk/Outcomes-Over-Output-customer-behavior-ebook/dp/B07QJ1Y8Y5)
 
-- [Outputs vs. Outcomes - The Key Differences -- Weekdone (opens new browser tab)](https://weekdone.com/resources/articles/outputs-vs-outcomes)
+- [Outputs vs. Outcomes - The Key Differences -- Weekdone](https://weekdone.com/resources/articles/outputs-vs-outcomes)

@@ -1,17 +1,9 @@
 ---
 tags: ["retrospectives-and-improvement"]
 title: The key attributes of high-performing teams
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: Explore the essential attributes of high-performing teams in agile environments, focusing on trust, shared purpose, effective communication, continuous learning, and self-organization. Discover challenges and strategies to foster team excellence, including size optimization, cross-functionality, business alignment, and product-centered approaches, for sustainable success and innovation.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 
@@ -25,13 +17,13 @@ In today's fast-paced and ever-changing business world, organizations need to be
 
 According to Lyssa Adkins, an experienced agile coach and [**author**](https://www.goodreads.com/en/book/show/8337919), high-performing teams are characterized by the following attributes:
 
-1. **Trust** - High-performing teams trust each other and have an environment of [**psychological safety**](https://my.schroders.com/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/aa3752ff-4edf-4889-a690-516f1cd2755c.aspx), where members feel comfortable sharing ideas, giving feedback, and asking for help.
+1. **Trust** - High-performing teams trust each other and have an environment of [**psychological safety**](cA5DcI8h54ye17yXUNla6w/aa3752ff-4edf-4889-a690-516f1cd2755c.aspx), where members feel comfortable sharing ideas, giving feedback, and asking for help.
 
-2. **Shared Purpose** - The team has a clear and compelling vision that everyone is aligned with, and understands the [**larger impact of their work**](https://my.schroders.com/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/f5a15f2e-81de-4ec6-b29f-920bccd23e46.aspx).
+2. **Shared Purpose** - The team has a clear and compelling vision that everyone is aligned with, and understands the [**larger impact of their work**](cA5DcI8h54ye17yXUNla6w/f5a15f2e-81de-4ec6-b29f-920bccd23e46.aspx).
 
 3. **Effective Communication** - The team communicates openly and effectively, using active listening and constructive feedback.
 
-4. **Continuous Learning** - Members of a high-performing team are always [**learning and growing**](https://my.schroders.com/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/11323923-036e-4eb7-9d15-12856e7b2a0b.aspx), seeking new knowledge and skills, and [**sharing what they learn with others**](https://my.schroders.com/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/1e4126b8-0149-4a6d-b376-e207a2ef2712.aspx).
+4. **Continuous Learning** - Members of a high-performing team are always [**learning and growing**](cA5DcI8h54ye17yXUNla6w/11323923-036e-4eb7-9d15-12856e7b2a0b.aspx), seeking new knowledge and skills, and [**sharing what they learn with others**](cA5DcI8h54ye17yXUNla6w/1e4126b8-0149-4a6d-b376-e207a2ef2712.aspx).
 
 5. **Self-organization** - High-performing teams are self-organizing, with each member taking responsibility for their own work and contributing to the overall success of the team.
 
@@ -41,13 +33,13 @@ Creating and sustaining high-performing teams is not easy, and there are many ch
 
 - Conflicting personalities and communication styles
 
-- Lack of trust and [**psychological safety**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/aa3752ff-4edf-4889-a690-516f1cd2755c.aspx)
+- Lack of trust and [**psychological safety**](cA5DcI8h54ye17yXUNla6w/aa3752ff-4edf-4889-a690-516f1cd2755c.aspx)
 
 - Resistance to change
 
 - Insufficient resources and support
 
-- Ineffective [**leadership and management**](https://my.schroders.com/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/0ac650e4-de00-43bf-92fc-6074af8efeaa.aspx)
+- Ineffective [**leadership and management**](cA5DcI8h54ye17yXUNla6w/0ac650e4-de00-43bf-92fc-6074af8efeaa.aspx)
 
 ## Tips for Building and Sustaining High-Performing Teams
 
@@ -83,7 +75,7 @@ By bringing together people with different skills and perspectives, cross-functi
 
 ### Business Aligned
 
-By aligning team objectives with the [**organization's strategic goals and customer needs**](https://my.schroders.com/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/f5a15f2e-81de-4ec6-b29f-920bccd23e46.aspx), teams can build high-quality products that solve real problems and provide value to customers. This alignment leads to improved product quality, customer satisfaction, and team morale, resulting in higher engagement, motivation, and productivity.
+By aligning team objectives with the [**organization's strategic goals and customer needs**](cA5DcI8h54ye17yXUNla6w/f5a15f2e-81de-4ec6-b29f-920bccd23e46.aspx), teams can build high-quality products that solve real problems and provide value to customers. This alignment leads to improved product quality, customer satisfaction, and team morale, resulting in higher engagement, motivation, and productivity.
 
 When a team understands how their work fits into the broader business context and how it contributes to the organization's success, they are more likely to feel a sense of purpose and ownership over their work. This sense of ownership and purpose can lead to a positive impact on the team's motivation and productivity.
 

@@ -1,26 +1,18 @@
 ---
 tags: ["planning-and-roadmapping"]
 title: Structured techniques to help with prioritisation
-#id:
-#sidebar_label:
-#keywords:
-#  - keyword1
-#  - keyword2
-#  - keyword3
+
 description: Explore various structured techniques for effective prioritization of product backlog items, vital for addressing competing priorities in agile methodologies. Techniques like Value vs Complexity, Cost of Delay, Kano Model, MoSCoW, and more, emphasize data-backed decisions over gut feelings, aligning short-term tasks with long-term strategy to maximize business benefits.
-#tags:
-#  - tag1
-#  - tag2
-#  - tag3
+
 ---
 
 # Structured Techniques to Help with Prioritisation
 
 
 
-Prioritisation can be difficult, especially when there are many competing priorities. Determining the relative priority of multiple [**Product Backlog Items**](https://schroders365eur.sharepoint.com/sites/myschroders/content/Pages/CorporatePages/cA5DcI8h54ye17yXUNla6w/388a414f-4b39-4a75-85ba-621264a4b949.aspx) requires consideration of multiple needs and contexts—often more than any one person can hold in their head. This is where key roles, including Delivery Lead (DL), Product Lead (PL), and Engineering Lead (EL), come together to form a holistic view and decide what is best based on business benefit.
+Prioritisation can be difficult, especially when there are many competing priorities. Determining the relative priority of multiple [**Product Backlog Items**](cA5DcI8h54ye17yXUNla6w/388a414f-4b39-4a75-85ba-621264a4b949.aspx) requires consideration of multiple needs and contexts—often more than any one person can hold in their head. This is where key roles, including Delivery Lead (DL), Product Lead (PL), and Engineering Lead (EL), come together to form a holistic view and decide what is best based on business benefit.
 
-There are multiple factors on which prioritisation decisions can be made and these can be very specific to the domain or context. Avoid gut reactions by making use of data and trends to back up beliefs. Where data is not available, think about how to gather it in the future. Think long-term about how this piece of work ties priorities to the wider Schroders strategy, as well as dealing with short-term priorities. Make time to regularly prioritise; change happens and we need to adapt.
+There are multiple factors on which prioritisation decisions can be made and these can be very specific to the domain or context. Avoid gut reactions by making use of data and trends to back up beliefs. Where data is not available, think about how to gather it in the future. Think long-term about how this piece of work ties priorities to the wider strategy, as well as dealing with short-term priorities. Make time to regularly prioritise; change happens and we need to adapt.
 
 ## Structured Techniques to Help with Prioritisation
 
