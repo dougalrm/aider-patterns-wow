@@ -11,9 +11,7 @@ description: Explore the contrasting approaches of Resource Efficiency and Flow 
 
 # Resource Efficiency vs Flow Efficiency
 
-Productivity and efficiency are important aspects to success at Schroders but also ones with the potential to be problematic.
-
-
+Productivity and efficiency are important aspects for success but also ones with the potential to be problematic.
 
 ## A Good Culture and Environment
 
@@ -22,8 +20,6 @@ A good culture and environment is where:
 - Individuals feel engaged, valued, and heard, while simultaneously delivering results for the organisation.
 
 - Encouraging people to not only spot problems but also take action to overcome them whilst not having a noticeable decrease in pace at which they can deliver new work.
-
-Schroders needs a tailored, custom approach to creating this type of environment.
 
 ## Building Blocks for Success
 
@@ -79,7 +75,7 @@ Teams that prioritise Flow Efficiency share these principles:
 
 - Embrace the idea that everything can be improved
 
-Adopting these principles adds more value to Schroders in ways that could not be predicted or planned for upfront.
+Adopting these principles adds more value in ways that could not be predicted or planned for upfront.
 
 ## The Outcomes of a Flow Efficiency First Approach
 

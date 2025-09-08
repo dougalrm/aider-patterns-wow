@@ -17,7 +17,7 @@ description: Retrospectives are essential for continuous improvement, allowing t
 
 Inspecting and adapting is an enabler of continuous improvement and learning, allowing us to learn from our failures and successes and feed that learning back into our ways of working.
 
-Every team, at every level of Schroders should hold regular retrospectives (retros) to examine and improve both what they do and how they do it - both locally and organization-wide. This works for development teams, product teams, HR teams, leadership teams, and more. Any form of team can benefit from a retro.
+Every team, at every level of the organisation should hold regular retrospectives (retros) to examine and improve both what they do and how they do it - both locally and organization-wide. This works for development teams, product teams, HR teams, leadership teams, and more. Any form of team can benefit from a retro.
 
 ## What is a Retrospective?
 
